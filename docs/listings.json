@@ -2,13 +2,16 @@
   {
     "listing": "/class_slides.html",
     "items": [
-      "/slides/Day01_bsta511.html"
+      "/slides/Day01_bsta511.html",
+      "/slides/Day02_bsta511.html"
     ]
   },
   {
     "listing": "/weeks.html",
     "items": [
-      "/weeks/week_01.html"
+      "/weeks/week_01.html",
+      "/weeks/week_02.html",
+      "/weeks/week_03.html"
     ]
   }
 ]

@@ -2,7 +2,7 @@
 title: "Week 1"
 description: "Intro to R & RStudio"
 date: "9/30/2024"
-date-modified: "10/02/2024"
+date-modified: "today"
 categories: [""]
 format: 
   html:
@@ -32,8 +32,5 @@ Intro to R & RStudio
 <!-- * [HW 1](../homework/HW_1_F24_bsta511.qmd) due on Sat, 10/7 -->
 
 ## Recordings
-
-* __Pre-recorded__ lessons are on [Echo Cloud](https://echo360.org/section/4a58d645-5753-4e4f-b962-f8825f59baba/home) (aka echo 360 or echo video).
-
 
 <!-- * __In-class__ recording links are on [Sakai](https://sakai.ohsu.edu/portal/site/BSTA-511-1-AA-F24/tool/1f70eae0-e36a-4052-9247-69c6917e6b73/). Navigate to _Course Materials_ -> _Schedule with links to in-class recordings_. Note that the password to the recordings is at the top of the page.  -->
