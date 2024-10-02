@@ -16,23 +16,43 @@ editor_options:
 
 ## Day04    
 
-__Fall 2023: Day 5__
-
-* Bayes' Rule
-
+* Bayes' Rule (__Fall 2023: Day 5__)
+* R Packages (__Fall 2023: Day 2__)
 
 ### Slides
 
-* [html](../slides/Day05_bsta511.qmd)
-* [pdf](../LaTeX_slides/Day05_bsta511.pdf)
-* Slides with [notes](https://drive.google.com/file/d/1Is2JXTYLhp6e6Ia4dBF9SunrVgZhRkXQ/view?usp=sharing)
 
-### Class discussion
+* Bayes' Rule (__Fall 2023: Day 5__)
+    * [html](../slides/Day05_bsta511.qmd)
+    * [pdf](../LaTeX_slides/Day05_bsta511.pdf)
+    * Slides with [notes](https://drive.google.com/file/d/1Is2JXTYLhp6e6Ia4dBF9SunrVgZhRkXQ/view?usp=sharing)
+* R Packages (__Fall 2023: Day 2__)
+    * __[Fall 2023: Day 2 Slides 47-54]{style="color:darkorange"}__
+    * [html](../slides/Day02_bsta511.qmd) 
+    * [pdf](https://drive.google.com/file/d/1I59wEibQe1sXi5urIkYEv-lW1NHU6zzC/view?usp=sharing)
+    * [webpage](../slides_md/Day02_bsta511_md.qmd)
+    * Code file: [qmd](https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Day02_bsta511_code.qmd), [html](../slides_code/Day02_bsta511_code.qmd)
+    
 
-[Class discussion Google doc link](https://docs.google.com/document/d/1m_sOZWZHlnL89N60RyfdFG6wphcEpofLevd2kMc1wYc/edit?usp=sharing)
+### Class discussion (still updating)
 
-* Example 2.10 on pg 6 of slides
-* Added in class: Textbook exerices 2.18 (from HW)
+<!-- [Class discussion Google doc link](https://docs.google.com/document/d/1m_sOZWZHlnL89N60RyfdFG6wphcEpofLevd2kMc1wYc/edit?usp=sharing) -->
+
+* Bayes' Rule (__Fall 2023: Day 5__)
+    * Example 2.10 on pg 6 of slides
+    * Added in class: Textbook exercises 2.18 (from HW)
+
+* R Packages (__Fall 2023: Day 2__)
+    * R packages: any difficulty installing packages?
+
+
+### Recordings
+
+| Topic | Slides (F23) | Recording Link (F23) | Duration |
+|----------------------|---------------------|----------------|----------|
+| Bayes' Rule (Book section 2.2.5) | Day 5: slides 1-2 | [Day 5 Part 1](https://echo360.org/lesson/77ab7ace-a200-4455-ae0d-8fd0be3216ef/classroom#sortDirection=desc) | 22 min |
+| Bayes' Rule (Book section 2.2.5) | Day 5: slides 3-6 | [Day 5 Part 2](https://echo360.org/lesson/51a9cd82-0772-4254-b4bb-41bbeefcd062/classroom#sortDirection=desc) | 22 min |
+| R packages | Day 2: slides 47-54 | [Day 2 Part 4](https://echo360.org/lesson/9536c32e-4f83-492e-b12a-0afb73fbcd4a/classroom#sortDirection=desc) | 30 min |
 
 
 ## Day05 
@@ -49,52 +69,58 @@ As I mentioned in the recording, the various options in more complex figures I u
 
 ### Slides
 
+__Fall 2023: Day 3__
+
 * [html](../slides/Day03_bsta511.qmd)
 * [pdf](https://drive.google.com/file/d/1IdkNDrcdGWozHGMrk28B5PXjDx-_ylqo/view?usp=sharing)
 * [webpage](../slides_md/Day03_bsta511_md.qmd)
 * Code file: [qmd](https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Day03_bsta511_code.qmd), [html](../slides_code/Day03_bsta511_code.qmd)
 
-### Class discussion
+### Class discussion (still updating)
 
 * Can distribution shape and sample size be determined from a boxplot? (see slide 30)
 * Is there evidence of ethnicity (Hispanic vs. White non-Hispanic) discrimination in DDS expenditures? Why or why not?
 
-### Part 2 slides
+<!-- ### Part 2 slides -->
 
-The Day 3 Part 2 slides include extra EDA to examine further the question of whether there is evidence of ethnicity (Hispanic vs. White non-Hispanic) discrimination in DDS expenditures based on the data.
+<!-- The Day 3 Part 2 slides include extra EDA to examine further the question of whether there is evidence of ethnicity (Hispanic vs. White non-Hispanic) discrimination in DDS expenditures based on the data. -->
 
-* [html](../slides/Day03_bsta511_part2.qmd)
-* [pdf](https://drive.google.com/file/d/1IofJF8cXrEyfVokBOw0WOcQGuGfETvsu/view?usp=sharing)
-* [webpage](../slides_md/Day03_bsta511_md_part2.qmd)
-* Code file: [qmd](https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Day03_bsta511_code_part2.qmd), [html](../slides_code/Day03_bsta511_code_part2.qmd)
-
-
-### Part 3 slides: Data Wrangling
-
-The Day 3 Part 3 slides provide more data wrangling examples. Some of the functions covered were used in the Day 3 Part 2 slides. 
-
-_HW 2 makes reference to some of the functions in these slides._
-
-* [pdf](https://drive.google.com/file/d/1IfubP0ei-5jTIVs33dyoEqjMIY-Q8qBe/view?usp=sharing)
-* Code file: [qmd](https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Day03_bsta511_code_part3_data_wrangling.qmd), [html](../slides_code/Day03_bsta511_code_part3_data_wrangling.qmd)
+<!-- * [html](../slides/Day03_bsta511_part2.qmd) -->
+<!-- * [pdf](https://drive.google.com/file/d/1IofJF8cXrEyfVokBOw0WOcQGuGfETvsu/view?usp=sharing) -->
+<!-- * [webpage](../slides_md/Day03_bsta511_md_part2.qmd) -->
+<!-- * Code file: [qmd](https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Day03_bsta511_code_part2.qmd), [html](../slides_code/Day03_bsta511_code_part2.qmd) -->
 
 
-## Homework
+<!-- ### Part 3 slides: Data Wrangling -->
 
-* [HW 2](../homework/HW_2_F24_bsta511.qmd) due on Sat, 10/14
-    * Covers Days 3-5
-* HW 3 due on Sat, 10/21
-    * Covers Days 6-7
+<!-- The Day 3 Part 3 slides provide more data wrangling examples. Some of the functions covered were used in the Day 3 Part 2 slides.  -->
 
-### Why is `{.unnumbered}` included at the end of some of the section headers on the HW?
+<!-- _HW 2 makes reference to some of the functions in these slides._ -->
 
-* I added the option for the sections to be numbered in the YAML (`number-sections: true`) so that the R exercises at the end of the file are numbered. 
-* However, the book exercises already have their own numbering, and so I added `{.unnumbered}` to the section headers of the book exercises so that they are not numbered twice. 
+<!-- * [pdf](https://drive.google.com/file/d/1IfubP0ei-5jTIVs33dyoEqjMIY-Q8qBe/view?usp=sharing) -->
+<!-- * Code file: [qmd](https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Day03_bsta511_code_part3_data_wrangling.qmd), [html](../slides_code/Day03_bsta511_code_part3_data_wrangling.qmd) -->
 
 
-## Recordings
+### Recordings
 
-* __Pre-recorded__ lessons are on [Echo Cloud](https://echo360.org/section/4a58d645-5753-4e4f-b962-f8825f59baba/home) (aka echo 360 or echo video).
-    * These can be accessed in Sakai by navigating to the BSTA 511/611 page and clicking on the `Echo Cloud` option in the left-side menu. 
-    * This will redirect you to an echo video page with a list of pre-recorded videos.
-* __In-class__ recording links are on [Sakai](https://sakai.ohsu.edu/portal/site/BSTA-511-1-AA-F24/tool/1f70eae0-e36a-4052-9247-69c6917e6b73/). Navigate to _Course Materials_ -> _Schedule with links to in-class recordings_. Note that the password to the recordings is at the top of the page.  
+| Topic | Slides (F23) | Recording Link (F23) | Duration |
+|----------------------|---------------------|----------------|----------|
+| Exploratory Data Analysis | Day 3: slides 1-59 | [Day 3](https://echo360.org/lesson/8ba30718-f090-4e31-ad77-85e449d70c85/classroom#sortDirection=desc) | 1 hr 18 min |
+
+
+
+
+## Homework - coming soon!
+
+<!-- * [HW 2](../homework/HW_2_F24_bsta511.qmd) due on Sat, 10/14 -->
+<!--     * Covers Days 3-5 -->
+<!-- * HW 3 due on Sat, 10/21 -->
+<!--     * Covers Days 6-7 -->
+
+<!-- ### Why is `{.unnumbered}` included at the end of some of the section headers on the HW? -->
+
+<!-- * I added the option for the sections to be numbered in the YAML (`number-sections: true`) so that the R exercises at the end of the file are numbered.  -->
+<!-- * However, the book exercises already have their own numbering, and so I added `{.unnumbered}` to the section headers of the book exercises so that they are not numbered twice.  -->
+
+
+

@@ -27,7 +27,7 @@ Intro to R & RStudio
 * [webpage](../slides_md/Day01_bsta511_md.qmd)
 * [qmd](https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_md/Day01_bsta511_md.qmd)
 
-## Homework
+## Homework - coming soon!
 
 <!-- * [HW 1](../homework/HW_1_F24_bsta511.qmd) due on Sat, 10/7 -->
 

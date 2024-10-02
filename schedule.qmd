@@ -12,12 +12,12 @@ editor_options:
 
 | Week |  Dates  | Topics                                                                                        | Chapter sections                                   |
 |:----:|:-------:|:--------------------------------------------|:-------|
-|  1   | M 9/30  | No class: OHSU New Student Orientation                                                        |                                                    |
+|  [1](weeks/week_01.qmd)   | M 9/30  | No class: OHSU New Student Orientation                                   |                                                    |
 |      | W 10/2  | Day 1: Introduction to R & RStudio                                                            |                                                    |
-|  2   | M 10/7  | Day 2: Intro to Data, Data collection, Summarizing numerical data                             | 1.1-1.4                                            |
-|      | W 10/9  | Day 3: Data visualization, exploratory data analysis (EDA), and summarizing categorical data  | 1.5-1.7 & supplementary                            |
-|  3   | M 10/14  | Day 4: Probability                                                                            | 2.1-2.2.4                                          |
-|      | W 10/16 | Day 5: Bayes' Theorem                                                                         | 2.2.5                                              |
+|  [2](weeks/week_02.qmd)   | M 10/7  | Day 2: Intro to Data, Data collection                                    | 1.1-1.3                                            |
+|      | W 10/9  | Day 3: Summarizing numerical data, Probability                                                | 1.4, 2.1-2.2.4                                     |
+|  [3](weeks/week_03.qmd)   | M 10/14  | Day 4: Bayes' Theorem, R Packages                                       | 2.2.5 & supplementary                              |
+|      | W 10/16 | Day 5: Data visualization, exploratory data analysis (EDA), and summarizing categorical data  | 1.5-1.7 & supplementary                            |
 |  4   | M 10/21 | Day 6: Random variables, Binomial distribution                                                | 3.1-3.2                                            |
 |      | W 10/23 | Day 7: Normal and Poisson distributions                                                       | 3.3-3.4                                            |
 |  5   | M 10/28 | Day 8: Variability in estimates                                                               | 4.1                                                |
