@@ -12,6 +12,11 @@ editor_options:
   chunk_output_type: console
 ---
 
+## General info
+
+* [Syllabus](https://sakai.ohsu.edu/portal/site/BSTA-511-1-AA-F24/page/3a67ff22-d165-404c-bd43-a8917367f621) on Sakai
+* [Week 1 info](https://sakai.ohsu.edu/portal/site/BSTA-511-1-AA-F24/tool/07426483-9125-4418-b74f-996db41be3c0/ShowPage?returnView=&studentItemId=0&backPath=&bltiAppStores=false&errorMessage=&clearAttr=&messageId=&source=&title=&newTopLevel=false&sendingPage=205994&postedComment=false&addBefore=&itemId=5293686&path=push&reviewAssessment=false&topicId=&addTool=-1&recheck=&id=&forumId=) on Sakai
+    * Includes links to background survey and BSAT 511/611 Slack group
 
 
 ## Day01 
