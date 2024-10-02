@@ -61,8 +61,8 @@ Fall 2024
 ::: g-col-4
 ### Office Hours
 
-{{< iconify fa6-solid calendar-days size=20px >}} __Wednesdays 2:50-3:50 pm__  
-{{< iconify fa6-solid person-chalkboard size=20px >}} In classroom
+{{< iconify fa6-solid calendar-days size=20px >}} __Wednesdays 2:50-3:30 pm__  
+{{< iconify fa6-solid person-chalkboard size=20px >}} VPT 660E
 
 {{< iconify fa6-solid calendar-days size=20px >}} __Fridays 3:30-4:30 pm__  
 <!-- <i class="fa-solid fa-globe"></i> -->
