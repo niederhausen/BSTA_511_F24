@@ -16,10 +16,10 @@ website:
         text: Home
       - href: schedule.qmd
         text: Schedule
-      # - href: class_slides.qmd
-      #   text: Slides
-      # - href: weeks.qmd
-      #   text: Weeks
+      - href: weeks.qmd
+        text: Weeks
+      - href: class_slides.qmd
+        text: Slides
       # - href: homework.qmd
       #   text: Homework
       # - href: homework_solutions.qmd
@@ -37,10 +37,11 @@ website:
         text: Instructors        
       - href: schedule.qmd
         text: Schedule
-      # - href: class_slides.qmd
-      #   text: Slides
-      # - href: weeks.qmd
-      #   text: Weeks
+      - href: weeks.qmd
+        text: Weeks
+      - href: class_slides.qmd
+        text: Slides
+
       # - href: homework.qmd
       #   text: Homework
       # - href: homework_solutions.qmd
