@@ -1,0 +1,36 @@
+---
+title: "Schedule"
+date: "9/30/24"
+date-modified: "today"
+format: 
+  html:
+    link-external-newwindow: true
+    # toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+| Week |  Dates  | Topics                                                                                        | Chapter sections                                   |
+|:----:|:-------:|:--------------------------------------------|:-------|
+|  1   | M 9/30  | No class: OHSU New Student Orientation                                                        |                                                    |
+|      | W 10/2  | Day 1: Introduction to R & RStudio                                                            |                                                    |
+|  2   | M 10/7  | Day 2: Intro to Data, Data collection, Summarizing numerical data                             | 1.1-1.4                                            |
+|      | W 10/9  | Day 3: Data visualization, exploratory data analysis (EDA), and summarizing categorical data  | 1.5-1.7 & supplementary                            |
+|  3   | M 10/14  | Day 4: Probability                                                                            | 2.1-2.2.4                                          |
+|      | W 10/16 | Day 5: Bayes' Theorem                                                                         | 2.2.5                                              |
+|  4   | M 10/21 | Day 6: Random variables, Binomial distribution                                                | 3.1-3.2                                            |
+|      | W 10/23 | Day 7: Normal and Poisson distributions                                                       | 3.3-3.4                                            |
+|  5   | M 10/28 | Day 8: Variability in estimates                                                               | 4.1                                                |
+|      | W 10/30 | **Exam 1: Days 1-6**                                                                          | **Ch 1, 2, 3.1-3.2**                               |
+|  6   | M 11/4  | Day 9: Confidence Intervals                                                                   | 4.2                                                |
+|      | W 11/6  | Day 10: Hypothesis Testing: Single-sample with *t*-distribution & Two-sample paired data      | 4.3, 5.1, 5.2                                      |
+|  7   | M 11/11 | Day 11: Hypothesis Testing: Two-sample independent data; Power                                | 5.3-5.4; Supplementary material                    |
+|      | W 11/13 | Day 12: Inference for a single proportion or difference in proportions                        | 8.1-8.2                                            |
+|  8   | M 11/18 | Day 13: Chi-squared tests, Fishers exact test                                                 | 8.3-8.4                                            |
+|      | W 11/20 | **Exam 2: Days 7-11**                                                                         | **Ch 3.3-3.4, 4, 5.1-5.4; Supplementary material** |
+|  9   | M 11/25 | Day 14: Comparing Means with ANOVA.                                                           | 5.5, Supplementary material                        |
+|      | W 11/27 | Day 15: Simple Linear Regression                                                              | 6.1-6.2                                            |
+|  10  | M 12/2  | Day 16: Simple Linear Regression                                                              | 6.3-6.4                                            |
+|      | W 12/4  | Day 17: Non-parametric tests (sign, signed-rank, rank-sum, Kruskal-Wallis)                    | Supplementary material                             |
+|  11  | M 12/9  | Review - catch up                                                                             |                                                    |
+|      | W 12/11 | **Exam 3: Days 12-17**                                                                        | **Ch 8, 5.5, 6, non-parametric**                   |
