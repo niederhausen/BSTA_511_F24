@@ -18,8 +18,8 @@ website:
         text: Schedule
       # - href: weeks.qmd
       #   text: Weeks
-      - href: class_slides.qmd
-        text: Slides
+      # - href: class_slides.qmd
+      #   text: Slides
       # - href: homework.qmd
       #   text: Homework
       # - href: homework_solutions.qmd
@@ -39,8 +39,8 @@ website:
         text: Schedule
       # - href: weeks.qmd
       #   text: Weeks
-      - href: class_slides.qmd
-        text: Slides
+      # - href: class_slides.qmd
+      #   text: Slides
 
       # - href: homework.qmd
       #   text: Homework
