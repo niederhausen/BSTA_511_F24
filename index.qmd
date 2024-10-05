@@ -53,20 +53,27 @@ Fall 2024
 ### Course details
 
 {{< iconify fa6-solid calendar-days size=20px >}} Mon, Wed   
-{{< iconify fa6-solid calendar size=20px >}} 9/30 - 12/11  
 {{< iconify icon-park-solid time size=20px >}} 1:00 - 2:50 PM  
-{{< iconify fa6-solid person-chalkboard size=20px >}} VPT 620M
+{{< iconify fa6-solid person-chalkboard size=20px >}} VPT 620M  
+{{< iconify fa6-solid calendar size=20px >}} 9/30 - 12/11  
+
 :::
 
 ::: g-col-4
 ### Office Hours
 
-{{< iconify fa6-solid calendar-days size=20px >}} __Wednesdays 2:50-3:30 pm__  
+{{< iconify fa6-solid calendar-days size=20px >}} __Mondays 3-4 pm__ (Katie)  
+{{< iconify fa6-solid person-chalkboard size=20px >}} VPT Student Success Cntr
+
+{{< iconify fa6-solid calendar-days size=20px >}} __Wednesdays 2:50-3:30 pm__ (Meike)    
 {{< iconify fa6-solid person-chalkboard size=20px >}} VPT 660E
 
-{{< iconify fa6-solid calendar-days size=20px >}} __Fridays 3:30-4:30 pm__  
+{{< iconify fa6-solid calendar-days size=20px >}} __Thursdays 3-4 pm__ (Katie)  
+{{< fa globe >}} Webex (link on [Sakai](https://sakai.ohsu.edu/portal/site/BSTA-511-1-AA-F24/))
+
+{{< iconify fa6-solid calendar-days size=20px >}} __Fridays 3:30-4:30 pm__ (Meike)    
 <!-- <i class="fa-solid fa-globe"></i> -->
-{{< fa globe >}} Webex (link on [Sakai](https://sakai.ohsu.edu/portal/site/BSTA-511-1-AA-F23/))
+{{< fa globe >}} Webex (link on [Sakai](https://sakai.ohsu.edu/portal/site/BSTA-511-1-AA-F24/))
 :::
 
 <!-- {{< iconify fa6-solid fluent-mdl2:join-online-meeting size=20px >}}  -->

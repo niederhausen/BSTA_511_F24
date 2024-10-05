@@ -16,6 +16,8 @@ website:
         text: Home
       - href: schedule.qmd
         text: Schedule
+      - href: instructors.qmd
+        text: Instructors
       # - href: weeks.qmd
       #   text: Weeks
       # - href: class_slides.qmd
@@ -33,10 +35,16 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: instructors.qmd
-        text: Instructors        
+      # - href: instructors.qmd
+      #   text: Instructors   
       - href: schedule.qmd
         text: Schedule
+      - section: "Weekly pages"
+        contents: 
+          - href: weeks/week_01.qmd
+            text: Week 1
+          - href: weeks/week_02.qmd
+            text: Week 2
       # - href: weeks.qmd
       #   text: Weeks
       # - href: class_slides.qmd

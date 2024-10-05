@@ -7,6 +7,13 @@
     "text": "Syllabus on Sakai\nWeek 1 info on Sakai\n\nIncludes links to background survey and BSAT 511/611 Slack group"
   },
   {
+    "objectID": "weeks/week_01.html#general-info",
+    "href": "weeks/week_01.html#general-info",
+    "title": "Week 1",
+    "section": "",
+    "text": "Syllabus on Sakai\nWeek 1 info on Sakai\n\nIncludes links to background survey and BSAT 511/611 Slack group"
+  },
+  {
     "objectID": "weeks/week_01.html#day01",
     "href": "weeks/week_01.html#day01",
     "title": "Week 1",
@@ -116,7 +123,7 @@
     "href": "index.html",
     "title": "BSTA 511/611 Fall 2024",
     "section": "",
-    "text": "Welcome to BSTA 511/611!\n\n\nEstimation and Hypothesis Testing\nApplied Biostatistics I\n\nFall 2024\n\n\n\n\n\n\nInstructor\n Meike Niederhausen, PhD\n VPT 660E\n niederha@ohsu.edu\n\n\nCourse details\n Mon, Wed\n 9/30 - 12/11\n 1:00 - 2:50 PM\n VPT 620M\n\n\nOffice Hours\n Wednesdays 2:50-3:30 pm\n VPT 660E\n Fridays 3:30-4:30 pm\n  Webex (link on Sakai)\n\n\n\n\n\n\n\nContacting me\nE-mail or Slack is the best way to get in contact with me. I will try to respond to all course-related e-mails within 24 hours Monday-Friday.\n\n\n View the source on GitHub"
+    "text": "Welcome to BSTA 511/611!\n\n\nEstimation and Hypothesis Testing\nApplied Biostatistics I\n\nFall 2024\n\n\n\n\n\n\nInstructor\n Meike Niederhausen, PhD\n VPT 660E\n niederha@ohsu.edu\n\n\nCourse details\n Mon, Wed\n 1:00 - 2:50 PM\n VPT 620M\n 9/30 - 12/11\n\n\nOffice Hours\n Mondays 3-4 pm (Katie)\n VPT Student Success Cntr\n Wednesdays 2:50-3:30 pm (Meike)\n VPT 660E\n Thursdays 3-4 pm (Katie)\n Webex (link on Sakai)\n Fridays 3:30-4:30 pm (Meike)\n  Webex (link on Sakai)\n\n\n\n\n\n\n\nContacting me\nE-mail or Slack is the best way to get in contact with me. I will try to respond to all course-related e-mails within 24 hours Monday-Friday.\n\n\n View the source on GitHub"
   },
   {
     "objectID": "slides/Day01_bsta511.html#what-is-r",
@@ -2818,13 +2825,6 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Week\nDates\nTopics\nChapter sections\n\n\n\n\n1\nM 9/30\nNo class: OHSU New Student Orientation\n\n\n\n\nW 10/2\nDay 1: Introduction to R & RStudio\n\n\n\n2\nM 10/7\nDay 2: Intro to Data, Data collection\n1.1-1.3\n\n\n\nW 10/9\nDay 3: Summarizing numerical data, Probability\n1.4, 2.1-2.2.4\n\n\n3\nM 10/14\nDay 4: Bayes’ Theorem, R Packages\n2.2.5 & supplementary\n\n\n\nW 10/16\nDay 5: Data visualization, exploratory data analysis (EDA), and summarizing categorical data\n1.5-1.7 & supplementary\n\n\n4\nM 10/21\nDay 6: Random variables, Binomial distribution\n3.1-3.2\n\n\n\nW 10/23\nDay 7: Normal and Poisson distributions\n3.3-3.4\n\n\n5\nM 10/28\nDay 8: Variability in estimates\n4.1\n\n\n\nW 10/30\nDay 9: Confidence Intervals\n4.2\n\n\n6\nM 11/4\nExam 1: Days 1-7\nCh 1, 2, 3.1-3.4\n\n\n\nW 11/6\nDay 10: Hypothesis Testing: Single-sample with t-distribution & Two-sample paired data\n4.3, 5.1, 5.2\n\n\n7\nM 11/11\nDay 11: Hypothesis Testing: Two-sample independent data; Power\n5.3-5.4; Supplementary material\n\n\n\nW 11/13\nDay 12: Inference for a single proportion or difference in proportions\n8.1-8.2\n\n\n8\nM 11/18\nDay 13: Chi-squared tests, Fishers exact test\n8.3-8.4\n\n\n\nW 11/20\nDay 14: Comparing Means with ANOVA.\n5.5, Supplementary material\n\n\n9\nM 11/25\nExam 2: Days 8-13\nCh 4, 5.1-5.4; Supplementary material, 8.1-8.4\n\n\n\nW 11/27\nDay 15: Simple Linear Regression\n6.1-6.2\n\n\n10\nM 12/2\nDay 16: Simple Linear Regression\n6.3-6.4\n\n\n\nW 12/4\nDay 17: Non-parametric tests (sign, signed-rank, rank-sum, Kruskal-Wallis)\nSupplementary material\n\n\n11\nM 12/9\nReview - catch up\n\n\n\n\nW 12/11\nExam 3 due (take home): Days 14-17\nCh 5.5, 6, non-parametric"
-  },
-  {
-    "objectID": "weeks/week_01.html#general-info",
-    "href": "weeks/week_01.html#general-info",
-    "title": "Week 1",
-    "section": "",
-    "text": "Syllabus on Sakai\nWeek 1 info on Sakai\n\nIncludes links to background survey and BSAT 511/611 Slack group"
+    "text": "Week\nDates\nDay\nTopics\nChapter sections\n\n\n\n\n1\nM 9/30\n0\nNo class:  OHSU New Student Orientation\n\n\n\n\nW 10/2\n1\nIntroduction to R & RStudio\n\n\n\n2\nM 10/7\n2\nIntro to Data, Data collection\n1.1-1.3\n\n\n\nW 10/9\n3\nSummarizing numerical data,  Probability\n1.4, 2.1-2.2.4\n\n\n3\nM 10/14\n4\nBayes’ Theorem, R Packages\n2.2.5, extra\n\n\n\nW 10/16\n5\nData visualization,  exploratory data analysis (EDA),  and summarizing categorical data\n1.5-1.7, extra\n\n\n4\nM 10/21\n6\nRandom variables,  Binomial distribution\n3.1-3.2\n\n\n\nW 10/23\n7\nNormal and Poisson distributions\n3.3-3.4\n\n\n5\nM 10/28\n8\nVariability in estimates\n4.1\n\n\n\nW 10/30\n9\nConfidence Intervals\n4.2\n\n\n6\nM 11/4\n\nExam 1: Days 1-7\nCh 1, 2, 3.1-3.4\n\n\n\nW 11/6\n10\nHypothesis Testing:  Single-sample with t-distribution  & Two-sample paired data\n4.3, 5.1, 5.2\n\n\n7\nM 11/11\n11\nHypothesis Testing:  Two-sample independent data;  Power\n5.3-5.4, extra\n\n\n\nW 11/13\n12\nInference for a single proportion  or difference in proportions\n8.1-8.2\n\n\n8\nM 11/18\n13\nChi-squared tests,  Fishers exact test\n8.3-8.4\n\n\n\nW 11/20\n14\nComparing Means with ANOVA.\n5.5, extra\n\n\n9\nM 11/25\n\nExam 2: Days 8-13\nCh 4, 5.1-5.4;  extra, 8.1-8.4\n\n\n\nW 11/27\n15\nSimple Linear Regression\n6.1-6.2\n\n\n10\nM 12/2\n16\nSimple Linear Regression\n6.3-6.4\n\n\n\nW 12/4\n17\nNon-parametric tests  (sign, signed-rank, rank-sum,  Kruskal-Wallis)\nExtra\n\n\n11\nM 12/9\n\nReview - catch up\n\n\n\n\nW 12/11\n\nExam 3 due (take home): Days 14-17\nCh 5.5, 6,  non-parametric"
   }
 ]
