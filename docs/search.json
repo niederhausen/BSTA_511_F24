@@ -25,7 +25,7 @@
     "href": "weeks/week_01.html#homework---coming-soon",
     "title": "Week 1",
     "section": "Homework - coming soon!",
-    "text": "Homework - coming soon!"
+    "text": "Homework - coming soon!\n\nHW 1 due on Sat, 10/12\n\nCovers Days 1-3"
   },
   {
     "objectID": "weeks/week_01.html#recordings",
@@ -123,7 +123,7 @@
     "href": "index.html",
     "title": "BSTA 511/611 Fall 2024",
     "section": "",
-    "text": "Welcome to BSTA 511/611!\n\n\nEstimation and Hypothesis Testing\nApplied Biostatistics I\n\nFall 2024\n\n\n\n\n\n\nInstructor\n Meike Niederhausen, PhD\n VPT 660E\n niederha@ohsu.edu\n\n\nCourse details\n Mon, Wed\n 1:00 - 2:50 PM\n VPT 620M\n 9/30 - 12/11\n\n\nOffice Hours\n Mondays 3-4 pm (Katie)\n VPT Student Success Cntr\n Wednesdays 2:50-3:30 pm (Meike)\n VPT 660E\n Thursdays 3-4 pm (Katie)\n Webex (link on Sakai)\n Fridays 3:30-4:30 pm (Meike)\n  Webex (link on Sakai)\n\n\n\n\n\n\n\nContacting me\nE-mail or Slack is the best way to get in contact with me. I will try to respond to all course-related e-mails within 24 hours Monday-Friday.\n\n\n View the source on GitHub"
+    "text": "Welcome to BSTA 511/611!\n\n\nEstimation and Hypothesis Testing\nApplied Biostatistics I\n\nFall 2024\n\n\n\n\n\n\n\nInstructor\n Meike Niederhausen, PhD\n VPT 660E\n niederha@ohsu.edu\n\n\nTA\n Katie Hand\n handka@ohsu.edu\n\n\n\nCourse details\n Mon, Wed\n 1:00 - 2:50 PM\n VPT 620M\n 9/30 - 12/11\n\n\nOffice Hours\n Mondays 3-4 pm (Katie)\n VPT Student Success Cntr\n Wednesdays 2:50-3:30 pm (Meike)\n VPT 660E\n Thursdays 3-4 pm (Katie)\n Webex (link on Sakai)\n Fridays 3:30-4:30 pm (Meike)\n  Webex (link on Sakai)\n\n\n\n\n\n\n\nContacting me\nE-mail or Slack is the best way to get in contact with me. I will try to respond to all course-related e-mails within 24 hours Monday-Friday.\n\n\n View the source on GitHub"
   },
   {
     "objectID": "slides/Day01_bsta511.html#what-is-r",
@@ -2826,5 +2826,194 @@
     "title": "Schedule",
     "section": "",
     "text": "Week\nDates\nDay\nTopics\nChapter sections\n\n\n\n\n1\nM 9/30\n0\nNo class:  OHSU New Student Orientation\n\n\n\n\nW 10/2\n1\nIntroduction to R & RStudio\n\n\n\n2\nM 10/7\n2\nIntro to Data, Data collection\n1.1-1.3\n\n\n\nW 10/9\n3\nSummarizing numerical data,  Probability\n1.4, 2.1-2.2.4\n\n\n3\nM 10/14\n4\nBayes’ Theorem, R Packages\n2.2.5, extra\n\n\n\nW 10/16\n5\nData visualization,  exploratory data analysis (EDA),  and summarizing categorical data\n1.5-1.7, extra\n\n\n4\nM 10/21\n6\nRandom variables,  Binomial distribution\n3.1-3.2\n\n\n\nW 10/23\n7\nNormal and Poisson distributions\n3.3-3.4\n\n\n5\nM 10/28\n8\nVariability in estimates\n4.1\n\n\n\nW 10/30\n9\nConfidence Intervals\n4.2\n\n\n6\nM 11/4\n\nExam 1: Days 1-7\nCh 1, 2, 3.1-3.4\n\n\n\nW 11/6\n10\nHypothesis Testing:  Single-sample with t-distribution  & Two-sample paired data\n4.3, 5.1, 5.2\n\n\n7\nM 11/11\n11\nHypothesis Testing:  Two-sample independent data;  Power\n5.3-5.4, extra\n\n\n\nW 11/13\n12\nInference for a single proportion  or difference in proportions\n8.1-8.2\n\n\n8\nM 11/18\n13\nChi-squared tests,  Fishers exact test\n8.3-8.4\n\n\n\nW 11/20\n14\nComparing Means with ANOVA.\n5.5, extra\n\n\n9\nM 11/25\n\nExam 2: Days 8-13\nCh 4, 5.1-5.4;  extra, 8.1-8.4\n\n\n\nW 11/27\n15\nSimple Linear Regression\n6.1-6.2\n\n\n10\nM 12/2\n16\nSimple Linear Regression\n6.3-6.4\n\n\n\nW 12/4\n17\nNon-parametric tests  (sign, signed-rank, rank-sum,  Kruskal-Wallis)\nExtra\n\n\n11\nM 12/9\n\nReview - catch up\n\n\n\n\nW 12/11\n\nExam 3 due (take home): Days 14-17\nCh 5.5, 6,  non-parametric"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html",
+    "href": "homework/HW_1_F24_bsta511.html",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "",
+    "text": "Due 10/12/24\nDownload the .qmd file for this assignment from https://github.com/niederhausen/BSTA_511_F23/blob/main/homework/HW_1_F24_bsta511.qmd"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#graded-exercises",
+    "href": "homework/HW_1_F24_bsta511.html#graded-exercises",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "Graded exercises",
+    "text": "Graded exercises\nThe exercises listed below will be graded for this assignment. You are strongly encouraged to complete the entire assignment. You will receive feedback on exercises you turn in that are not being graded.\n\nBook exercises\n\n1.12, 1.20, 1.31, 2.6, 2.14\n\nR exercises\n\nR2: BRFSS"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#directions",
+    "href": "homework/HW_1_F24_bsta511.html#directions",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "Directions",
+    "text": "Directions\n\n\n\n\n\n\nImportant\n\n\n\n\n* Starred exercises in the section Book exercises may be completed by hand (such as on paper or using a tablet) not using Quarto.\nIf you complete this part of the assignment not using Quarto, you will be uploading 3 files on Sakai for this HW: qmd & html files for your R work, and a pdf with your written work.\nIf you are completing the homework on paper, you can use a scanning app, such as Adobe Scan, to create a pdf of your assignment.\n\n\n\n\nPlease upload your homework to Sakai. Upload both your .qmd code file and the rendered .html file.\n\nUse the assignment .qmd file linked to above as a template for your own assignment.\n\nFor each question, make sure to show all of your work. This includes all code and resulting output in the html file to support your answers for exercises requiring work done in R (including any arithmetic calculations).\nFor each question, include a sentence summarizing the answer for that question in the context of the research question.\n\n\n\n\n\n\n\nTip\n\n\n\nIt is a good idea to try rendering your document from time to time as you go along! Note that rendering automatically saves your Qmd file and rendering frequently helps you catch your errors more quickly."
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#a-upload-a-photo-using-sakai-submission",
+    "href": "homework/HW_1_F24_bsta511.html#a-upload-a-photo-using-sakai-submission",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "a) Upload a photo using Sakai submission",
+    "text": "a) Upload a photo using Sakai submission\nTo help me learn your names and faces, please upload a photo of yourself on Sakai. You will find the Upload Photo “assignment” in the Assignments section of Sakai. These photos will only be seen by me and the TA."
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#b-background-survey",
+    "href": "homework/HW_1_F24_bsta511.html#b-background-survey",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "b) Background survey",
+    "text": "b) Background survey\n\nPlease fill out the background survey at https://forms.gle/dG5RLcurrhJzXMrX9.\n\nNo work to be shown here."
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#c-slack-post",
+    "href": "homework/HW_1_F24_bsta511.html#c-slack-post",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "c) Slack post",
+    "text": "c) Slack post\n\nIntroduce yourself to the class by posting a message in the #random channel on the BSTA 511/611 Slack group.\n\nSlack invite link: https://join.slack.com/t/bsta511611f24/shared_invite/zt-2rla7k81t-_SMUapKP6pVCpJgYZAfRkg\nNo work to be shown here."
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#sinusitis-and-antibiotics-part-i.",
+    "href": "homework/HW_1_F24_bsta511.html#sinusitis-and-antibiotics-part-i.",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "1.2 Sinusitis and antibiotics, Part I.",
+    "text": "1.2 Sinusitis and antibiotics, Part I.\n\nShow the work of your calculations using R code within a code chunk. Make sure that both your code and output are visible in the rendered html file.\nWrite your answers in complete sentences as if communicating the results to a collaborator.\nIf you are having difficulty with exercise 1.2, take a look at exercise 1.1, whose answers are at the back of the book."
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#buteyko-method-study-components",
+    "href": "homework/HW_1_F24_bsta511.html#buteyko-method-study-components",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "1.4 Buteyko method, study components",
+    "text": "1.4 Buteyko method, study components"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#smoking-habits-of-uk-residents",
+    "href": "homework/HW_1_F24_bsta511.html#smoking-habits-of-uk-residents",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "1.8 Smoking habits of UK residents",
+    "text": "1.8 Smoking habits of UK residents"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#herbal-remedies",
+    "href": "homework/HW_1_F24_bsta511.html#herbal-remedies",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "1.12 Herbal remedies",
+    "text": "1.12 Herbal remedies"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#city-council-survey",
+    "href": "homework/HW_1_F24_bsta511.html#city-council-survey",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "1.20 City council survey",
+    "text": "1.20 City council survey"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#income-at-the-coffee-shop",
+    "href": "homework/HW_1_F24_bsta511.html#income-at-the-coffee-shop",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "1.31 Income at the coffee shop",
+    "text": "1.31 Income at the coffee shop"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#midrange",
+    "href": "homework/HW_1_F24_bsta511.html#midrange",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "1.32 Midrange",
+    "text": "1.32 Midrange"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#smoking-and-stenosis",
+    "href": "homework/HW_1_F24_bsta511.html#smoking-and-stenosis",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "1.38 Smoking and stenosis",
+    "text": "1.38 Smoking and stenosis\nSee Section 1.6.2 for more on how the relative risk is calculated."
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#poverty-and-language",
+    "href": "homework/HW_1_F24_bsta511.html#poverty-and-language",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "* 2.6 Poverty and language",
+    "text": "* 2.6 Poverty and language\nPart (b) asks you to create a Venn Diagram. If you are submitting this question in R, you do not need to turn this part in. If you want an R challenge though, you can use the VennDiagram or other package to create one. See https://www.geeksforgeeks.org/how-to-create-a-venn-diagram-in-r/ for some examples."
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#school-absences",
+    "href": "homework/HW_1_F24_bsta511.html#school-absences",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "* 2.8 School absences",
+    "text": "* 2.8 School absences\nPart (b) asks you to create a Venn Diagram. If you are submitting this question in R, you do not need to turn this part in. If you want an R challenge though, you can use the VennDiagram or other package to create one. See https://www.geeksforgeeks.org/how-to-create-a-venn-diagram-in-r/ for some examples."
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#health-coverage-frequencies",
+    "href": "homework/HW_1_F24_bsta511.html#health-coverage-frequencies",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "* 2.10 Health coverage, frequencies",
+    "text": "* 2.10 Health coverage, frequencies"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#health-coverage-relative-frequencies",
+    "href": "homework/HW_1_F24_bsta511.html#health-coverage-relative-frequencies",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "* 2.14 Health coverage, relative frequencies",
+    "text": "* 2.14 Health coverage, relative frequencies"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#load-all-the-packages-you-need-below-here.",
+    "href": "homework/HW_1_F24_bsta511.html#load-all-the-packages-you-need-below-here.",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "!!! Load all the packages you need below here.",
+    "text": "!!! Load all the packages you need below here."
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#r1-formatting-text-practice",
+    "href": "homework/HW_1_F24_bsta511.html#r1-formatting-text-practice",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "R1: Formatting text practice",
+    "text": "R1: Formatting text practice\nWrite a sentence (or a few) using all the different types of formatting text shown in slide 29 of the Day 1 slides. Your choice of text does not matter or even need to make sense. Although the TA will appreciate it if you make them laugh."
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#r2-brfss",
+    "href": "homework/HW_1_F24_bsta511.html#r2-brfss",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "R2: BRFSS",
+    "text": "R2: BRFSS\n\nThe Behavioral Risk Factor Surveillance System (BRFSS) is an annual telephone survey of 350,000 people in the United States. The BRFSS is designed to identify risk factors in the adult population and report emerging health trends. For example, respondents are asked about their diet, weekly exercise, possible tobacco use, and health care coverage.\n\n\nThe dataset cdc is a sample of 20,000 people from the survey conducted in 2000, and contains responses from a subset of the questions asked on the survey.\n\n\nLoad the cdc dataset from the web using the source() command below:\n\n\nsource(\"http://www.openintro.org/stat/data/cdc.R\")\n\n\nAnswer the questions below about the cdc dataset.\nPlease do not delete the statements of the questions so that they remained numbered in the correct order.\nShow the work of your calculations using R code within a code chunk. Make sure that both your code and output are visible in the knitted html file.\nWrite your answers in complete sentences as if communicating the results to a collaborator."
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#a-how-many-rows-and-columns-are-in-the-dataset",
+    "href": "homework/HW_1_F24_bsta511.html#a-how-many-rows-and-columns-are-in-the-dataset",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "a) How many rows and columns are in the dataset?",
+    "text": "a) How many rows and columns are in the dataset?"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#b-variable-types",
+    "href": "homework/HW_1_F24_bsta511.html#b-variable-types",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "b) Variable types",
+    "text": "b) Variable types\nFor each variable, what identify both its “statistical” variable type (numerical (discrete, continuous) or categorical (nominal, ordinal) and its R variable type.\nFill in your answers in the table I created below.\n\n\n\nvariable name\nR type\nvariable type\n\n\n\n\ngenhlth\nfill in\nfill in\n\n\nexerany\netc.\n\n\n\nhlthplan\n\n\n\n\nsmoke100\n\n\n\n\nheight\n\n\n\n\nweight\n\n\n\n\nwtdesire\n\n\n\n\nage\n\n\n\n\ngender"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#c-average-weight-vs.-desired-weight",
+    "href": "homework/HW_1_F24_bsta511.html#c-average-weight-vs.-desired-weight",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "c) Average weight vs. desired weight",
+    "text": "c) Average weight vs. desired weight\nWhat is the difference between the average weight and the average desired weight?"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#d-compare-variability",
+    "href": "homework/HW_1_F24_bsta511.html#d-compare-variability",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "d) Compare variability",
+    "text": "d) Compare variability\nWhich of the height, weight, and desired weight variables has the most variability? Which has the least variability?"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#e-mean-of-the-hlthplan",
+    "href": "homework/HW_1_F24_bsta511.html#e-mean-of-the-hlthplan",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "e) Mean of the hlthplan",
+    "text": "e) Mean of the hlthplan\nCalculate the mean of the hlthplan variable. How do we interpret this mean? In other words, what does this mean measure?"
+  },
+  {
+    "objectID": "weeks/week_02.html#homework",
+    "href": "weeks/week_02.html#homework",
+    "title": "Week 2",
+    "section": "Homework",
+    "text": "Homework\n\nHW 1 due on Sat, 10/12\n\nCovers Days 1-3"
   }
 ]

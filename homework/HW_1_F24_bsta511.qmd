@@ -1,0 +1,165 @@
+---
+title: "HW 1: BSTA 511/611 F24"
+author: "Your name here - update this!!!!"
+date: "Due 10/12/24"
+format: 
+  html:
+    link-external-newwindow: true
+    toc: true
+    toc_float:
+      collapsed: false
+    number-sections: false
+    number-depth: 4
+    theme: lumen
+    self-contained: true
+    html-math-method: mathjax
+---
+
+```{r}
+#| label: "setup"
+#| include: false
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**Due 10/12/24**
+
+Download the .qmd file for this assignment from [https://github.com/niederhausen/BSTA_511_F23/blob/main/homework/HW_1_F24_bsta511.qmd](https://github.com/niederhausen/BSTA_511_F24/blob/main/homework/HW_1_F23_bsta511.qmd)
+
+## Graded exercises
+
+The exercises listed below will be graded for this assignment. You are strongly encouraged to complete the entire assignment. You will receive feedback on exercises you turn in that are not being graded. 
+
+* **Book exercises**
+    *   1.12, 1.20, 1.31, 2.6, 2.14
+* **R exercises**
+    *   R2: BRFSS
+
+
+## Directions
+
+::: callout-important
+-   `*` Starred exercises in the section `Book exercises` may be completed by hand (such as on paper or using a tablet) not using Quarto. 
+-   If you complete this part of the assignment not using Quarto, you will be uploading 3 files on Sakai for this HW: qmd & html files for your R work, and a pdf with your written work.
+-   If you are completing the homework on paper, you can use a scanning app, such as Adobe Scan, to create a pdf of your assignment.
+:::
+
+-   Please upload your homework to [Sakai](https://sakai.ohsu.edu/portal/site/BSTA-511-1-AA-F24/tool/8cee686f-e5e0-401c-a7c1-b097fc8eb9a9). **Upload both your .qmd code file and the rendered .html file**.
+    -   Use the assignment .qmd file linked to above as a template for your own assignment.
+-   For each question, make sure to **show all of your work**. This includes all code and resulting output in the html file to support your answers for exercises requiring work done in R (including any arithmetic calculations).
+- For each question, include a **sentence summarizing the answer** for that question in the context of the research question. 
+
+::: callout-tip
+It is a good idea to try rendering your document from time to time as you go along! Note that rendering automatically saves your Qmd file and rendering frequently helps you catch your errors more quickly.
+:::
+
+# Non-book exercises
+
+## a) Upload a photo using Sakai submission
+
+To help me learn your names and faces, please upload a photo of yourself on Sakai. You will find the Upload Photo "assignment" in the [Assignments section of Sakai](https://sakai.ohsu.edu/portal/site/BSTA-511-1-AA-F24/tool/8cee686f-e5e0-401c-a7c1-b097fc8eb9a9). These photos will only be seen by me and the TA.
+
+## b) Background survey
+
+-   Please fill out the background survey at <https://forms.gle/dG5RLcurrhJzXMrX9>.\
+-   No work to be shown here.
+
+## c) Slack post
+
+-   Introduce yourself to the class by posting a message in the #random channel on the BSTA 511/611 Slack group.\
+-   Slack invite link: <https://join.slack.com/t/bsta511611f24/shared_invite/zt-2rla7k81t-_SMUapKP6pVCpJgYZAfRkg>
+-   No work to be shown here.
+
+# Book exercises
+
+-   Exercises are in the last section of the chapter.
+-   Exercises are numbered as chapter#.exercise#. For example, exercise 1.2 is Chapter 1 #2, which is on pg. 75.
+
+## 1.2 Sinusitis and antibiotics, Part I.
+
+-   Show the work of your calculations **using R code within a code chunk**. Make sure that both your code and output are visible in the rendered html file.
+-   Write your answers in complete sentences as if communicating the results to a collaborator.
+-   If you are having difficulty with exercise 1.2, take a look at exercise 1.1, whose answers are at the back of the book.
+
+## 1.4 Buteyko method, study components
+
+## 1.8 Smoking habits of UK residents
+
+## 1.12 Herbal remedies
+
+## 1.20 City council survey
+
+## 1.31 Income at the coffee shop
+
+## 1.32 Midrange
+
+## 1.38 Smoking and stenosis
+
+*See Section 1.6.2 for more on how the relative risk is calculated.*
+
+## * 2.6 Poverty and language
+
+*Part (b) asks you to create a Venn Diagram. If you are submitting this question in R, you do not need to turn this part in. If you want an R challenge though, you can use the `VennDiagram` or other package to create one. See <https://www.geeksforgeeks.org/how-to-create-a-venn-diagram-in-r/> for some examples.*
+
+## * 2.8 School absences
+
+*Part (b) asks you to create a Venn Diagram. If you are submitting this question in R, you do not need to turn this part in. If you want an R challenge though, you can use the `VennDiagram` or other package to create one. See <https://www.geeksforgeeks.org/how-to-create-a-venn-diagram-in-r/> for some examples.*
+
+## * 2.10 Health coverage, frequencies
+
+## * 2.14 Health coverage, relative frequencies
+
+# R exercises
+
+## !!! Load all the packages you need below here.
+
+## R1: Formatting text practice
+
+**Write a sentence (or a few) using all the different types of formatting text shown in slide 29 of the Day 1 slides. Your choice of text does not matter or even need to make sense. Although the TA will appreciate it if you make them laugh.**
+
+## R2: BRFSS
+
+> The Behavioral Risk Factor Surveillance System (BRFSS) is an annual telephone survey of 350,000 people in the United States. The BRFSS is designed to identify risk factors in the adult population and report emerging health trends. For example, respondents are asked about their diet, weekly exercise, possible tobacco use, and health care coverage.
+
+> The dataset `cdc` is a sample of 20,000 people from the survey conducted in 2000, and contains responses from a subset of the questions asked on the survey.
+
+> Load the `cdc` dataset from the web using the `source()` command below:
+
+```{r}
+source("http://www.openintro.org/stat/data/cdc.R")
+```
+
+-   Answer the questions below about the `cdc` dataset.
+-   Please do not delete the statements of the questions so that they remained numbered in the correct order.
+-   Show the work of your calculations using R code within a code chunk. Make sure that both your code and output are visible in the knitted html file.
+-   Write your answers in complete sentences as if communicating the results to a collaborator.
+
+## a) How many rows and columns are in the dataset?
+
+## b) Variable types
+
+**For each variable, what identify both its "statistical" variable type (numerical (discrete, continuous) or categorical (nominal, ordinal) and its R variable type.**\
+*Fill in your answers in the table I created below.*
+
+| variable name | R type  | variable type |
+|---------------|---------|---------------|
+| genhlth       | fill in | fill in       |
+| exerany       | etc.    |               |
+| hlthplan      |         |               |
+| smoke100      |         |               |
+| height        |         |               |
+| weight        |         |               |
+| wtdesire      |         |               |
+| age           |         |               |
+| gender        |         |               |
+
+## c) Average weight vs. desired weight
+
+**What is the difference between the average weight and the average desired weight?**
+
+## d) Compare variability
+
+**Which of the height, weight, and desired weight variables has the most variability? Which has the least variability?**
+
+## e) Mean of the `hlthplan`
+
+**Calculate the mean of the `hlthplan` variable. How do we interpret this mean? In other words, what does this mean measure?**

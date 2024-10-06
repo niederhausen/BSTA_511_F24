@@ -47,6 +47,12 @@ Fall 2024
 {{< iconify bi building-fill size=20px >}} VPT 660E
 
 {{< iconify tabler mail-filled size=20px >}} [niederha\@ohsu.edu](mailto:niederha@ohsu.edu)
+
+### TA
+
+{{< iconify fluent person-24-filled size=20px >}} Katie Hand
+
+{{< iconify tabler mail-filled size=20px >}} [handka\@ohsu.edu](mailto:handka@ohsu.edu)
 :::
 
 ::: g-col-4
