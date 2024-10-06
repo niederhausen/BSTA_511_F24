@@ -1,0 +1,18 @@
+---
+title: "Assignments"
+format: 
+  html:
+    listing: 
+      contents: homework
+      type: table
+      table-hover: true
+      fields: [date, title]
+      sort: "date asc"
+      date-format: "short"
+    link-external-newwindow: true
+---
+
+::: callout-note
+* Below are links to homework assignments.
+* The dates in the Date column are due dates.
+:::

@@ -49,11 +49,12 @@ website:
       #   text: Weeks
       # - href: class_slides.qmd
       #   text: Slides
-
-      # - href: homework.qmd
-      #   text: Homework
-      # - href: homework_solutions.qmd
-      #   text: Homework solutions
+      - section: "Homework"
+        contents: 
+        - href: homework.qmd
+          text: Homework
+        - href: homework_solutions.qmd
+          text: Homework solutions
             
 format:
   html:

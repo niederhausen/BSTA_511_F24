@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-09-30">
-<meta name="description" content="Intro to R &amp; RStudio">
 
-<title>BSTA 511/611 Fall 2024 - Week 1</title>
+<title>BSTA 511/611 Fall 2024 - Homework Solutions</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -63,7 +61,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -73,10 +71,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-sm navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/IMG_7897_med.png" alt="" class="navbar-logo">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/IMG_7897_med.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">BSTA 511/611 Fall 2024</span>
     </a>
   </div>
@@ -87,11 +85,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../index.html" rel="" target="" aria-current="page">
+    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../schedule.html" rel="" target="">
+    <a class="nav-link" href="./schedule.html" rel="" target="">
  <span class="menu-text">Schedule</span></a>
   </li>  
 </ul>
@@ -105,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks/week_01.html">Weekly pages</a></li><li class="breadcrumb-item"><a href="../weeks/week_01.html">Week 1</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./homework.html">Homework</a></li><li class="breadcrumb-item"><a href="./homework_solutions.html">Homework solutions</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -127,13 +125,13 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../schedule.html" class="sidebar-item-text sidebar-link">
+  <a href="./schedule.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Schedule</span></a>
   </div>
 </li>
@@ -148,13 +146,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week_01.html" class="sidebar-item-text sidebar-link active">
+  <a href="./weeks/week_01.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 1</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week_02.html" class="sidebar-item-text sidebar-link">
+  <a href="./weeks/week_02.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 2</span></a>
   </div>
 </li>
@@ -171,13 +169,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../homework.html" class="sidebar-item-text sidebar-link">
+  <a href="./homework.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Homework</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../homework_solutions.html" class="sidebar-item-text sidebar-link">
+  <a href="./homework_solutions.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Homework solutions</span></a>
   </div>
 </li>
@@ -189,44 +187,21 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#general-info" id="toc-general-info" class="nav-link active" data-scroll-target="#general-info">General info</a></li>
-  <li><a href="#day01" id="toc-day01" class="nav-link" data-scroll-target="#day01">Day01</a>
-  <ul class="collapse">
-  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
-  </ul></li>
-  <li><a href="#homework---coming-soon" id="toc-homework---coming-soon" class="nav-link" data-scroll-target="#homework---coming-soon">Homework - coming soon!</a></li>
-  <li><a href="#recordings" id="toc-recordings" class="nav-link" data-scroll-target="#recordings">Recordings</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Week 1</h1>
+<h1 class="title">Homework Solutions</h1>
 </div>
 
-<div>
-  <div class="description">
-    Intro to R &amp; RStudio
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">September 30, 2024</p>
-    </div>
-  </div>
   
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
@@ -240,47 +215,82 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="general-info" class="level2">
-<h2 class="anchored" data-anchor-id="general-info">General info</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li><a href="https://sakai.ohsu.edu/portal/site/BSTA-511-1-AA-F24/page/3a67ff22-d165-404c-bd43-a8917367f621">Syllabus</a> on Sakai</li>
-<li><a href="https://sakai.ohsu.edu/portal/site/BSTA-511-1-AA-F24/tool/07426483-9125-4418-b74f-996db41be3c0/ShowPage?returnView=&amp;studentItemId=0&amp;backPath=&amp;bltiAppStores=false&amp;errorMessage=&amp;clearAttr=&amp;messageId=&amp;source=&amp;title=&amp;newTopLevel=false&amp;sendingPage=205994&amp;postedComment=false&amp;addBefore=&amp;itemId=5293686&amp;path=push&amp;reviewAssessment=false&amp;topicId=&amp;addTool=-1&amp;recheck=&amp;id=&amp;forumId=">Week 1 info</a> on Sakai
-<ul>
-<li>Includes links to background survey and BSAT 511/611 Slack group</li>
-</ul></li>
+<li>Below are links to homework solutions.</li>
+<li>Accessing solutions will require signing into Sakai.</li>
+<li><strong><span style="color:darkorange">Solutions will not be accessible until after their due date.</span></strong></li>
+<li><em>If you try accessing them earlier you will get a “file not found” page from Sakai.</em></li>
 </ul>
-</section>
-<section id="day01" class="level2">
-<h2 class="anchored" data-anchor-id="day01">Day01</h2>
-<p>Intro to R &amp; RStudio</p>
-<ul>
-<li><a href="../resources/BSTA 511 text R info F24.pdf">Handout</a> with directions on installing R &amp; RStudio</li>
-</ul>
-<section id="slides" class="level3">
-<h3 class="anchored" data-anchor-id="slides">Slides</h3>
-<ul>
-<li><a href="../slides/Day01_bsta511.html">html</a></li>
-<li><a href="https://drive.google.com/drive/folders/1I5-e1Dbso2jBYm5oIbMV0FqdpM-0q8pn">pdf</a></li>
-<li><a href="../slides_md/Day01_bsta511_md.html">webpage</a></li>
-<li><a href="https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_md/Day01_bsta511_md.qmd">qmd</a></li>
-</ul>
-</section>
-</section>
-<section id="homework---coming-soon" class="level2">
-<h2 class="anchored" data-anchor-id="homework---coming-soon">Homework - coming soon!</h2>
-<ul>
-<li><a href="../homework/HW_1_F24_bsta511.html">HW 1</a> due on Sat, 10/12
-<ul>
-<li>Covers Days 1-3</li>
-</ul></li>
-</ul>
-</section>
-<section id="recordings" class="level2">
-<h2 class="anchored" data-anchor-id="recordings">Recordings</h2>
-<!-- * __In-class__ recording links are on [Sakai](https://sakai.ohsu.edu/portal/site/BSTA-511-1-AA-F24/tool/1f70eae0-e36a-4052-9247-69c6917e6b73/). Navigate to _Course Materials_ -> _Schedule with links to in-class recordings_. Note that the password to the recordings is at the top of the page.  -->
+</div>
+</div>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">HW</th>
+<th style="text-align: center;">qmd file</th>
+<th style="text-align: left;">html file</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"><a href="https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_1_F24_bsta511_Solutions.qmd">qmd</a></td>
+<td style="text-align: left;"><a href="https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_1_F24_bsta511_Solutions.html">html</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><a href="https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_2_F24_bsta511_Solutions.qmd">qmd</a></td>
+<td style="text-align: left;"><a href="https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_2_F24_bsta511_Solutions.html">html</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><a href="https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_3_F24_bsta511_Solutions.qmd">qmd</a></td>
+<td style="text-align: left;"><a href="https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_3_F24_bsta511_Solutions.html">html</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"><a href="https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_4_F24_bsta511_Solutions.qmd">qmd</a></td>
+<td style="text-align: left;"><a href="https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_4_F24_bsta511_Solutions.html">html</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><a href="https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_5_F24_bsta511_Solutions.qmd">qmd</a></td>
+<td style="text-align: left;"><a href="https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_5_F24_bsta511_Solutions.html">html</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;"><a href="https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_6_F24_bsta511_Solutions.qmd">qmd</a></td>
+<td style="text-align: left;"><a href="https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_6_F24_bsta511_Solutions.html">html</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">7</td>
+<td style="text-align: center;"><a href="https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_7_F24_bsta511_Solutions.qmd">qmd</a></td>
+<td style="text-align: left;"><a href="https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_7_F24_bsta511_Solutions.html">html</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">8</td>
+<td style="text-align: center;"><a href="https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_8_F24_bsta511_Solutions.qmd">qmd</a></td>
+<td style="text-align: left;"><a href="https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_8_F24_bsta511_Solutions.html">html</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">9</td>
+<td style="text-align: center;"><a href="https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_9_F24_bsta511_Solutions.qmd">qmd</a></td>
+<td style="text-align: left;"><a href="https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_9_F24_bsta511_Solutions.html">html</a></td>
+</tr>
+</tbody>
+</table>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
