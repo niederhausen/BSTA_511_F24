@@ -59,9 +59,8 @@ editor_options:
 During class you will be working in groups discussing the following:
 
 -   From HW 1
-    -   Book problems: 1.8, 1.12, 1.20, 1.31
+    -   Book problems: 1.8, 1.12, 1.20
     -   R2: BRFSS - parts a)-b)
-    -   Book problems: 2.6,2.14
 
 ### Day03
 
