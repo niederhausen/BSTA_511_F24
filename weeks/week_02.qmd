@@ -14,17 +14,28 @@ editor_options:
 
 ## Overview of Week 2
 
+::: grid
+::: g-col-6
 ### Day02
 
 -   Data Collection Principles & Intro to Data (**Fall 2023: Day 2**)
     -   Book sections 1.1-1.3
+:::
 
+::: g-col-6
 ### Day03
 
 -   Summarizing Numerical Data (**Fall 2023: Day 2**)
     -   Book section 1.4
 -   Probability (**Fall 2023: Day 4**)
     -   Sections 2.1 - 2.2.4
+:::
+:::
+
+
+
+
+
 
 ## Slides & Recordings
 

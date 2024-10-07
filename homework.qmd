@@ -13,6 +13,6 @@ format:
 ---
 
 ::: callout-note
-* Below are links to homework assignments.
-* The dates in the Date column are due dates.
+-   Below are links to homework assignments.
+-   The dates in the Date column are due dates.
 :::

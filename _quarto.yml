@@ -55,6 +55,8 @@ website:
           text: Homework
         - href: homework_solutions.qmd
           text: Homework solutions
+        - href: rubric.qmd
+          text: Grading rubric
             
 format:
   html:
