@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 **Due 10/12/24**
 
-Download the .qmd file for this assignment from [https://github.com/niederhausen/BSTA_511_F23/blob/main/homework/HW_1_F24_bsta511.qmd](https://github.com/niederhausen/BSTA_511_F24/blob/main/homework/HW_1_F23_bsta511.qmd)
+Download the .qmd file for this assignment from [https://github.com/niederhausen/BSTA_511_F24/blob/main/homework/HW_1_F24_bsta511.qmd](https://github.com/niederhausen/BSTA_511_F24/blob/main/homework/HW_1_F24_bsta511.qmd)
 
 ## Graded exercises
 
