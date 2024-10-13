@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "homework_solutions.html",
+    "href": "homework_solutions.html",
+    "title": "Homework Solutions",
+    "section": "",
+    "text": "Note\n\n\n\n\nBelow are links to homework solutions.\nAccessing solutions will require signing into Sakai.\nSolutions will not be accessible until after their due date.\nIf you try accessing them earlier you will get a “file not found” page from Sakai.\n\n\n\n\n\n\nHW\nqmd file\nhtml file\n\n\n\n\n1\nqmd\nhtml\n\n\n2\nqmd\nhtml\n\n\n3\nqmd\nhtml\n\n\n4\nqmd\nhtml\n\n\n5\nqmd\nhtml\n\n\n6\nqmd\nhtml\n\n\n7\nqmd\nhtml\n\n\n8\nqmd\nhtml\n\n\n9\nqmd\nhtml"
+  },
+  {
     "objectID": "weeks/week_01.html",
     "href": "weeks/week_01.html",
     "title": "Week 1",
@@ -42,53 +49,60 @@
     "text": "Data Collection Principles & Intro to Data (Fall 2023: Day 2)\n\nBook sections 1.1-1.3\n\n\n\n\n\n\nSummarizing Numerical Data (Fall 2023: Day 2)\n\nBook section 1.4\n\nProbability (Fall 2023: Day 4)\n\nSections 2.1 - 2.2.4"
   },
   {
-    "objectID": "weeks/week_02.html#day02",
-    "href": "weeks/week_02.html#day02",
+    "objectID": "weeks/week_02.html#overview-of-week-2",
+    "href": "weeks/week_02.html#overview-of-week-2",
     "title": "Week 2",
     "section": "",
-    "text": "Data Collection Principles & Intro to Data\n\nBook sections 1.1-1.3\n\n\n\n\nFall 2023: Day 2 Slides 1-32\n\nhtml\npdf\nwebpage\nCode file: qmd, html\n\n\n\n\nDuring class you will be working in groups discussing the following:\n\nFrom HW 1\n\nBook problems: 1.8, 1.12, 1.20, 1.31\nR2: BRFSS\nBook problems: 2.6,2.14\n\n\n\n\n\n\nPre-recorded lessons are on Echo Cloud (aka echo 360 or echo video).\n\n\n\n\nTopic\nSlides (F23)\nRecording Link (F23)\nDuration\n\n\n\n\nData Collection Principles (Book section 1.3)\nDay 2: slides 1-17\nDay 2 Part 1\n33 min\n\n\nIntro to Data (Book section 1.2)\nDay 2: slides 18-32\nDay 2 Part 2\n42 min"
+    "text": "Data Collection Principles & Intro to Data (Fall 2023: Day 2)\n\nBook sections 1.1-1.3\n\n\n\n\n\n\nSummarizing Numerical Data (Fall 2023: Day 2)\n\nBook section 1.4\n\nProbability (Fall 2023: Day 4)\n\nSections 2.1 - 2.2.4"
   },
   {
-    "objectID": "weeks/week_02.html#day03",
-    "href": "weeks/week_02.html#day03",
+    "objectID": "weeks/week_02.html#slides-recordings",
+    "href": "weeks/week_02.html#slides-recordings",
     "title": "Week 2",
-    "section": "Day03",
-    "text": "Day03\n\nSummarizing Numerical Data (Fall 2023: Day 2)\n\nBook section 1.4\n\nProbability (Fall 2023: Day 4)\n\nSections 2.1 - 2.2.4\n\n\n\nSlides\n\nSummarizing Numerical Data (Fall 2023: Day 2)\n\nFall 2023: Day 2 Slides 33-46\nhtml\npdf\nwebpage\nCode file: qmd, html\n\nProbability (Fall 2023: Day 4)\n\nhtml\npdf\nSlides with notes\n\n\n\n\nClass discussion (still updating)\n\nSummarizing Numerical Data (Fall 2023: Day 2)\n\nSlide 45: Robust estimates\nFrom HW 1\n\nBook problem: 1.31\n\n\nProbability (Fall 2023: Day 4)\n\nExample 2.3 on pg 4 of slides\nExample 2.6 on pgs 8-9 of slides\n\n\n\n\nRecordings\n\n\n\nTopic\nSlides (F23)\nRecording Link (F23)\nDuration\n\n\n\n\nSummarizing Numerical Data (Book section 1.4)\nDay 2: slides 33-46\nDay 2 Part 3\n37 min\n\n\nProbability (Book sections 2.1.1-2.1.6)\nDay 4: slides 1-4\nDay 4 Part 1\n23 min\n\n\nProbability (Book sections 2.1.7-2.2.4)\nDay 4: slides 5-9\nDay 4 Part 2\n24 min"
+    "section": "Slides & Recordings",
+    "text": "Slides & Recordings\n\nPre-recorded lessons are on Echo Cloud (aka echo 360 or echo video).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDay\nTopic\nSlides (F23): html\nSlides: pdf\nSlides: web-page\nSlides with notes\nRecording Link (F23)\nDuration\nCode: qmd\nCode: html\n\n\n\n\n2\nData Collection Principles (Book section 1.3)\nDay 2: slides 1-17\n\n\n\nDay 2 Part 1\n33 min\n\n\n\n\n\nIntro to Data (Book section 1.2)\nDay 2: slides 18-32\n\n\n\nDay 2 Part 2\n42 min\n\n\n\n\n3\nSummarizing Numerical Data (Book section 1.4)\nDay 2: slides 33-46\n\n\n\nDay 2 Part 3\n37 min\n\n\n\n\n\nProbability (Book sections 2.1.1-2.1.6)\nDay 4: slides 1-4\n\n\n\nDay 4 Part 1\n23 min\n\n\n\n\n\nProbability (Book sections 2.1.7-2.2.4)\nDay 4: slides 5-9\n\n\n\nDay 4 Part 2\n24 min"
   },
   {
-    "objectID": "weeks/week_02.html#homework---coming-soon",
-    "href": "weeks/week_02.html#homework---coming-soon",
+    "objectID": "weeks/week_02.html#class-discussion",
+    "href": "weeks/week_02.html#class-discussion",
     "title": "Week 2",
-    "section": "Homework - coming soon!",
-    "text": "Homework - coming soon!"
+    "section": "Class discussion",
+    "text": "Class discussion\n\nDay02\nDuring class you will be working in groups discussing the following:\n\nFrom HW 1\n\nBook problems: 1.8, 1.12, 1.20\nR2: BRFSS - parts a)-b)\n\n\n\n\nDay03\n\nSummarizing Numerical Data (Fall 2023: Day 2)\n\nSlide 46: Robust estimates\nFrom HW 1\n\nBook problem: 1.31\nR2: BRFSS - parts c)-e)\n\n\nProbability (Fall 2023: Day 4)\n\nExample 2.3 on pg 4 of slides\nExample 2.6 on pgs 8-9 of slides\nFrom HW 1\n\nBook problems: 2.6,2.14"
+  },
+  {
+    "objectID": "weeks/week_02.html#homework",
+    "href": "weeks/week_02.html#homework",
+    "title": "Week 2",
+    "section": "Homework",
+    "text": "Homework\n\nHW 1 due on Sat, 10/12\n\nCovers Days 1-3"
   },
   {
     "objectID": "weeks/week_03.html",
     "href": "weeks/week_03.html",
     "title": "Week 3",
     "section": "",
-    "text": "Bayes’ Rule (Fall 2023: Day 5)\nR Packages (Fall 2023: Day 2)\n\n\n\n\nBayes’ Rule (Fall 2023: Day 5)\n\nhtml\npdf\nSlides with notes\n\nR Packages (Fall 2023: Day 2)\n\nFall 2023: Day 2 Slides 47-54\nhtml\npdf\nwebpage\nCode file: qmd, html\n\n\n\n\n\n\n\nBayes’ Rule (Fall 2023: Day 5)\n\nExample 2.10 on pg 6 of slides\nAdded in class: Textbook exercises 2.18 (from HW)\n\nR Packages (Fall 2023: Day 2)\n\nR packages: any difficulty installing packages?\n\n\n\n\n\n\n\n\nTopic\nSlides (F23)\nRecording Link (F23)\nDuration\n\n\n\n\nBayes’ Rule (Book section 2.2.5)\nDay 5: slides 1-2\nDay 5 Part 1\n22 min\n\n\nBayes’ Rule (Book section 2.2.5)\nDay 5: slides 3-6\nDay 5 Part 2\n22 min\n\n\nR packages\nDay 2: slides 47-54\nDay 2 Part 4\n30 min"
+    "text": "Bayes’ Rule (Fall 2023: Day 5)\n\nSection 2.2.5\n\nR Packages (Fall 2023: Day 2)\n\n\n\n\nFall 2023: Day 3\n\nData visualization, exploratory data analysis (EDA), and summarizing categorical data\n\nSections 1.5-1.7 & supplementary material\n\n\n\n\n\n\n\n\nNote\n\n\n\nAs I mentioned in the recording, the various options in more complex figures I usually look up how to implement when I need them. I show them so that you are aware of some of the functionality and options one has in creating figures using the ggplot2 package. At the end of the slides, we cover how to create tables summarizing data, especially categorical data. This part has some very useful code and data wrangling in it."
   },
   {
     "objectID": "weeks/week_03.html#day04",
     "href": "weeks/week_03.html#day04",
     "title": "Week 3",
-    "section": "",
-    "text": "Bayes’ Rule (Fall 2023: Day 5)\nR Packages (Fall 2023: Day 2)\n\n\n\n\nBayes’ Rule (Fall 2023: Day 5)\n\nhtml\npdf\nSlides with notes\n\nR Packages (Fall 2023: Day 2)\n\nFall 2023: Day 2 Slides 47-54\nhtml\npdf\nwebpage\nCode file: qmd, html\n\n\n\n\n\n\n\nBayes’ Rule (Fall 2023: Day 5)\n\nExample 2.10 on pg 6 of slides\nAdded in class: Textbook exercises 2.18 (from HW)\n\nR Packages (Fall 2023: Day 2)\n\nR packages: any difficulty installing packages?\n\n\n\n\n\n\n\n\nTopic\nSlides (F23)\nRecording Link (F23)\nDuration\n\n\n\n\nBayes’ Rule (Book section 2.2.5)\nDay 5: slides 1-2\nDay 5 Part 1\n22 min\n\n\nBayes’ Rule (Book section 2.2.5)\nDay 5: slides 3-6\nDay 5 Part 2\n22 min\n\n\nR packages\nDay 2: slides 47-54\nDay 2 Part 4\n30 min"
+    "section": "Day04",
+    "text": "Day04\n\nSlides\n\nBayes’ Rule (Fall 2023: Day 5)\n\nhtml\npdf\nSlides with notes\n\nR Packages (Fall 2023: Day 2)\n\nFall 2023: Day 2 Slides 47-54\nhtml\npdf\nwebpage\nCode file: qmd, html\n\n\n\n\nClass discussion (still updating)\n\n\nBayes’ Rule (Fall 2023: Day 5)\n\nExample 2.10 on pg 6 of slides\nAdded in class: Textbook exercises 2.18 (from HW)\n\nR Packages (Fall 2023: Day 2)\n\nR packages: any difficulty installing packages?\n\n\n\n\nRecordings\n\n\n\nTopic\nSlides (F23)\nRecording Link (F23)\nDuration\n\n\n\n\nBayes’ Rule (Book section 2.2.5)\nDay 5: slides 1-2\nDay 5 Part 1\n22 min\n\n\nBayes’ Rule (Book section 2.2.5)\nDay 5: slides 3-6\nDay 5 Part 2\n22 min\n\n\nR packages\nDay 2: slides 47-54\nDay 2 Part 4\n30 min"
   },
   {
     "objectID": "weeks/week_03.html#day05",
     "href": "weeks/week_03.html#day05",
     "title": "Week 3",
     "section": "Day05",
-    "text": "Day05\nFall 2023: Day 3\n\nData visualization, exploratory data analysis (EDA), and summarizing categorical data\nSections 1.5-1.7 & supplementary material\n\n\n\n\n\n\n\nNote\n\n\n\nAs I mentioned in the recording, the various options in more complex figures I usually look up how to implement when I need them. I show them so that you are aware of some of the functionality and options one has in creating figures using the ggplot2 package. At the end of the slides, we cover how to create tables summarizing data, especially categorical data. This part has some very useful code and data wrangling in it.\n\n\n\nSlides\nFall 2023: Day 3\n\nhtml\npdf\nwebpage\nCode file: qmd, html\n\n\n\nClass discussion (still updating)\n\nCan distribution shape and sample size be determined from a boxplot? (see slide 30)\nIs there evidence of ethnicity (Hispanic vs. White non-Hispanic) discrimination in DDS expenditures? Why or why not?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecordings\n\n\n\nTopic\nSlides (F23)\nRecording Link (F23)\nDuration\n\n\n\n\nExploratory Data Analysis\nDay 3: slides 1-59\nDay 3\n1 hr 18 min"
+    "text": "Day05\n\nSlides\nFall 2023: Day 3\n\nhtml\npdf\nwebpage\nCode file: qmd, html\n\n\n\nClass discussion (still updating)\n\nCan distribution shape and sample size be determined from a boxplot? (see slide 30)\nIs there evidence of ethnicity (Hispanic vs. White non-Hispanic) discrimination in DDS expenditures? Why or why not?"
   },
   {
     "objectID": "weeks/week_03.html#homework---coming-soon",
     "href": "weeks/week_03.html#homework---coming-soon",
     "title": "Week 3",
     "section": "Homework - coming soon!",
-    "text": "Homework - coming soon!"
+    "text": "Homework - coming soon!\n\nHW 2 due on Sat, 10/19"
   },
   {
     "objectID": "instructors.html",
@@ -110,6 +124,13 @@
     "title": "Instructors",
     "section": "TA: Katie Hand",
     "text": "TA: Katie Hand\n\nEmail: handka@ohsu.edu\n\n\nOffice Hours: TBD"
+  },
+  {
+    "objectID": "homework.html",
+    "href": "homework.html",
+    "title": "Assignments",
+    "section": "",
+    "text": "Note\n\n\n\n\nBelow are links to homework assignments.\nThe dates in the Date column are due dates.\nSee the Grading rubric tab to the left for a description of how assignments will be graded.\n\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\n10/12/24\n\n\nHW 1: BSTA 511/611 F24\n\n\n\n\n10/19/24\n\n\nHW 2: BSTA 511/611 F24\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/Projects_in_R.html",
@@ -1159,7 +1180,189 @@
     "href": "weeks.html",
     "title": "Weekly Pages",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n9/30/24\n\n\nWeek 1\n\n\nIntro to R & RStudio\n\n\n\n\n10/7/24\n\n\nWeek 2\n\n\nData collection & EDA\n\n\n\n\n10/14/24\n\n\nWeek 3\n\n\nProbability\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n9/30/24\n\n\nWeek 1\n\n\nIntro to R & RStudio\n\n\n\n\n10/7/24\n\n\nWeek 2\n\n\nData collection & Probability\n\n\n\n\n10/14/24\n\n\nWeek 3\n\n\nBayes’ Rule & EDA\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html",
+    "href": "homework/HW_1_F24_bsta511.html",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "",
+    "text": "Due 10/12/24\nDownload the .qmd file for this assignment from https://github.com/niederhausen/BSTA_511_F24/blob/main/homework/HW_1_F24_bsta511.qmd"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#graded-exercises",
+    "href": "homework/HW_1_F24_bsta511.html#graded-exercises",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "Graded exercises",
+    "text": "Graded exercises\nThe exercises listed below will be graded for this assignment. You are strongly encouraged to complete the entire assignment. You will receive feedback on exercises you turn in that are not being graded.\n\nBook exercises\n\n1.12, 1.20, 1.31, 2.6, 2.14\n\nR exercises\n\nR2: BRFSS"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#directions",
+    "href": "homework/HW_1_F24_bsta511.html#directions",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "Directions",
+    "text": "Directions\n\n\n\n\n\n\nImportant\n\n\n\n\n* Starred exercises in the section Book exercises may be completed by hand (such as on paper or using a tablet) not using Quarto.\nIf you complete this part of the assignment not using Quarto, you will be uploading 3 files on Sakai for this HW: qmd & html files for your R work, and a pdf with your written work.\nIf you are completing the homework on paper, you can use a scanning app, such as Adobe Scan, to create a pdf of your assignment.\n\n\n\n\nPlease upload your homework to Sakai. Upload both your .qmd code file and the rendered .html file.\n\nUse the assignment .qmd file linked to above as a template for your own assignment.\n\nFor each question, make sure to show all of your work. This includes all code and resulting output in the html file to support your answers for exercises requiring work done in R (including any arithmetic calculations).\nFor each question, include a sentence summarizing the answer for that question in the context of the research question.\n\n\n\n\n\n\n\nTip\n\n\n\nIt is a good idea to try rendering your document from time to time as you go along! Note that rendering automatically saves your Qmd file and rendering frequently helps you catch your errors more quickly."
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#a-upload-a-photo-using-sakai-submission",
+    "href": "homework/HW_1_F24_bsta511.html#a-upload-a-photo-using-sakai-submission",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "a) Upload a photo using Sakai submission",
+    "text": "a) Upload a photo using Sakai submission\nTo help me learn your names and faces, please upload a photo of yourself on Sakai. You will find the Upload Photo “assignment” in the Assignments section of Sakai. These photos will only be seen by me and the TA."
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#b-background-survey",
+    "href": "homework/HW_1_F24_bsta511.html#b-background-survey",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "b) Background survey",
+    "text": "b) Background survey\n\nPlease fill out the background survey at https://forms.gle/dG5RLcurrhJzXMrX9.\n\nNo work to be shown here."
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#c-slack-post",
+    "href": "homework/HW_1_F24_bsta511.html#c-slack-post",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "c) Slack post",
+    "text": "c) Slack post\n\nIntroduce yourself to the class by posting a message in the #random channel on the BSTA 511/611 Slack group.\n\nSlack invite link: https://join.slack.com/t/bsta511611f24/shared_invite/zt-2rla7k81t-_SMUapKP6pVCpJgYZAfRkg\nNo work to be shown here."
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#sinusitis-and-antibiotics-part-i.",
+    "href": "homework/HW_1_F24_bsta511.html#sinusitis-and-antibiotics-part-i.",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "1.2 Sinusitis and antibiotics, Part I.",
+    "text": "1.2 Sinusitis and antibiotics, Part I.\n\nShow the work of your calculations using R code within a code chunk. Make sure that both your code and output are visible in the rendered html file.\nWrite your answers in complete sentences as if communicating the results to a collaborator.\nIf you are having difficulty with exercise 1.2, take a look at exercise 1.1, whose answers are at the back of the book."
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#buteyko-method-study-components",
+    "href": "homework/HW_1_F24_bsta511.html#buteyko-method-study-components",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "1.4 Buteyko method, study components",
+    "text": "1.4 Buteyko method, study components"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#smoking-habits-of-uk-residents",
+    "href": "homework/HW_1_F24_bsta511.html#smoking-habits-of-uk-residents",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "1.8 Smoking habits of UK residents",
+    "text": "1.8 Smoking habits of UK residents"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#herbal-remedies",
+    "href": "homework/HW_1_F24_bsta511.html#herbal-remedies",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "1.12 Herbal remedies",
+    "text": "1.12 Herbal remedies"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#city-council-survey",
+    "href": "homework/HW_1_F24_bsta511.html#city-council-survey",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "1.20 City council survey",
+    "text": "1.20 City council survey"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#income-at-the-coffee-shop",
+    "href": "homework/HW_1_F24_bsta511.html#income-at-the-coffee-shop",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "1.31 Income at the coffee shop",
+    "text": "1.31 Income at the coffee shop"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#midrange",
+    "href": "homework/HW_1_F24_bsta511.html#midrange",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "1.32 Midrange",
+    "text": "1.32 Midrange"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#smoking-and-stenosis",
+    "href": "homework/HW_1_F24_bsta511.html#smoking-and-stenosis",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "1.38 Smoking and stenosis",
+    "text": "1.38 Smoking and stenosis\nSee Section 1.6.2 for more on how the relative risk is calculated."
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#poverty-and-language",
+    "href": "homework/HW_1_F24_bsta511.html#poverty-and-language",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "* 2.6 Poverty and language",
+    "text": "* 2.6 Poverty and language\nPart (b) asks you to create a Venn Diagram. If you are submitting this question in R, you do not need to turn this part in. If you want an R challenge though, you can use the VennDiagram or other package to create one. See https://www.geeksforgeeks.org/how-to-create-a-venn-diagram-in-r/ for some examples."
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#school-absences",
+    "href": "homework/HW_1_F24_bsta511.html#school-absences",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "* 2.8 School absences",
+    "text": "* 2.8 School absences\nPart (b) asks you to create a Venn Diagram. If you are submitting this question in R, you do not need to turn this part in. If you want an R challenge though, you can use the VennDiagram or other package to create one. See https://www.geeksforgeeks.org/how-to-create-a-venn-diagram-in-r/ for some examples."
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#health-coverage-frequencies",
+    "href": "homework/HW_1_F24_bsta511.html#health-coverage-frequencies",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "* 2.10 Health coverage, frequencies",
+    "text": "* 2.10 Health coverage, frequencies"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#health-coverage-relative-frequencies",
+    "href": "homework/HW_1_F24_bsta511.html#health-coverage-relative-frequencies",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "* 2.14 Health coverage, relative frequencies",
+    "text": "* 2.14 Health coverage, relative frequencies"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#load-all-the-packages-you-need-below-here.",
+    "href": "homework/HW_1_F24_bsta511.html#load-all-the-packages-you-need-below-here.",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "!!! Load all the packages you need below here.",
+    "text": "!!! Load all the packages you need below here."
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#r1-formatting-text-practice",
+    "href": "homework/HW_1_F24_bsta511.html#r1-formatting-text-practice",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "R1: Formatting text practice",
+    "text": "R1: Formatting text practice\nWrite a sentence (or a few) using all the different types of formatting text shown in slide 29 of the Day 1 slides. Your choice of text does not matter or even need to make sense. Although the TA will appreciate it if you make them laugh."
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#r2-brfss",
+    "href": "homework/HW_1_F24_bsta511.html#r2-brfss",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "R2: BRFSS",
+    "text": "R2: BRFSS\n\nThe Behavioral Risk Factor Surveillance System (BRFSS) is an annual telephone survey of 350,000 people in the United States. The BRFSS is designed to identify risk factors in the adult population and report emerging health trends. For example, respondents are asked about their diet, weekly exercise, possible tobacco use, and health care coverage.\n\n\nThe dataset cdc is a sample of 20,000 people from the survey conducted in 2000, and contains responses from a subset of the questions asked on the survey.\n\n\nLoad the cdc dataset from the web using the source() command below:\n\n\nsource(\"http://www.openintro.org/stat/data/cdc.R\")\n\n\nAnswer the questions below about the cdc dataset.\nPlease do not delete the statements of the questions so that they remained numbered in the correct order.\nShow the work of your calculations using R code within a code chunk. Make sure that both your code and output are visible in the knitted html file.\nWrite your answers in complete sentences as if communicating the results to a collaborator."
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#a-how-many-rows-and-columns-are-in-the-dataset",
+    "href": "homework/HW_1_F24_bsta511.html#a-how-many-rows-and-columns-are-in-the-dataset",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "a) How many rows and columns are in the dataset?",
+    "text": "a) How many rows and columns are in the dataset?"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#b-variable-types",
+    "href": "homework/HW_1_F24_bsta511.html#b-variable-types",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "b) Variable types",
+    "text": "b) Variable types\nFor each variable, what identify both its “statistical” variable type (numerical (discrete, continuous) or categorical (nominal, ordinal) and its R variable type.\nFill in your answers in the table I created below.\n\n\n\nvariable name\nR type\nvariable type\n\n\n\n\ngenhlth\nfill in\nfill in\n\n\nexerany\netc.\n\n\n\nhlthplan\n\n\n\n\nsmoke100\n\n\n\n\nheight\n\n\n\n\nweight\n\n\n\n\nwtdesire\n\n\n\n\nage\n\n\n\n\ngender"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#c-average-weight-vs.-desired-weight",
+    "href": "homework/HW_1_F24_bsta511.html#c-average-weight-vs.-desired-weight",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "c) Average weight vs. desired weight",
+    "text": "c) Average weight vs. desired weight\nWhat is the difference between the average weight and the average desired weight?"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#d-compare-variability",
+    "href": "homework/HW_1_F24_bsta511.html#d-compare-variability",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "d) Compare variability",
+    "text": "d) Compare variability\nWhich of the height, weight, and desired weight variables has the most variability? Which has the least variability?"
+  },
+  {
+    "objectID": "homework/HW_1_F24_bsta511.html#e-mean-of-the-hlthplan",
+    "href": "homework/HW_1_F24_bsta511.html#e-mean-of-the-hlthplan",
+    "title": "HW 1: BSTA 511/611 F24",
+    "section": "e) Mean of the hlthplan",
+    "text": "e) Mean of the hlthplan\nCalculate the mean of the hlthplan variable. How do we interpret this mean? In other words, what does this mean measure?"
   },
   {
     "objectID": "slides_md/Day02_bsta511_md.html",
@@ -2198,6 +2401,13 @@
     "text": "What packages are included in the tidyverse?\n\n\nCore packages\nThese automatically load when loading the tidyverse package\n\n\n\nhttps://www.tidyverse.org/\n\n\n\nList of all packages:\n\ntidyverse_packages(include_self = TRUE)\n\n [1] \"broom\"         \"conflicted\"    \"cli\"           \"dbplyr\"       \n [5] \"dplyr\"         \"dtplyr\"        \"forcats\"       \"ggplot2\"      \n [9] \"googledrive\"   \"googlesheets4\" \"haven\"         \"hms\"          \n[13] \"httr\"          \"jsonlite\"      \"lubridate\"     \"magrittr\"     \n[17] \"modelr\"        \"pillar\"        \"purrr\"         \"ragg\"         \n[21] \"readr\"         \"readxl\"        \"reprex\"        \"rlang\"        \n[25] \"rstudioapi\"    \"rvest\"         \"stringr\"       \"tibble\"       \n[29] \"tidyr\"         \"xml2\"          \"tidyverse\"    \n\n\n\nPackages not a part of the core get installed with the tidyverse suite, but need to be loaded separately.\n\nSee https://www.tidyverse.org/packages/ for more info."
   },
   {
+    "objectID": "rubric.html",
+    "href": "rubric.html",
+    "title": "Grading rubric",
+    "section": "",
+    "text": "Grading Rubric (10 pts max):\nAssignments will be graded using the rubric below.\n\nAnswers: 4 pts \nDemonstrating process: 3 pts\nProviding context and relevance: 3 pts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4 points\n3 points\n2 points\n1 point\n0 points\n\n\nAnswers\n(4 pts max)\nAnswers are correct at least 90% of the time\nAnswers are usually correct (75-90%)\nAnswers are sometimes correct (50-74%)\nAnswers are generally incorrect (&lt;50%)\nAnswers are incorrect and no work was shown (demonstrating process has 0 pts)\n\n\nDemonstrating process\n(3 pts max)\n\nAll relevant work is shown, including all steps for figuring out answers.\nR code and output are provided for every question for which R was used.\nRelevant work and steps for figuring out answers are generally provided but incomplete.\nR code and output are generally provided but incomplete for questions that use R.\nRelevant work and steps for figuring out answers are generally missing.\nR code and output are generally missing for questions that use R.\nNo relevant work is shown, including steps for figuring out answers.\nR code and output are not provided for questions for which R was used.\n\n\nProviding context and relevance\n(3 pts max)\n\nAnswers are given in complete sentences with all relevant information for the question as appropriate (context of research question, units, descriptive statistics, explanation of what data visualization is showing, confidence intervals, p-values, test- statistics, etc.), and interpretation of results.\nAnswers are given in complete sentences. Some relevant information may be provided, but much is missing. Context of research question only sometimes provided.\nAnswers are rarely given in complete sentences. Relevant information is not provided. Little to no context is provided.\nAnswers are not in complete sentences. Relevant information and context are not provided."
+  },
+  {
     "objectID": "slides_code/Day02_bsta511_code.html",
     "href": "slides_code/Day02_bsta511_code.html",
     "title": "Day 2: Data collection & numerical summaries",
@@ -2828,290 +3038,178 @@
     "text": "Week\nDates\nDay\nTopics\nChapter sections\n\n\n\n\n1\nM 9/30\n0\nNo class:  OHSU New Student Orientation\n\n\n\n\nW 10/2\n1\nIntroduction to R & RStudio\n\n\n\n2\nM 10/7\n2\nIntro to Data, Data collection\n1.1-1.3\n\n\n\nW 10/9\n3\nSummarizing numerical data,  Probability\n1.4, 2.1-2.2.4\n\n\n3\nM 10/14\n4\nBayes’ Theorem, R Packages\n2.2.5, extra\n\n\n\nW 10/16\n5\nData visualization,  exploratory data analysis (EDA),  and summarizing categorical data\n1.5-1.7, extra\n\n\n4\nM 10/21\n6\nRandom variables,  Binomial distribution\n3.1-3.2\n\n\n\nW 10/23\n7\nNormal and Poisson distributions\n3.3-3.4\n\n\n5\nM 10/28\n8\nVariability in estimates\n4.1\n\n\n\nW 10/30\n9\nConfidence Intervals\n4.2\n\n\n6\nM 11/4\n\nExam 1: Days 1-7\nCh 1, 2, 3.1-3.4\n\n\n\nW 11/6\n10\nHypothesis Testing:  Single-sample with t-distribution  & Two-sample paired data\n4.3, 5.1, 5.2\n\n\n7\nM 11/11\n11\nHypothesis Testing:  Two-sample independent data;  Power\n5.3-5.4, extra\n\n\n\nW 11/13\n12\nInference for a single proportion  or difference in proportions\n8.1-8.2\n\n\n8\nM 11/18\n13\nChi-squared tests,  Fishers exact test\n8.3-8.4\n\n\n\nW 11/20\n14\nComparing Means with ANOVA.\n5.5, extra\n\n\n9\nM 11/25\n\nExam 2: Days 8-13\nCh 4, 5.1-5.4;  extra, 8.1-8.4\n\n\n\nW 11/27\n15\nSimple Linear Regression\n6.1-6.2\n\n\n10\nM 12/2\n16\nSimple Linear Regression\n6.3-6.4\n\n\n\nW 12/4\n17\nNon-parametric tests  (sign, signed-rank, rank-sum,  Kruskal-Wallis)\nExtra\n\n\n11\nM 12/9\n\nReview - catch up\n\n\n\n\nW 12/11\n\nExam 3 due (take home): Days 14-17\nCh 5.5, 6,  non-parametric"
   },
   {
-    "objectID": "homework/HW_1_F24_bsta511.html",
-    "href": "homework/HW_1_F24_bsta511.html",
-    "title": "HW 1: BSTA 511/611 F24",
+    "objectID": "weeks/week_03.html#overview-of-week-3",
+    "href": "weeks/week_03.html#overview-of-week-3",
+    "title": "Week 3",
     "section": "",
-    "text": "Due 10/12/24\nDownload the .qmd file for this assignment from https://github.com/niederhausen/BSTA_511_F24/blob/main/homework/HW_1_F24_bsta511.qmd"
+    "text": "Bayes’ Rule (Fall 2023: Day 5)\n\nSection 2.2.5\n\nR Packages (Fall 2023: Day 2)\n\n\n\n\nFall 2023: Day 3\n\nData visualization, exploratory data analysis (EDA), and summarizing categorical data\n\nSections 1.5-1.7 & supplementary material\n\n\n\n\n\n\n\n\nNote\n\n\n\nAs I mentioned in the recording, the various options in more complex figures I usually look up how to implement when I need them. I show them so that you are aware of some of the functionality and options one has in creating figures using the ggplot2 package. At the end of the slides, we cover how to create tables summarizing data, especially categorical data. This part has some very useful code and data wrangling in it."
   },
   {
-    "objectID": "homework/HW_1_F24_bsta511.html#graded-exercises",
-    "href": "homework/HW_1_F24_bsta511.html#graded-exercises",
-    "title": "HW 1: BSTA 511/611 F24",
+    "objectID": "weeks/week_03.html#slides-recordings",
+    "href": "weeks/week_03.html#slides-recordings",
+    "title": "Week 3",
+    "section": "Slides & Recordings",
+    "text": "Slides & Recordings\n\nPre-recorded lessons are on Echo Cloud (aka echo 360 or echo video).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDay\nTopic\nSlides (F23): html\nSlides: pdf\nSlides: web-page\nSlides with notes\nRecording Link (F23)\nDuration\nCode: qmd\nCode: html\n\n\n\n\n4\nBayes’ Rule (Book section 2.2.5)\nDay 5: slides 1-2\n\n\n\nDay 5 Part 1\n22 min\n\n\n\n\n\nBayes’ Rule (Book section 2.2.5)\nDay 5: slides 3-6\n\n\n\nDay 5 Part 2\n22 min\n\n\n\n\n\nR packages\nDay 2: slides 47-54\n\n\n\nDay 2 Part 4\n30 min\n\n\n\n\n5\nExploratory Data Analysis\nDay 3: slides 1-59\n\n\n\nDay 3\n1 hr 18 min"
+  },
+  {
+    "objectID": "weeks/week_03.html#class-discussion-still-updating",
+    "href": "weeks/week_03.html#class-discussion-still-updating",
+    "title": "Week 3",
+    "section": "Class discussion (still updating)",
+    "text": "Class discussion (still updating)\nDuring class you will be working in groups discussing the following:\n\n\nDay04\n\nR Packages (Fall 2023: Day 2)\n\nR packages: any difficulty installing packages?\n\nBayes’ Rule (Fall 2023: Day 5)\n\nExample 2.10 on pg 6 of slides\n\nFrom HW 2\n\nBook exercises\n\n2.24\n\nNon-book exercise\n\n\n\n\nDay05\n\nCan distribution shape and sample size be determined from a boxplot? (see slide 30)\nIs there evidence of ethnicity (Hispanic vs. White non-Hispanic) discrimination in DDS expenditures? Why or why not?\nFrom HW 2\n\nR1 & R2: NHANES - parts 1 & 2"
+  },
+  {
+    "objectID": "homework/HW_2_F24_bsta511.html",
+    "href": "homework/HW_2_F24_bsta511.html",
+    "title": "HW 2: BSTA 511/611 F24",
+    "section": "",
+    "text": "Due 10/19/24\nDownload the .qmd file for this assignment from https://github.com/niederhausen/BSTA_511_F24/blob/main/homework/HW_2_F24_bsta511.qmd"
+  },
+  {
+    "objectID": "homework/HW_2_F24_bsta511.html#graded-exercises",
+    "href": "homework/HW_2_F24_bsta511.html#graded-exercises",
+    "title": "HW 2: BSTA 511/611 F24",
     "section": "Graded exercises",
-    "text": "Graded exercises\nThe exercises listed below will be graded for this assignment. You are strongly encouraged to complete the entire assignment. You will receive feedback on exercises you turn in that are not being graded.\n\nBook exercises\n\n1.12, 1.20, 1.31, 2.6, 2.14\n\nR exercises\n\nR2: BRFSS"
+    "text": "Graded exercises\nThe exercises listed below will be graded for this assignment. You are strongly encouraged to complete the entire assignment. You will receive feedback on exercises you turn in that are not being graded.\n\nBook exercises\n\n2.24\n\nNon-book exercise\nR exercises\n\nR1: NHANES - part 1\nR2: NHANES - part 2"
   },
   {
-    "objectID": "homework/HW_1_F24_bsta511.html#directions",
-    "href": "homework/HW_1_F24_bsta511.html#directions",
-    "title": "HW 1: BSTA 511/611 F24",
+    "objectID": "homework/HW_2_F24_bsta511.html#directions",
+    "href": "homework/HW_2_F24_bsta511.html#directions",
+    "title": "HW 2: BSTA 511/611 F24",
     "section": "Directions",
-    "text": "Directions\n\n\n\n\n\n\nImportant\n\n\n\n\n* Starred exercises in the section Book exercises may be completed by hand (such as on paper or using a tablet) not using Quarto.\nIf you complete this part of the assignment not using Quarto, you will be uploading 3 files on Sakai for this HW: qmd & html files for your R work, and a pdf with your written work.\nIf you are completing the homework on paper, you can use a scanning app, such as Adobe Scan, to create a pdf of your assignment.\n\n\n\n\nPlease upload your homework to Sakai. Upload both your .qmd code file and the rendered .html file.\n\nUse the assignment .qmd file linked to above as a template for your own assignment.\n\nFor each question, make sure to show all of your work. This includes all code and resulting output in the html file to support your answers for exercises requiring work done in R (including any arithmetic calculations).\nFor each question, include a sentence summarizing the answer for that question in the context of the research question.\n\n\n\n\n\n\n\nTip\n\n\n\nIt is a good idea to try rendering your document from time to time as you go along! Note that rendering automatically saves your Qmd file and rendering frequently helps you catch your errors more quickly."
+    "text": "Directions\n\n\n\n\n\n\nImportant\n\n\n\n\n* Starred exercises in the section Book exercises may be completed by hand (such as on paper or using a tablet) not using Quarto.\nIf you complete this part of the assignment not using Quarto, you will be uploading 3 files on Sakai for this HW: qmd & html files for your R work, and a pdf with your written work.\nIf you are completing the homework on paper, you can use a scanning app, such as Adobe Scan, to create a pdf of your assignment.\nIf you decided to type the solutions to these exercises in this Quarto file, I highly recommend using LaTeX to format the equations.\n\nFor instrctions on creating equations in the Visual editor, check out https://quarto.org/docs/get-started/authoring/rstudio.html#equations.\nYou can see examples of LaTeX formatting in the solutions to HW 1.\nAlso check out examples of LaTeX formatting for statistics created by recent biostats alumn Ariel Weingarten.\nIf you have difficulty rendering the LaTeX equations, I recommend installing and running the R package tinytex. See this website for instructions.\n\n\n\n\n\nPlease upload your homework to Sakai. Upload both your .qmd code file and the rendered .html file.\n\nUse the assignment .qmd file linked to above as a template for your own assignment.\n\nPlease always use the following naming convention for submitting your files:\n\nLastname_Firstname_HWx.qmd, such as Niederhausen_Meike_HW2.qmd\nLastname_Firstname_HWx.html, such as Niederhausen_Meike_HW2.html\n\nFor each question, make sure to show all of your work. This includes all code and resulting output in the html file to support your answers for exercises requiring work done in R (including any arithmetic calculations).\nFor each question, include a sentence summarizing the answer for that question in the context of the research question.\n\n\n\n\n\n\n\nTip\n\n\n\nIt is a good idea to try rendering your document from time to time as you go along! Note that rendering automatically saves your Qmd file and rendering frequently helps you catch your errors more quickly."
   },
   {
-    "objectID": "homework/HW_1_F24_bsta511.html#a-upload-a-photo-using-sakai-submission",
-    "href": "homework/HW_1_F24_bsta511.html#a-upload-a-photo-using-sakai-submission",
-    "title": "HW 1: BSTA 511/611 F24",
-    "section": "a) Upload a photo using Sakai submission",
-    "text": "a) Upload a photo using Sakai submission\nTo help me learn your names and faces, please upload a photo of yourself on Sakai. You will find the Upload Photo “assignment” in the Assignments section of Sakai. These photos will only be seen by me and the TA."
+    "objectID": "homework/HW_2_F24_bsta511.html#income-and-education-in-us-counties",
+    "href": "homework/HW_2_F24_bsta511.html#income-and-education-in-us-counties",
+    "title": "HW 2: BSTA 511/611 F24",
+    "section": "1.24 Income and education in US counties",
+    "text": "1.24 Income and education in US counties"
   },
   {
-    "objectID": "homework/HW_1_F24_bsta511.html#b-background-survey",
-    "href": "homework/HW_1_F24_bsta511.html#b-background-survey",
-    "title": "HW 1: BSTA 511/611 F24",
-    "section": "b) Background survey",
-    "text": "b) Background survey\n\nPlease fill out the background survey at https://forms.gle/dG5RLcurrhJzXMrX9.\n\nNo work to be shown here."
+    "objectID": "homework/HW_2_F24_bsta511.html#mix-and-match",
+    "href": "homework/HW_2_F24_bsta511.html#mix-and-match",
+    "title": "HW 2: BSTA 511/611 F24",
+    "section": "1.28 Mix-and-match",
+    "text": "1.28 Mix-and-match"
   },
   {
-    "objectID": "homework/HW_1_F24_bsta511.html#c-slack-post",
-    "href": "homework/HW_1_F24_bsta511.html#c-slack-post",
-    "title": "HW 1: BSTA 511/611 F24",
-    "section": "c) Slack post",
-    "text": "c) Slack post\n\nIntroduce yourself to the class by posting a message in the #random channel on the BSTA 511/611 Slack group.\n\nSlack invite link: https://join.slack.com/t/bsta511611f24/shared_invite/zt-2rla7k81t-_SMUapKP6pVCpJgYZAfRkg\nNo work to be shown here."
+    "objectID": "homework/HW_2_F24_bsta511.html#associations",
+    "href": "homework/HW_2_F24_bsta511.html#associations",
+    "title": "HW 2: BSTA 511/611 F24",
+    "section": "1.36 Associations",
+    "text": "1.36 Associations"
   },
   {
-    "objectID": "homework/HW_1_F24_bsta511.html#sinusitis-and-antibiotics-part-i.",
-    "href": "homework/HW_1_F24_bsta511.html#sinusitis-and-antibiotics-part-i.",
-    "title": "HW 1: BSTA 511/611 F24",
-    "section": "1.2 Sinusitis and antibiotics, Part I.",
-    "text": "1.2 Sinusitis and antibiotics, Part I.\n\nShow the work of your calculations using R code within a code chunk. Make sure that both your code and output are visible in the rendered html file.\nWrite your answers in complete sentences as if communicating the results to a collaborator.\nIf you are having difficulty with exercise 1.2, take a look at exercise 1.1, whose answers are at the back of the book."
+    "objectID": "homework/HW_2_F24_bsta511.html#predisposition-for-thrombosis",
+    "href": "homework/HW_2_F24_bsta511.html#predisposition-for-thrombosis",
+    "title": "HW 2: BSTA 511/611 F24",
+    "section": "* 2.18 Predisposition for thrombosis",
+    "text": "* 2.18 Predisposition for thrombosis"
   },
   {
-    "objectID": "homework/HW_1_F24_bsta511.html#buteyko-method-study-components",
-    "href": "homework/HW_1_F24_bsta511.html#buteyko-method-study-components",
-    "title": "HW 1: BSTA 511/611 F24",
-    "section": "1.4 Buteyko method, study components",
-    "text": "1.4 Buteyko method, study components"
+    "objectID": "homework/HW_2_F24_bsta511.html#breast-cancer-and-age",
+    "href": "homework/HW_2_F24_bsta511.html#breast-cancer-and-age",
+    "title": "HW 2: BSTA 511/611 F24",
+    "section": "* 2.24 Breast cancer and age",
+    "text": "* 2.24 Breast cancer and age"
   },
   {
-    "objectID": "homework/HW_1_F24_bsta511.html#smoking-habits-of-uk-residents",
-    "href": "homework/HW_1_F24_bsta511.html#smoking-habits-of-uk-residents",
-    "title": "HW 1: BSTA 511/611 F24",
-    "section": "1.8 Smoking habits of UK residents",
-    "text": "1.8 Smoking habits of UK residents"
-  },
-  {
-    "objectID": "homework/HW_1_F24_bsta511.html#herbal-remedies",
-    "href": "homework/HW_1_F24_bsta511.html#herbal-remedies",
-    "title": "HW 1: BSTA 511/611 F24",
-    "section": "1.12 Herbal remedies",
-    "text": "1.12 Herbal remedies"
-  },
-  {
-    "objectID": "homework/HW_1_F24_bsta511.html#city-council-survey",
-    "href": "homework/HW_1_F24_bsta511.html#city-council-survey",
-    "title": "HW 1: BSTA 511/611 F24",
-    "section": "1.20 City council survey",
-    "text": "1.20 City council survey"
-  },
-  {
-    "objectID": "homework/HW_1_F24_bsta511.html#income-at-the-coffee-shop",
-    "href": "homework/HW_1_F24_bsta511.html#income-at-the-coffee-shop",
-    "title": "HW 1: BSTA 511/611 F24",
-    "section": "1.31 Income at the coffee shop",
-    "text": "1.31 Income at the coffee shop"
-  },
-  {
-    "objectID": "homework/HW_1_F24_bsta511.html#midrange",
-    "href": "homework/HW_1_F24_bsta511.html#midrange",
-    "title": "HW 1: BSTA 511/611 F24",
-    "section": "1.32 Midrange",
-    "text": "1.32 Midrange"
-  },
-  {
-    "objectID": "homework/HW_1_F24_bsta511.html#smoking-and-stenosis",
-    "href": "homework/HW_1_F24_bsta511.html#smoking-and-stenosis",
-    "title": "HW 1: BSTA 511/611 F24",
-    "section": "1.38 Smoking and stenosis",
-    "text": "1.38 Smoking and stenosis\nSee Section 1.6.2 for more on how the relative risk is calculated."
-  },
-  {
-    "objectID": "homework/HW_1_F24_bsta511.html#poverty-and-language",
-    "href": "homework/HW_1_F24_bsta511.html#poverty-and-language",
-    "title": "HW 1: BSTA 511/611 F24",
-    "section": "* 2.6 Poverty and language",
-    "text": "* 2.6 Poverty and language\nPart (b) asks you to create a Venn Diagram. If you are submitting this question in R, you do not need to turn this part in. If you want an R challenge though, you can use the VennDiagram or other package to create one. See https://www.geeksforgeeks.org/how-to-create-a-venn-diagram-in-r/ for some examples."
-  },
-  {
-    "objectID": "homework/HW_1_F24_bsta511.html#school-absences",
-    "href": "homework/HW_1_F24_bsta511.html#school-absences",
-    "title": "HW 1: BSTA 511/611 F24",
-    "section": "* 2.8 School absences",
-    "text": "* 2.8 School absences\nPart (b) asks you to create a Venn Diagram. If you are submitting this question in R, you do not need to turn this part in. If you want an R challenge though, you can use the VennDiagram or other package to create one. See https://www.geeksforgeeks.org/how-to-create-a-venn-diagram-in-r/ for some examples."
-  },
-  {
-    "objectID": "homework/HW_1_F24_bsta511.html#health-coverage-frequencies",
-    "href": "homework/HW_1_F24_bsta511.html#health-coverage-frequencies",
-    "title": "HW 1: BSTA 511/611 F24",
-    "section": "* 2.10 Health coverage, frequencies",
-    "text": "* 2.10 Health coverage, frequencies"
-  },
-  {
-    "objectID": "homework/HW_1_F24_bsta511.html#health-coverage-relative-frequencies",
-    "href": "homework/HW_1_F24_bsta511.html#health-coverage-relative-frequencies",
-    "title": "HW 1: BSTA 511/611 F24",
-    "section": "* 2.14 Health coverage, relative frequencies",
-    "text": "* 2.14 Health coverage, relative frequencies"
-  },
-  {
-    "objectID": "homework/HW_1_F24_bsta511.html#load-all-the-packages-you-need-below-here.",
-    "href": "homework/HW_1_F24_bsta511.html#load-all-the-packages-you-need-below-here.",
-    "title": "HW 1: BSTA 511/611 F24",
+    "objectID": "homework/HW_2_F24_bsta511.html#load-all-the-packages-you-need-below-here.",
+    "href": "homework/HW_2_F24_bsta511.html#load-all-the-packages-you-need-below-here.",
+    "title": "HW 2: BSTA 511/611 F24",
     "section": "!!! Load all the packages you need below here.",
     "text": "!!! Load all the packages you need below here."
   },
   {
-    "objectID": "homework/HW_1_F24_bsta511.html#r1-formatting-text-practice",
-    "href": "homework/HW_1_F24_bsta511.html#r1-formatting-text-practice",
-    "title": "HW 1: BSTA 511/611 F24",
-    "section": "R1: Formatting text practice",
-    "text": "R1: Formatting text practice\nWrite a sentence (or a few) using all the different types of formatting text shown in slide 29 of the Day 1 slides. Your choice of text does not matter or even need to make sense. Although the TA will appreciate it if you make them laugh."
+    "objectID": "homework/HW_2_F24_bsta511.html#a-dimensions-and-columns",
+    "href": "homework/HW_2_F24_bsta511.html#a-dimensions-and-columns",
+    "title": "HW 2: BSTA 511/611 F24",
+    "section": "a) Dimensions and columns",
+    "text": "a) Dimensions and columns\nWhat are the dimensions and column names of the dataset?"
   },
   {
-    "objectID": "homework/HW_1_F24_bsta511.html#r2-brfss",
-    "href": "homework/HW_1_F24_bsta511.html#r2-brfss",
-    "title": "HW 1: BSTA 511/611 F24",
-    "section": "R2: BRFSS",
-    "text": "R2: BRFSS\n\nThe Behavioral Risk Factor Surveillance System (BRFSS) is an annual telephone survey of 350,000 people in the United States. The BRFSS is designed to identify risk factors in the adult population and report emerging health trends. For example, respondents are asked about their diet, weekly exercise, possible tobacco use, and health care coverage.\n\n\nThe dataset cdc is a sample of 20,000 people from the survey conducted in 2000, and contains responses from a subset of the questions asked on the survey.\n\n\nLoad the cdc dataset from the web using the source() command below:\n\n\nsource(\"http://www.openintro.org/stat/data/cdc.R\")\n\n\nAnswer the questions below about the cdc dataset.\nPlease do not delete the statements of the questions so that they remained numbered in the correct order.\nShow the work of your calculations using R code within a code chunk. Make sure that both your code and output are visible in the knitted html file.\nWrite your answers in complete sentences as if communicating the results to a collaborator."
+    "objectID": "homework/HW_2_F24_bsta511.html#b-unique-id-identifiers",
+    "href": "homework/HW_2_F24_bsta511.html#b-unique-id-identifiers",
+    "title": "HW 2: BSTA 511/611 F24",
+    "section": "b) Unique ID identifiers",
+    "text": "b) Unique ID identifiers\nHow many unique ID identifiers are in the dataset? Compare this to the number of rows in the dataset. What is the explanation for these two different numbers?"
   },
   {
-    "objectID": "homework/HW_1_F24_bsta511.html#a-how-many-rows-and-columns-are-in-the-dataset",
-    "href": "homework/HW_1_F24_bsta511.html#a-how-many-rows-and-columns-are-in-the-dataset",
-    "title": "HW 1: BSTA 511/611 F24",
-    "section": "a) How many rows and columns are in the dataset?",
-    "text": "a) How many rows and columns are in the dataset?"
+    "objectID": "homework/HW_2_F24_bsta511.html#c-age-distributions",
+    "href": "homework/HW_2_F24_bsta511.html#c-age-distributions",
+    "title": "HW 2: BSTA 511/611 F24",
+    "section": "c) Age distributions",
+    "text": "c) Age distributions\nUsing numerical and graphical summaries, describe the distribution of ages among study participants."
   },
   {
-    "objectID": "homework/HW_1_F24_bsta511.html#b-variable-types",
-    "href": "homework/HW_1_F24_bsta511.html#b-variable-types",
-    "title": "HW 1: BSTA 511/611 F24",
-    "section": "b) Variable types",
-    "text": "b) Variable types\nFor each variable, what identify both its “statistical” variable type (numerical (discrete, continuous) or categorical (nominal, ordinal) and its R variable type.\nFill in your answers in the table I created below.\n\n\n\nvariable name\nR type\nvariable type\n\n\n\n\ngenhlth\nfill in\nfill in\n\n\nexerany\netc.\n\n\n\nhlthplan\n\n\n\n\nsmoke100\n\n\n\n\nheight\n\n\n\n\nweight\n\n\n\n\nwtdesire\n\n\n\n\nage\n\n\n\n\ngender"
+    "objectID": "homework/HW_2_F24_bsta511.html#d-height-distributions",
+    "href": "homework/HW_2_F24_bsta511.html#d-height-distributions",
+    "title": "HW 2: BSTA 511/611 F24",
+    "section": "d) Height distributions",
+    "text": "d) Height distributions\nUsing numerical and graphical summaries, describe the distribution of heights among study participants."
   },
   {
-    "objectID": "homework/HW_1_F24_bsta511.html#c-average-weight-vs.-desired-weight",
-    "href": "homework/HW_1_F24_bsta511.html#c-average-weight-vs.-desired-weight",
-    "title": "HW 1: BSTA 511/611 F24",
-    "section": "c) Average weight vs. desired weight",
-    "text": "c) Average weight vs. desired weight\nWhat is the difference between the average weight and the average desired weight?"
+    "objectID": "homework/HW_2_F24_bsta511.html#e-adult-height-age",
+    "href": "homework/HW_2_F24_bsta511.html#e-adult-height-age",
+    "title": "HW 2: BSTA 511/611 F24",
+    "section": "e) Adult height age",
+    "text": "e) Adult height age\nInvestigate at which age people generally reach their adult height. Is it possible to do the same for weight; why or why not?\nUse whatever EDA tools you think are appropriate to answer this question."
   },
   {
-    "objectID": "homework/HW_1_F24_bsta511.html#d-compare-variability",
-    "href": "homework/HW_1_F24_bsta511.html#d-compare-variability",
-    "title": "HW 1: BSTA 511/611 F24",
-    "section": "d) Compare variability",
-    "text": "d) Compare variability\nWhich of the height, weight, and desired weight variables has the most variability? Which has the least variability?"
+    "objectID": "homework/HW_2_F24_bsta511.html#f-poverty-variable",
+    "href": "homework/HW_2_F24_bsta511.html#f-poverty-variable",
+    "title": "HW 2: BSTA 511/611 F24",
+    "section": "f) Poverty variable",
+    "text": "f) Poverty variable\nCalculate the median and interquartile range of the distribution of the variable Poverty. Write a sentence explaining the median and IQR in the context of these data."
   },
   {
-    "objectID": "homework/HW_1_F24_bsta511.html#e-mean-of-the-hlthplan",
-    "href": "homework/HW_1_F24_bsta511.html#e-mean-of-the-hlthplan",
-    "title": "HW 1: BSTA 511/611 F24",
-    "section": "e) Mean of the hlthplan",
-    "text": "e) Mean of the hlthplan\nCalculate the mean of the hlthplan variable. How do we interpret this mean? In other words, what does this mean measure?"
+    "objectID": "homework/HW_2_F24_bsta511.html#a-heights-in-inches",
+    "href": "homework/HW_2_F24_bsta511.html#a-heights-in-inches",
+    "title": "HW 2: BSTA 511/611 F24",
+    "section": "a) Heights in inches",
+    "text": "a) Heights in inches\nUse the mutate() command explained on Slide 23 (pdf pg 22) of the Day 3 Part 3 notes to create a new column (variable) in the NHANES dataset for the heights in inches. Then find the mean and standard deviation of the heights in inches. Note that 1 centimeter is approximately 0.3937 inches.\n\n\n\n\n\n\nTips\n\n\n\n\nColumn names cannot start with a number or symbol\nNames are case sensitive\nIt’s easier to work with column names that don’t have spaces in them. I usually use _ or . instead of spaces."
   },
   {
-    "objectID": "weeks/week_02.html#homework",
-    "href": "weeks/week_02.html#homework",
-    "title": "Week 2",
+    "objectID": "homework/HW_2_F24_bsta511.html#b-college-graduates",
+    "href": "homework/HW_2_F24_bsta511.html#b-college-graduates",
+    "title": "HW 2: BSTA 511/611 F24",
+    "section": "b) College graduates",
+    "text": "b) College graduates\nWhat proportion of Americans at least 25 years of age are college graduates? Hint: First create a new dataset that is restricted to Americans at least 25 years old."
+  },
+  {
+    "objectID": "homework/HW_2_F24_bsta511.html#c-college-graduates-v2",
+    "href": "homework/HW_2_F24_bsta511.html#c-college-graduates-v2",
+    "title": "HW 2: BSTA 511/611 F24",
+    "section": "c) College graduates v2",
+    "text": "c) College graduates v2\nWhat proportion of Americans at least 25 years of age with a high school degree are college graduates?"
+  },
+  {
+    "objectID": "homework/HW_2_F24_bsta511.html#d-two-way-table",
+    "href": "homework/HW_2_F24_bsta511.html#d-two-way-table",
+    "title": "HW 2: BSTA 511/611 F24",
+    "section": "d) Two-way table",
+    "text": "d) Two-way table\nConstruct a two-way table (contingency table), with PhysActive as the row variable and Diabetes as the column variable. Among participants who are not physically active, what proportion have diabetes? What proportion of physically active participants have diabetes?"
+  },
+  {
+    "objectID": "homework/HW_2_F24_bsta511.html#e-relative-risk",
+    "href": "homework/HW_2_F24_bsta511.html#e-relative-risk",
+    "title": "HW 2: BSTA 511/611 F24",
+    "section": "e) Relative Risk",
+    "text": "e) Relative Risk\nIn this context, relative risk is the ratio of the proportion of participants who have diabetes among those who are not physically active to the proportion of participants with diabetes among those physically active. Relative risks greater than 1 indicate that people who are not physically active seem to be at a higher risk for diabetes than physically active people. Calculate the relative risk of diabetes for the participants. From these calculations, is it possible to conclude that being physically active reduces one’s chance of becoming diabetic?"
+  },
+  {
+    "objectID": "weeks/week_03.html#homework",
+    "href": "weeks/week_03.html#homework",
+    "title": "Week 3",
     "section": "Homework",
-    "text": "Homework\n\nHW 1 due on Sat, 10/12\n\nCovers Days 1-3"
+    "text": "Homework\n\nHW 2 due on Sat, 10/19"
   },
   {
-    "objectID": "homework_solutions.html",
-    "href": "homework_solutions.html",
-    "title": "Homework Solutions",
-    "section": "",
-    "text": "Note\n\n\n\n\nBelow are links to homework solutions.\nAccessing solutions will require signing into Sakai.\nSolutions will not be accessible until after their due date.\nIf you try accessing them earlier you will get a “file not found” page from Sakai.\n\n\n\n\n\n\nHW\nqmd file\nhtml file\n\n\n\n\n1\nqmd\nhtml\n\n\n2\nqmd\nhtml\n\n\n3\nqmd\nhtml\n\n\n4\nqmd\nhtml\n\n\n5\nqmd\nhtml\n\n\n6\nqmd\nhtml\n\n\n7\nqmd\nhtml\n\n\n8\nqmd\nhtml\n\n\n9\nqmd\nhtml"
-  },
-  {
-    "objectID": "homework.html",
-    "href": "homework.html",
-    "title": "Assignments",
-    "section": "",
-    "text": "Note\n\n\n\n\nBelow are links to homework assignments.\nThe dates in the Date column are due dates.\n\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\n10/12/24\n\n\nHW 1: BSTA 511/611 F24\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "weeks/week_02_v2.html",
-    "href": "weeks/week_02_v2.html",
-    "title": "Week 2",
-    "section": "",
-    "text": "Data Collection Principles & Intro to Data (Fall 2023: Day 2)\n\nBook sections 1.1-1.3\n\n\n\n\n\n\nSummarizing Numerical Data (Fall 2023: Day 2)\n\nBook section 1.4\n\nProbability (Fall 2023: Day 4)\n\nSections 2.1 - 2.2.4"
-  },
-  {
-    "objectID": "weeks/week_02_v2.html#overview-of-week-2",
-    "href": "weeks/week_02_v2.html#overview-of-week-2",
-    "title": "Week 2",
-    "section": "",
-    "text": "Data Collection Principles & Intro to Data (Fall 2023: Day 2)\n\nBook sections 1.1-1.3\n\n\n\n\n\n\nSummarizing Numerical Data (Fall 2023: Day 2)\n\nBook section 1.4\n\nProbability (Fall 2023: Day 4)\n\nSections 2.1 - 2.2.4"
-  },
-  {
-    "objectID": "weeks/week_02_v2.html#slides-recordings",
-    "href": "weeks/week_02_v2.html#slides-recordings",
-    "title": "Week 2",
-    "section": "Slides & Recordings",
-    "text": "Slides & Recordings\n\nPre-recorded lessons are on Echo Cloud (aka echo 360 or echo video).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDay\nTopic\nSlides (F23): html\nSlides: pdf\nSlides: web-page\nSlides with notes\nRecording Link (F23)\nDuration\nCode: qmd\nCode: html\n\n\n\n\n2\nData Collection Principles (Book section 1.3)\nDay 2: slides 1-17\n\n\n\nDay 2 Part 1\n33 min\n\n\n\n\n\nIntro to Data (Book section 1.2)\nDay 2: slides 18-32\n\n\n\nDay 2 Part 2\n42 min\n\n\n\n\n3\nSummarizing Numerical Data (Book section 1.4)\nDay 2: slides 33-46\n\n\n\nDay 2 Part 3\n37 min\n\n\n\n\n\nProbability (Book sections 2.1.1-2.1.6)\nDay 4: slides 1-4\n\n\n\nDay 4 Part 1\n23 min\n\n\n\n\n\nProbability (Book sections 2.1.7-2.2.4)\nDay 4: slides 5-9\n\n\n\nDay 4 Part 2\n24 min"
-  },
-  {
-    "objectID": "weeks/week_02_v2.html#class-discussion-still-updating",
-    "href": "weeks/week_02_v2.html#class-discussion-still-updating",
-    "title": "Week 2",
-    "section": "Class discussion (still updating)",
-    "text": "Class discussion (still updating)\n\nDay02\nDuring class you will be working in groups discussing the following:\n\nFrom HW 1\n\nBook problems: 1.8, 1.12, 1.20, 1.31\nR2: BRFSS\nBook problems: 2.6,2.14\n\n\n\n\nDay03\n\nSummarizing Numerical Data (Fall 2023: Day 2)\n\nSlide 45: Robust estimates\nFrom HW 1\n\nBook problem: 1.31\n\n\nProbability (Fall 2023: Day 4)\n\nExample 2.3 on pg 4 of slides\nExample 2.6 on pgs 8-9 of slides\nFrom HW 1\n\nBook problems: 2.6,2.14"
-  },
-  {
-    "objectID": "weeks/week_02_v2.html#homework",
-    "href": "weeks/week_02_v2.html#homework",
-    "title": "Week 2",
-    "section": "Homework",
-    "text": "Homework\n\nHW 1 due on Sat, 10/12\n\nCovers Days 1-3"
-  },
-  {
-    "objectID": "weeks/week_02.html#overivew-of-week-2",
-    "href": "weeks/week_02.html#overivew-of-week-2",
-    "title": "Week 2",
-    "section": "",
-    "text": "Data Collection Principles & Intro to Data (Fall 2023: Day 2)\n\nBook sections 1.1-1.3\n\n\n\n\n\n\nSummarizing Numerical Data (Fall 2023: Day 2)\n\nBook section 1.4\n\nProbability (Fall 2023: Day 4)\n\nSections 2.1 - 2.2.4"
-  },
-  {
-    "objectID": "weeks/week_02.html#slides-recordings",
-    "href": "weeks/week_02.html#slides-recordings",
-    "title": "Week 2",
-    "section": "Slides & Recordings",
-    "text": "Slides & Recordings\n\nPre-recorded lessons are on Echo Cloud (aka echo 360 or echo video).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDay\nTopic\nSlides (F23): html\nSlides: pdf\nSlides: web-page\nSlides with notes\nRecording Link (F23)\nDuration\nCode: qmd\nCode: html\n\n\n\n\n2\nData Collection Principles (Book section 1.3)\nDay 2: slides 1-17\n\n\n\nDay 2 Part 1\n33 min\n\n\n\n\n\nIntro to Data (Book section 1.2)\nDay 2: slides 18-32\n\n\n\nDay 2 Part 2\n42 min\n\n\n\n\n3\nSummarizing Numerical Data (Book section 1.4)\nDay 2: slides 33-46\n\n\n\nDay 2 Part 3\n37 min\n\n\n\n\n\nProbability (Book sections 2.1.1-2.1.6)\nDay 4: slides 1-4\n\n\n\nDay 4 Part 1\n23 min\n\n\n\n\n\nProbability (Book sections 2.1.7-2.2.4)\nDay 4: slides 5-9\n\n\n\nDay 4 Part 2\n24 min"
-  },
-  {
-    "objectID": "weeks/week_02.html#recordings",
-    "href": "weeks/week_02.html#recordings",
-    "title": "Week 2",
-    "section": "Recordings",
-    "text": "Recordings\n\nDay02\n\nPre-recorded lessons are on Echo Cloud (aka echo 360 or echo video).\n\n\n\n\nDay\nTopic\nSlides (F23) html\npdf\nwebpage\nSlides with notes\nRecording Link (F23)\nDuration\nCode: qmd\nCode: html\n\n\n\n\n2\nData Collection Principles (Book section 1.3)\nDay 2: slides 1-17\n\n\n\nDay 2 Part 1\n33 min\n\n\n\n\n\nIntro to Data (Book section 1.2)\nDay 2: slides 18-32\n\n\n\nDay 2 Part 2\n42 min\n\n\n\n\n3\nSummarizing Numerical Data (Book section 1.4)\nDay 2: slides 33-46\n\n\n\nDay 2 Part 3\n37 min\n\n\n\n\n\nProbability (Book sections 2.1.1-2.1.6)\nDay 4: slides 1-4\n\n\n\nDay 4 Part 1\n23 min\n\n\n\n\n\nProbability (Book sections 2.1.7-2.2.4)\nDay 4: slides 5-9\n\n\n\nDay 4 Part 2\n24 min"
-  },
-  {
-    "objectID": "weeks/week_02.html#class-discussion-still-updating",
-    "href": "weeks/week_02.html#class-discussion-still-updating",
-    "title": "Week 2",
-    "section": "Class discussion (still updating)",
-    "text": "Class discussion (still updating)\n\nDay02\nDuring class you will be working in groups discussing the following:\n\nFrom HW 1\n\nBook problems: 1.8, 1.12, 1.20, 1.31\nR2: BRFSS\nBook problems: 2.6,2.14\n\n\n\n\nDay03\n\nSummarizing Numerical Data (Fall 2023: Day 2)\n\nSlide 45: Robust estimates\nFrom HW 1\n\nBook problem: 1.31\n\n\nProbability (Fall 2023: Day 4)\n\nExample 2.3 on pg 4 of slides\nExample 2.6 on pgs 8-9 of slides\nFrom HW 1\n\nBook problems: 2.6,2.14"
-  },
-  {
-    "objectID": "weeks/week_02.html#overview-of-week-2",
-    "href": "weeks/week_02.html#overview-of-week-2",
-    "title": "Week 2",
-    "section": "",
-    "text": "Data Collection Principles & Intro to Data (Fall 2023: Day 2)\n\nBook sections 1.1-1.3\n\n\n\n\n\n\nSummarizing Numerical Data (Fall 2023: Day 2)\n\nBook section 1.4\n\nProbability (Fall 2023: Day 4)\n\nSections 2.1 - 2.2.4"
-  },
-  {
-    "objectID": "weeks/week_02.html#class-discussion",
-    "href": "weeks/week_02.html#class-discussion",
-    "title": "Week 2",
+    "objectID": "weeks/week_03.html#class-discussion",
+    "href": "weeks/week_03.html#class-discussion",
+    "title": "Week 3",
     "section": "Class discussion",
-    "text": "Class discussion\n\nDay02\nDuring class you will be working in groups discussing the following:\n\nFrom HW 1\n\nBook problems: 1.8, 1.12, 1.20\nR2: BRFSS - parts a)-b)\n\n\n\n\nDay03\n\nSummarizing Numerical Data (Fall 2023: Day 2)\n\nSlide 46: Robust estimates\nFrom HW 1\n\nBook problem: 1.31\nR2: BRFSS - parts c)-e)\n\n\nProbability (Fall 2023: Day 4)\n\nExample 2.3 on pg 4 of slides\nExample 2.6 on pgs 8-9 of slides\nFrom HW 1\n\nBook problems: 2.6,2.14"
-  },
-  {
-    "objectID": "rubric.html",
-    "href": "rubric.html",
-    "title": "Grading rubric",
-    "section": "",
-    "text": "Grading Rubric (10 pts max):\nAssignments will be graded using the rubric below.\n\nAnswers: 4 pts \nDemonstrating process: 3 pts\nProviding context and relevance: 3 pts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4 points\n3 points\n2 points\n1 point\n0 points\n\n\nAnswers\n(4 pts max)\nAnswers are correct at least 90% of the time\nAnswers are usually correct (75-90%)\nAnswers are sometimes correct (50-74%)\nAnswers are generally incorrect (&lt;50%)\nAnswers are incorrect and no work was shown (demonstrating process has 0 pts)\n\n\nDemonstrating process\n(3 pts max)\n\nAll relevant work is shown, including all steps for figuring out answers.\nR code and output are provided for every question for which R was used.\nRelevant work and steps for figuring out answers are generally provided but incomplete.\nR code and output are generally provided but incomplete for questions that use R.\nRelevant work and steps for figuring out answers are generally missing.\nR code and output are generally missing for questions that use R.\nNo relevant work is shown, including steps for figuring out answers.\nR code and output are not provided for questions for which R was used.\n\n\nProviding context and relevance\n(3 pts max)\n\nAnswers are given in complete sentences with all relevant information for the question as appropriate (context of research question, units, descriptive statistics, explanation of what data visualization is showing, confidence intervals, p-values, test- statistics, etc.), and interpretation of results.\nAnswers are given in complete sentences. Some relevant information may be provided, but much is missing. Context of research question only sometimes provided.\nAnswers are rarely given in complete sentences. Relevant information is not provided. Little to no context is provided.\nAnswers are not in complete sentences. Relevant information and context are not provided."
+    "text": "Class discussion\nDuring class you will be working in groups discussing the following:\n\n\nDay04\n\nR Packages (Fall 2023: Day 2)\n\nR packages: any difficulty installing packages?\n\nBayes’ Rule (Fall 2023: Day 5)\n\nExample 2.10 on pg 6 of slides\n\nFrom HW 2\n\nBook exercises\n\n2.24\n\nNon-book exercise\n\n\n\n\nDay05\n\nCan distribution shape and sample size be determined from a boxplot? (see slide 30)\nIs there evidence of ethnicity (Hispanic vs. White non-Hispanic) discrimination in DDS expenditures? Why or why not?\nFrom HW 2\n\nR1 & R2: NHANES - parts 1 & 2"
   }
 ]

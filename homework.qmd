@@ -15,4 +15,5 @@ format:
 ::: callout-note
 -   Below are links to homework assignments.
 -   The dates in the Date column are due dates.
+-   See the `Grading rubric` tab to the left for a description of how assignments will be graded.
 :::

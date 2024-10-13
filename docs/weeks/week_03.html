@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2024-10-14">
-<meta name="description" content="Probability">
+<meta name="description" content="Bayes’ Rule &amp; EDA">
 
 <title>BSTA 511/611 Fall 2024 - Week 3</title>
 <style>
@@ -41,6 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -105,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 3</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks/week_01.html">Weekly pages</a></li><li class="breadcrumb-item"><a href="../weeks/week_03.html">Week 3</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -158,6 +159,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Week 2</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week_03.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Week 3</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -181,6 +188,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Homework solutions</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../rubric.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Grading rubric</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -193,19 +206,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#day04" id="toc-day04" class="nav-link active" data-scroll-target="#day04">Day04</a>
+  <li><a href="#overview-of-week-3" id="toc-overview-of-week-3" class="nav-link active" data-scroll-target="#overview-of-week-3">Overview of Week 3</a>
   <ul class="collapse">
-  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
-  <li><a href="#class-discussion-still-updating" id="toc-class-discussion-still-updating" class="nav-link" data-scroll-target="#class-discussion-still-updating">Class discussion (still updating)</a></li>
-  <li><a href="#recordings" id="toc-recordings" class="nav-link" data-scroll-target="#recordings">Recordings</a></li>
+  <li><a href="#day-4" id="toc-day-4" class="nav-link" data-scroll-target="#day-4">Day 4</a></li>
+  <li><a href="#day-5" id="toc-day-5" class="nav-link" data-scroll-target="#day-5">Day 5</a></li>
   </ul></li>
-  <li><a href="#day05" id="toc-day05" class="nav-link" data-scroll-target="#day05">Day05</a>
+  <li><a href="#slides-recordings" id="toc-slides-recordings" class="nav-link" data-scroll-target="#slides-recordings">Slides &amp; Recordings</a></li>
+  <li><a href="#class-discussion" id="toc-class-discussion" class="nav-link" data-scroll-target="#class-discussion">Class discussion</a>
   <ul class="collapse">
-  <li><a href="#slides-1" id="toc-slides-1" class="nav-link" data-scroll-target="#slides-1">Slides</a></li>
-  <li><a href="#class-discussion-still-updating-1" id="toc-class-discussion-still-updating-1" class="nav-link" data-scroll-target="#class-discussion-still-updating-1">Class discussion (still updating)</a></li>
-  <li><a href="#recordings-1" id="toc-recordings-1" class="nav-link" data-scroll-target="#recordings-1">Recordings</a></li>
+  <li><a href="#day04" id="toc-day04" class="nav-link" data-scroll-target="#day04">Day04</a></li>
+  <li><a href="#day05" id="toc-day05" class="nav-link" data-scroll-target="#day05">Day05</a></li>
   </ul></li>
-  <li><a href="#homework---coming-soon" id="toc-homework---coming-soon" class="nav-link" data-scroll-target="#homework---coming-soon">Homework - coming soon!</a></li>
+  <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework">Homework</a></li>
   </ul>
 </nav>
     </div>
@@ -219,7 +231,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Probability
+    Bayes’ Rule &amp; EDA
   </div>
 </div>
 
@@ -237,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">October 6, 2024</p>
+      <p class="date-modified">October 12, 2024</p>
     </div>
   </div>
     
@@ -246,86 +258,26 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="day04" class="level2">
-<h2 class="anchored" data-anchor-id="day04">Day04</h2>
+<section id="overview-of-week-3" class="level2">
+<h2 class="anchored" data-anchor-id="overview-of-week-3">Overview of Week 3</h2>
+<section id="day-4" class="level3">
+<h3 class="anchored" data-anchor-id="day-4">Day 4</h3>
 <ul>
-<li>Bayes’ Rule (<strong>Fall 2023: Day 5</strong>)</li>
+<li>Bayes’ Rule (<strong>Fall 2023: Day 5</strong>)
+<ul>
+<li>Section 2.2.5</li>
+</ul></li>
 <li>R Packages (<strong>Fall 2023: Day 2</strong>)</li>
 </ul>
-<section id="slides" class="level3">
-<h3 class="anchored" data-anchor-id="slides">Slides</h3>
-<ul>
-<li>Bayes’ Rule (<strong>Fall 2023: Day 5</strong>)
-<ul>
-<li><a href="../slides/Day05_bsta511.html">html</a></li>
-<li><a href="../LaTeX_slides/Day05_bsta511.pdf">pdf</a></li>
-<li>Slides with <a href="https://drive.google.com/file/d/1Is2JXTYLhp6e6Ia4dBF9SunrVgZhRkXQ/view?usp=sharing">notes</a></li>
-</ul></li>
-<li>R Packages (<strong>Fall 2023: Day 2</strong>)
-<ul>
-<li><strong><span style="color:darkorange">Fall 2023: Day 2 Slides 47-54</span></strong></li>
-<li><a href="../slides/Day02_bsta511.html">html</a></li>
-<li><a href="https://drive.google.com/file/d/1I59wEibQe1sXi5urIkYEv-lW1NHU6zzC/view?usp=sharing">pdf</a></li>
-<li><a href="../slides_md/Day02_bsta511_md.html">webpage</a></li>
-<li>Code file: <a href="https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Day02_bsta511_code.qmd">qmd</a>, <a href="../slides_code/Day02_bsta511_code.html">html</a></li>
-</ul></li>
-</ul>
 </section>
-<section id="class-discussion-still-updating" class="level3">
-<h3 class="anchored" data-anchor-id="class-discussion-still-updating">Class discussion (still updating)</h3>
-<!-- [Class discussion Google doc link](https://docs.google.com/document/d/1m_sOZWZHlnL89N60RyfdFG6wphcEpofLevd2kMc1wYc/edit?usp=sharing) -->
-<ul>
-<li>Bayes’ Rule (<strong>Fall 2023: Day 5</strong>)
-<ul>
-<li>Example 2.10 on pg 6 of slides</li>
-<li>Added in class: Textbook exercises 2.18 (from HW)</li>
-</ul></li>
-<li>R Packages (<strong>Fall 2023: Day 2</strong>)
-<ul>
-<li>R packages: any difficulty installing packages?</li>
-</ul></li>
-</ul>
-</section>
-<section id="recordings" class="level3">
-<h3 class="anchored" data-anchor-id="recordings">Recordings</h3>
-<table class="table">
-<thead>
-<tr class="header">
-<th>Topic</th>
-<th>Slides (F23)</th>
-<th>Recording Link (F23)</th>
-<th>Duration</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Bayes’ Rule (Book section 2.2.5)</td>
-<td>Day 5: slides 1-2</td>
-<td><a href="https://echo360.org/lesson/77ab7ace-a200-4455-ae0d-8fd0be3216ef/classroom#sortDirection=desc">Day 5 Part 1</a></td>
-<td>22 min</td>
-</tr>
-<tr class="even">
-<td>Bayes’ Rule (Book section 2.2.5)</td>
-<td>Day 5: slides 3-6</td>
-<td><a href="https://echo360.org/lesson/51a9cd82-0772-4254-b4bb-41bbeefcd062/classroom#sortDirection=desc">Day 5 Part 2</a></td>
-<td>22 min</td>
-</tr>
-<tr class="odd">
-<td>R packages</td>
-<td>Day 2: slides 47-54</td>
-<td><a href="https://echo360.org/lesson/9536c32e-4f83-492e-b12a-0afb73fbcd4a/classroom#sortDirection=desc">Day 2 Part 4</a></td>
-<td>30 min</td>
-</tr>
-</tbody>
-</table>
-</section>
-</section>
-<section id="day05" class="level2">
-<h2 class="anchored" data-anchor-id="day05">Day05</h2>
+<section id="day-5" class="level3">
+<h3 class="anchored" data-anchor-id="day-5">Day 5</h3>
 <p><strong>Fall 2023: Day 3</strong></p>
 <ul>
-<li>Data visualization, exploratory data analysis (EDA), and summarizing categorical data</li>
+<li>Data visualization, exploratory data analysis (EDA), and summarizing categorical data
+<ul>
 <li>Sections 1.5-1.7 &amp; supplementary material</li>
+</ul></li>
 </ul>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -340,21 +292,127 @@ Note
 <p>As I mentioned in the recording, the various options in more complex figures I usually look up how to implement when I need them. I show them so that you are aware of some of the functionality and options one has in creating figures using the ggplot2 package. At the end of the slides, we cover how to create tables summarizing data, especially categorical data. This part has some very useful code and data wrangling in it.</p>
 </div>
 </div>
-<section id="slides-1" class="level3">
-<h3 class="anchored" data-anchor-id="slides-1">Slides</h3>
-<p><strong>Fall 2023: Day 3</strong></p>
+</section>
+</section>
+<section id="slides-recordings" class="level2">
+<h2 class="anchored" data-anchor-id="slides-recordings">Slides &amp; Recordings</h2>
 <ul>
-<li><a href="../slides/Day03_bsta511.html">html</a></li>
-<li><a href="https://drive.google.com/file/d/1IdkNDrcdGWozHGMrk28B5PXjDx-_ylqo/view?usp=sharing">pdf</a></li>
-<li><a href="../slides_md/Day03_bsta511_md.html">webpage</a></li>
-<li>Code file: <a href="https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Day03_bsta511_code.qmd">qmd</a>, <a href="../slides_code/Day03_bsta511_code.html">html</a></li>
+<li><strong>Pre-recorded</strong> lessons are on <a href="https://echo360.org/section/4a58d645-5753-4e4f-b962-f8825f59baba/home">Echo Cloud</a> (aka echo 360 or echo video).</li>
+</ul>
+<table class="table-striped table-hover table">
+<caption></caption>
+<colgroup>
+<col style="width: 3%">
+<col style="width: 10%">
+<col style="width: 8%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Day</th>
+<th>Topic</th>
+<th>Slides (F23): html</th>
+<th>Slides: pdf</th>
+<th>Slides: web-page</th>
+<th>Slides with notes</th>
+<th>Recording Link (F23)</th>
+<th>Duration</th>
+<th>Code: qmd</th>
+<th>Code: html</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>4</td>
+<td>Bayes’ Rule (Book section 2.2.5)</td>
+<td><a href="../slides/Day05_bsta511.html">Day 5: slides 1-2</a></td>
+<td><a href="../LaTeX_slides/Day05_bsta511.pdf"><iconify-icon role="img" inline="" icon="bi:file-earmark-pdf-fill" style="font-size: 20px;" aria-label="Icon file-earmark-pdf-fill from bi Iconify.design set." title="Icon file-earmark-pdf-fill from bi Iconify.design set."></iconify-icon></a></td>
+<td></td>
+<td><a href="../LaTeX_slides/Day05_bsta511_notes.pdf"><iconify-icon role="img" inline="" icon="pepicons-pop:pen-circle-filled" style="font-size: 20px;" aria-label="Icon pen-circle-filled from pepicons-pop Iconify.design set." title="Icon pen-circle-filled from pepicons-pop Iconify.design set."></iconify-icon></a></td>
+<td><a href="https://echo360.org/lesson/77ab7ace-a200-4455-ae0d-8fd0be3216ef/classroom#sortDirection=desc">Day 5 Part 1</a></td>
+<td>22 min</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Bayes’ Rule (Book section 2.2.5)</td>
+<td><a href="../slides/Day05_bsta511.html">Day 5: slides 3-6</a></td>
+<td><a href="../LaTeX_slides/Day05_bsta511.pdf"><iconify-icon role="img" inline="" icon="bi:file-earmark-pdf-fill" style="font-size: 20px;" aria-label="Icon file-earmark-pdf-fill from bi Iconify.design set." title="Icon file-earmark-pdf-fill from bi Iconify.design set."></iconify-icon></a></td>
+<td></td>
+<td><a href="../LaTeX_slides/Day05_bsta511_notes.pdf"><iconify-icon role="img" inline="" icon="pepicons-pop:pen-circle-filled" style="font-size: 20px;" aria-label="Icon pen-circle-filled from pepicons-pop Iconify.design set." title="Icon pen-circle-filled from pepicons-pop Iconify.design set."></iconify-icon></a></td>
+<td><a href="https://echo360.org/lesson/51a9cd82-0772-4254-b4bb-41bbeefcd062/classroom#sortDirection=desc">Day 5 Part 2</a></td>
+<td>22 min</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>R packages</td>
+<td><a href="../slides/Day02_bsta511.html#/r-packages---day-4-in-f24">Day 2: slides 47-54</a></td>
+<td><a href="../slides_pdf/Day02_bsta511.pdf"><iconify-icon role="img" inline="" icon="bi:file-earmark-pdf-fill" style="font-size: 20px;" aria-label="Icon file-earmark-pdf-fill from bi Iconify.design set." title="Icon file-earmark-pdf-fill from bi Iconify.design set."></iconify-icon></a></td>
+<td><a href="../slides_md/Day02_bsta511_md.html#r-packages---day-4-in-f24"><iconify-icon role="img" inline="" icon="streamline:web" style="font-size: 20px;" aria-label="Icon web from streamline Iconify.design set." title="Icon web from streamline Iconify.design set."></iconify-icon></a></td>
+<td></td>
+<td><a href="https://echo360.org/lesson/9536c32e-4f83-492e-b12a-0afb73fbcd4a/classroom#sortDirection=desc">Day 2 Part 4</a></td>
+<td>30 min</td>
+<td><a href="https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Day02_bsta511_code.qmd"><iconify-icon role="img" inline="" icon="simple-icons:quarto" aria-label="Icon quarto from simple-icons Iconify.design set." title="Icon quarto from simple-icons Iconify.design set."></iconify-icon></a></td>
+<td><a href="../slides_code/Day02_bsta511_code.html#r-packages---day-4-in-f24"><iconify-icon role="img" inline="" icon="ph:file-html-light" style="font-size: 25px;" aria-label="Icon file-html-light from ph Iconify.design set." title="Icon file-html-light from ph Iconify.design set."></iconify-icon></a></td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>Exploratory Data Analysis</td>
+<td><a href="../slides/Day03_bsta511.html">Day 3: slides 1-59</a></td>
+<td><a href="../slides_pdf/Day03_bsta511.pdf"><iconify-icon role="img" inline="" icon="bi:file-earmark-pdf-fill" style="font-size: 20px;" aria-label="Icon file-earmark-pdf-fill from bi Iconify.design set." title="Icon file-earmark-pdf-fill from bi Iconify.design set."></iconify-icon></a></td>
+<td><a href="../slides_md/Day03_bsta511_md.html"><iconify-icon role="img" inline="" icon="streamline:web" style="font-size: 20px;" aria-label="Icon web from streamline Iconify.design set." title="Icon web from streamline Iconify.design set."></iconify-icon></a></td>
+<td></td>
+<td><a href="https://echo360.org/lesson/8ba30718-f090-4e31-ad77-85e449d70c85/classroom#sortDirection=desc">Day 3</a></td>
+<td>1 hr 18 min</td>
+<td><a href="https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Day03_bsta511_code.qmd"><iconify-icon role="img" inline="" icon="simple-icons:quarto" aria-label="Icon quarto from simple-icons Iconify.design set." title="Icon quarto from simple-icons Iconify.design set."></iconify-icon></a></td>
+<td><a href="../slides_code/Day03_bsta511_code.html"><iconify-icon role="img" inline="" icon="ph:file-html-light" style="font-size: 25px;" aria-label="Icon file-html-light from ph Iconify.design set." title="Icon file-html-light from ph Iconify.design set."></iconify-icon></a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="class-discussion" class="level2">
+<h2 class="anchored" data-anchor-id="class-discussion">Class discussion</h2>
+<p>During class you will be working in groups discussing the following:</p>
+<!-- [Class discussion Google doc link]() -->
+<section id="day04" class="level3">
+<h3 class="anchored" data-anchor-id="day04">Day04</h3>
+<ul>
+<li>R Packages (<strong>Fall 2023: Day 2</strong>)
+<ul>
+<li>R packages: any difficulty installing packages?</li>
+</ul></li>
+<li>Bayes’ Rule (<strong>Fall 2023: Day 5</strong>)
+<ul>
+<li>Example 2.10 on pg 6 of slides</li>
+</ul></li>
+<li>From HW 2
+<ul>
+<li>Book exercises
+<ul>
+<li>2.24</li>
+</ul></li>
+<li>Non-book exercise</li>
+</ul></li>
 </ul>
 </section>
-<section id="class-discussion-still-updating-1" class="level3">
-<h3 class="anchored" data-anchor-id="class-discussion-still-updating-1">Class discussion (still updating)</h3>
+<section id="day05" class="level3">
+<h3 class="anchored" data-anchor-id="day05">Day05</h3>
 <ul>
-<li>Can distribution shape and sample size be determined from a boxplot? (see slide 30)</li>
-<li>Is there evidence of ethnicity (Hispanic vs.&nbsp;White non-Hispanic) discrimination in DDS expenditures? Why or why not?</li>
+<li><p>Can distribution shape and sample size be determined from a boxplot? (see slide 30)</p></li>
+<li><p>Is there evidence of ethnicity (Hispanic vs.&nbsp;White non-Hispanic) discrimination in DDS expenditures? Why or why not?</p></li>
+<li><p>From HW 2</p>
+<ul>
+<li>R1 &amp; R2: NHANES - parts 1 &amp; 2</li>
+</ul></li>
 </ul>
 <!-- ### Part 2 slides -->
 <!-- The Day 3 Part 2 slides include extra EDA to examine further the question of whether there is evidence of ethnicity (Hispanic vs. White non-Hispanic) discrimination in DDS expenditures based on the data. -->
@@ -368,37 +426,12 @@ Note
 <!-- * [pdf](https://drive.google.com/file/d/1IfubP0ei-5jTIVs33dyoEqjMIY-Q8qBe/view?usp=sharing) -->
 <!-- * Code file: [qmd](https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Day03_bsta511_code_part3_data_wrangling.qmd), [html](../slides_code/Day03_bsta511_code_part3_data_wrangling.qmd) -->
 </section>
-<section id="recordings-1" class="level3">
-<h3 class="anchored" data-anchor-id="recordings-1">Recordings</h3>
-<table class="table">
-<thead>
-<tr class="header">
-<th>Topic</th>
-<th>Slides (F23)</th>
-<th>Recording Link (F23)</th>
-<th>Duration</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Exploratory Data Analysis</td>
-<td>Day 3: slides 1-59</td>
-<td><a href="https://echo360.org/lesson/8ba30718-f090-4e31-ad77-85e449d70c85/classroom#sortDirection=desc">Day 3</a></td>
-<td>1 hr 18 min</td>
-</tr>
-</tbody>
-</table>
 </section>
-</section>
-<section id="homework---coming-soon" class="level2">
-<h2 class="anchored" data-anchor-id="homework---coming-soon">Homework - coming soon!</h2>
-<!-- * [HW 2](../homework/HW_2_F24_bsta511.qmd) due on Sat, 10/14 -->
-<!--     * Covers Days 3-5 -->
-<!-- * HW 3 due on Sat, 10/21 -->
-<!--     * Covers Days 6-7 -->
-<!-- ### Why is `{.unnumbered}` included at the end of some of the section headers on the HW? -->
-<!-- * I added the option for the sections to be numbered in the YAML (`number-sections: true`) so that the R exercises at the end of the file are numbered.  -->
-<!-- * However, the book exercises already have their own numbering, and so I added `{.unnumbered}` to the section headers of the book exercises so that they are not numbered twice.  -->
+<section id="homework" class="level2">
+<h2 class="anchored" data-anchor-id="homework">Homework</h2>
+<ul>
+<li><a href="../homework/HW_2_F24_bsta511.html">HW 2</a> due on Sat, 10/19</li>
+</ul>
 
 
 </section>
