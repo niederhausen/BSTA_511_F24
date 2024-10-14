@@ -16,16 +16,16 @@ editor_options:
 |                         | W 10/2  | **1** | Introduction to R & RStudio                                                                      |                                        |
 |  [2](weeks/week_02.qmd) | M 10/7  | **2** | Intro to Data, Data collection                                                                   | 1.1-1.3                                |
 |                         | W 10/9  | **3** | Summarizing numerical data, <br> Probability                                                     | 1.4, 2.1-2.2.4                         |
-|                         | Sa 10/12|       | [HW 1 Due](../homework/HW_1_F24_bsta511.qmd) (Days 1 - 3)                                        |                                        |
+|                         | Sa 10/12|       | [HW 1 Due](homework/HW_1_F24_bsta511.qmd) (Days 1 - 3)                                        |                                        |
 |  [3](weeks/week_03.qmd) | M 10/14 | **4** | Bayes' Theorem, R Packages                                                                       | 2.2.5, extra                           |
 |                         | W 10/16 | **5** | Data visualization, <br> exploratory data analysis (EDA), <br> and summarizing categorical data  | 1.5-1.7, extra                         |
-|                         | Sa 10/19|       | [HW 2 Due](../homework/HW_2_F24_bsta511.qmd) (Days 4 - 5)                                        |                                        |
+|                         | Sa 10/19|       | [HW 2 Due](homework/HW_2_F24_bsta511.qmd) (Days 4 - 5)                                        |                                        |
 |  4                      | M 10/21 | **6** | Random variables, <br> Binomial distribution                                                     | 3.1-3.2                                |
 |                         | W 10/23 | **7** | Normal and Poisson distributions                                                                 | 3.3-3.4                                |
 |                         | Sa 10/26|       | HW 3 Due (Days 6 - 7)                                                                            |                                        |
 |  5                      | M 10/28 | **8** | Variability in estimates                                                                         | 4.1                                    |
-|                         | W 10/30 | **9** | Confidence Intervals                                                                             | 4.2                                    |
-|  6                      | M 11/4  |       | **Exam 1: Days 1-7**                                                                             | **Ch 1, 2, 3.1-3.4**                   |
+|                         | W 10/30 |       | **Exam 1: Days 1-7**                                                                             | **Ch 1, 2, 3.1-3.4**                   |
+|  6                      | M 11/4  | **9** | Confidence Intervals                                                                             | 4.2                                    |
 |                         | W 11/6  | **10**| Hypothesis Testing: <br> Single-sample with *t*-distribution <br> & Two-sample paired data       | 4.3, 5.1, 5.2                          |
 |                         | Sa 11/9 |       | HW 4 Due (Days 8 - 10)                                                                           |                                        |
 |  7                      | M 11/11 | **11**| Hypothesis Testing: <br> Two-sample independent data; <br> Power                                 | 5.3-5.4, extra                         |
