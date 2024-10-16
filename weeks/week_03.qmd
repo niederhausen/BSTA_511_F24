@@ -26,7 +26,8 @@ editor_options:
 
 -   Data visualization, exploratory data analysis (EDA), and summarizing categorical data
     -   Sections 1.5-1.7 & supplementary material
-    - Bonus: 
+    -   Below I posted additional "__Day 3 part 3__" slides with extra data wrangling code. I refer to some of the slides in the homework assignment. You are welcome to go through all of the slides to learn some data wrangling techniques. We will be covering topics from these slides as needed throughout the quarter. 
+    -   Bonus: 
         -   [Examples](https://berd-r-intro2024.netlify.app/slides_r_berd_2024#/barplots) on dealing with overlapping labels in figures (Slides 65, 66, & 68 from BERD R intro workshop)
         -     Check out Ted Laderas's [Better Plots](https://better-plots.netlify.app/) presentation
 
