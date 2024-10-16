@@ -41,12 +41,11 @@ As I mentioned in the recording, the various options in more complex figures I u
 |  | Bayes' Rule (Book section 2.2.5) | [Day 5: slides 3-6](../slides/Day05_bsta511.qmd) | [{{< iconify bi file-earmark-pdf-fill size=20px >}}](../LaTeX_slides/Day05_bsta511.pdf) |  | [{{< iconify pepicons-pop pen-circle-filled size=20px >}}](../LaTeX_slides/Day05_bsta511_notes.pdf) | [Day 5 Part 2](https://echo360.org/lesson/51a9cd82-0772-4254-b4bb-41bbeefcd062/classroom#sortDirection=desc) | 22 min |  |  |
 |  | R packages | [Day 2: slides 47-54](../slides/Day02_bsta511.qmd#/r-packages---day-4-in-f24) | [{{< iconify bi file-earmark-pdf-fill size=20px >}}](../slides_pdf/Day02_bsta511.pdf) | [{{< iconify streamline web size=20px >}}](../slides_md/Day02_bsta511_md.qmd#r-packages---day-4-in-f24) |  | [Day 2 Part 4](https://echo360.org/lesson/9536c32e-4f83-492e-b12a-0afb73fbcd4a/classroom#sortDirection=desc) | 30 min | [{{< iconify simple-icons:quarto >}}](https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Day02_bsta511_code.qmd) | [{{< iconify ph file-html-light size=25px >}}](../slides_code/Day02_bsta511_code.qmd#r-packages---day-4-in-f24) |
 | 5 | Exploratory Data Analysis | [Day 3: slides 1-59](../slides/Day03_bsta511.qmd) | [{{< iconify bi file-earmark-pdf-fill size=20px >}}](../slides_pdf/Day03_bsta511.pdf) | [{{< iconify streamline web size=20px >}}](../slides_md/Day03_bsta511_md.qmd) |  | [Day 3](https://echo360.org/lesson/8ba30718-f090-4e31-ad77-85e449d70c85/classroom#sortDirection=desc) | 1 hr 18 min | [{{< iconify simple-icons:quarto >}}](https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Day03_bsta511_code.qmd) | [{{< iconify ph file-html-light size=25px >}}](../slides_code/Day03_bsta511_code.qmd) |
+|  | Day 3 Part 3 slides: Extra data wrangling code |  | [{{< iconify bi file-earmark-pdf-fill size=20px >}}](../slides_pdf/Day03_bsta511_part3_data_wrangling.pdf) |  |  |  |  | [{{< iconify simple-icons:quarto >}}](https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Day03_bsta511_code_part3_data_wrangling.qmd) | [{{< iconify ph file-html-light size=25px >}}](../slides_code/Day03_bsta511_code_part3_data_wrangling.qmd) |
 
 : {.striped .hover tbl-colwidths="\[3, 10, 8, 5, 5, 5, 6, 6, 5, 5\]"}
 
-
-
-## Class discussion 
+## Class discussion
 
 During class you will be working in groups discussing the following:
 
@@ -66,9 +65,11 @@ During class you will be working in groups discussing the following:
 ### Day05
 
 -   Can distribution shape and sample size be determined from a boxplot? (see slide 30)
+
 -   Is there evidence of ethnicity (Hispanic vs. White non-Hispanic) discrimination in DDS expenditures? Why or why not?
 
 -   From HW 2
+
     -   R1 & R2: NHANES - parts 1 & 2
 
 <!-- ### Part 2 slides -->
@@ -95,5 +96,5 @@ During class you will be working in groups discussing the following:
 
 ## Homework
 
-* [HW 2](../homework/HW_2_F24_bsta511.qmd) due on Sat, 10/19
-
+-   [HW 2](../homework/HW_2_F24_bsta511.qmd) due on Sat, 10/19
+    -   See extra [Day 3 Part 3 slides](../slides_pdf/Day03_bsta511_part3_data_wrangling.pdf) (both pdf and code) in table above with slides & recording links.
