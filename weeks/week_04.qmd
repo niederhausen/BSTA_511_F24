@@ -12,40 +12,37 @@ editor_options:
   chunk_output_type: console
 ---
 
-## Overview of Week 3
+## Overview of Week 4
 
-### Day 4
+::::: grid
+::: g-col-6
+### Day 6
 
--   Bayes' Rule (**Fall 2023: Day 5**)
-    -   Section 2.2.5
--   R Packages (**Fall 2023: Day 2**)
-
-### Day 5
-
-**Fall 2023: Day 3**
-
--   Data visualization, exploratory data analysis (EDA), and summarizing categorical data
-    -   Sections 1.5-1.7 & supplementary material
-    -   Below I posted additional "__Day 3 part 3__" slides with extra data wrangling code. I refer to some of the slides in the homework assignment. You are welcome to go through all of the slides to learn some data wrangling techniques. We will be covering topics from these slides as needed throughout the quarter. 
-    -   Bonus: 
-        -   [Examples](https://berd-r-intro2024.netlify.app/slides_r_berd_2024#/barplots) on dealing with overlapping labels in figures (Slides 65, 66, & 68 from BERD R intro workshop)
-        -     Check out Ted Laderas's [Better Plots](https://better-plots.netlify.app/) presentation
-
-::: callout-note
-As I mentioned in the recording, the various options in more complex figures I usually look up how to implement when I need them. I show them so that you are aware of some of the functionality and options one has in creating figures using the ggplot2 package. At the end of the slides, we cover how to create tables summarizing data, especially categorical data. This part has some very useful code and data wrangling in it.
+-   Random variables: Section 3.1
+-   Binomial distribution: Section 3.2
 :::
+
+::: g-col-6
+### Day 7
+
+-   Normal distribution: Section 3.3
+-   Poisson distribution: Section 3.4
+:::
+:::::
 
 ## Slides & Recordings
 
 -   **Pre-recorded** lessons are on [Echo Cloud](https://echo360.org/section/4a58d645-5753-4e4f-b962-f8825f59baba/home) (aka echo 360 or echo video).
 
-| Day | Topic | Slides (F23): html | Slides: pdf | Slides: web-page | Slides with notes | Recording Link (F23) | Duration | Code: qmd | Code: html |
+| Day | Topic | Slides: html | Slides: pdf | Slides: web-page | Slides with notes | Recording Link | Duration | Code: qmd | Code: html |
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| 4 | Bayes' Rule (Book section 2.2.5) | [Day 5: slides 1-2](../slides/Day05_bsta511.qmd) | [{{< iconify bi file-earmark-pdf-fill size=20px >}}](../LaTeX_slides/Day05_bsta511.pdf) |  | [{{< iconify pepicons-pop pen-circle-filled size=20px >}}](../LaTeX_slides/Day05_bsta511_notes.pdf) | [Day 5 Part 1](https://echo360.org/lesson/77ab7ace-a200-4455-ae0d-8fd0be3216ef/classroom#sortDirection=desc) | 22 min |  |  |
-|  | Bayes' Rule (Book section 2.2.5) | [Day 5: slides 3-6](../slides/Day05_bsta511.qmd) | [{{< iconify bi file-earmark-pdf-fill size=20px >}}](../LaTeX_slides/Day05_bsta511.pdf) |  | [{{< iconify pepicons-pop pen-circle-filled size=20px >}}](../LaTeX_slides/Day05_bsta511_notes.pdf) | [Day 5 Part 2](https://echo360.org/lesson/51a9cd82-0772-4254-b4bb-41bbeefcd062/classroom#sortDirection=desc) | 22 min |  |  |
-|  | R packages | [Day 2: slides 47-54](../slides/Day02_bsta511.qmd#/r-packages---day-4-in-f24) | [{{< iconify bi file-earmark-pdf-fill size=20px >}}](../slides_pdf/Day02_bsta511.pdf) | [{{< iconify streamline web size=20px >}}](../slides_md/Day02_bsta511_md.qmd#r-packages---day-4-in-f24) |  | [Day 2 Part 4](https://echo360.org/lesson/9536c32e-4f83-492e-b12a-0afb73fbcd4a/classroom#sortDirection=desc) | 30 min | [{{< iconify simple-icons:quarto >}}](https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Day02_bsta511_code.qmd) | [{{< iconify ph file-html-light size=25px >}}](../slides_code/Day02_bsta511_code.qmd#r-packages---day-4-in-f24) |
-| 5 | Exploratory Data Analysis | [Day 3: slides 1-59](../slides/Day03_bsta511.qmd) | [{{< iconify bi file-earmark-pdf-fill size=20px >}}](../slides_pdf/Day03_bsta511.pdf) | [{{< iconify streamline web size=20px >}}](../slides_md/Day03_bsta511_md.qmd) |  | [Day 3](https://echo360.org/lesson/8ba30718-f090-4e31-ad77-85e449d70c85/classroom#sortDirection=desc) | 1 hr 18 min | [{{< iconify simple-icons:quarto >}}](https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Day03_bsta511_code.qmd) | [{{< iconify ph file-html-light size=25px >}}](../slides_code/Day03_bsta511_code.qmd) |
-|  | Day 3 Part 3 slides: Extra data wrangling code |  | [{{< iconify bi file-earmark-pdf-fill size=20px >}}](../slides_pdf/Day03_bsta511_part3_data_wrangling.pdf) |  |  |  |  | [{{< iconify simple-icons:quarto >}}](https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Day03_bsta511_code_part3_data_wrangling.qmd) | [{{< iconify ph file-html-light size=25px >}}](../slides_code/Day03_bsta511_code_part3_data_wrangling.qmd) |
+| 6 | Random Variables (3.1.1-3.1.3) | [Day 6: slides 1-6](../slides/Day06_bsta511.qmd) | [{{< iconify bi file-earmark-pdf-fill size=20px >}}](../LaTeX_slides/Day06_bsta511.pdf) |  | [{{< iconify pepicons-pop pen-circle-filled size=20px >}}](../LaTeX_slides/Day06_bsta511_notes.pdf) | [Day 6 Part 1](https://echo360.org/lesson/6b3df5b4-2997-43af-81b7-91da94b7100f/classroom#sortDirection=desc) | 24 min |  |  |
+|  | Linear combinations of RV's (3.1.4) | [Day 6: slides 7-10](../slides/Day06_bsta511.qmd) | same |  | same | [Day 6 Part 2](https://echo360.org/lesson/a191ba39-ebb5-4421-8ee1-67348d3e6f57/classroom#sortDirection=desc) | 14 min |  |  |
+|  | Binomial distribution (3.2) | [Day 6: slides 11-15](../slides/Day06_bsta511.qmd) | same |  | same | [Day 6 Part 3](https://echo360.org/lesson/907b2ae8-1572-44e8-a632-c64ed8fe67b3/classroom#sortDirection=desc) | 27 min |  |  |
+| 7 | Normal distribution and calculatin probabilities for standard normal distribution (3.3.1, 3.3.3) | [Day 7: slides 1-5](../slides/Day07_bsta511.qmd) | [{{< iconify bi file-earmark-pdf-fill size=20px >}}](../LaTeX_slides/Day07_bsta511.pdf) |  | [{{< iconify pepicons-pop pen-circle-filled size=20px >}}](../LaTeX_slides/Day07_bsta511_notes.pdf) | [Day 7 Part 1](https://echo360.org/lesson/6d845f5b-d50f-4aeb-af90-7eaded81ab99/classroom#sortDirection=desc) | 27 min |  |  |
+|  | Calculating normal probabilities using z-scores (3.3.2, 3.3.4) | [Day 7: slides 6-7](../slides/Day07_bsta511.qmd) | same |  | same | [Day 7 Part 2](https://echo360.org/lesson/c42e49bf-a852-403f-b13d-2f47cb36accf/classroom#sortDirection=desc) | 15 min |  |  |
+|  | Normal approximation of the binomial distribution (3.3.6) | [Day 7: slides 8-9](../slides/Day07_bsta511.qmd) | same |  | same | [Day 7 Part 3](https://echo360.org/lesson/7e84a51f-7d39-47fe-a27d-84974592ce65/classroom#sortDirection=desc) | 14 min |  |  |
+|  | Poisson distribution (3.4) | [Day 7: slides 10-12](../slides/Day07_bsta511.qmd) | same |  | same | [Day 7 Part 4](https://echo360.org/lesson/cf2c19ad-62b5-44b5-ac0a-f85a32f0e599/classroom#sortDirection=desc) | 15 min |  |  |
 
 : {.striped .hover tbl-colwidths="\[3, 10, 8, 5, 5, 5, 6, 6, 5, 5\]"}
 
@@ -53,52 +50,14 @@ As I mentioned in the recording, the various options in more complex figures I u
 
 During class you will be working in groups discussing the following:
 
-<!-- [Class discussion Google doc link]() -->
-
 ### Day04
 
--   R Packages (**Fall 2023: Day 2**)
-    -   R packages: any difficulty installing packages?
--   Bayes' Rule (**Fall 2023: Day 5**)
-    -   Example 2.10 on pg 6 of slides
--   From HW 2
-    -   Book exercises
-        -   2.24
-    -   Non-book exercise
+-   coming soon!
 
 ### Day05
 
--   Can distribution shape and sample size be determined from a boxplot? (see slide 30)
+-   coming soon!
 
--   Is there evidence of ethnicity (Hispanic vs. White non-Hispanic) discrimination in DDS expenditures? Why or why not?
+## Homework - coming soon!
 
--   From HW 2
-
-    -   R1 & R2: NHANES - parts 1 & 2
-
-<!-- ### Part 2 slides -->
-
-<!-- The Day 3 Part 2 slides include extra EDA to examine further the question of whether there is evidence of ethnicity (Hispanic vs. White non-Hispanic) discrimination in DDS expenditures based on the data. -->
-
-<!-- * [html](../slides/Day03_bsta511_part2.qmd) -->
-
-<!-- * [pdf](https://drive.google.com/file/d/1IofJF8cXrEyfVokBOw0WOcQGuGfETvsu/view?usp=sharing) -->
-
-<!-- * [webpage](../slides_md/Day03_bsta511_md_part2.qmd) -->
-
-<!-- * Code file: [qmd](https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Day03_bsta511_code_part2.qmd), [html](../slides_code/Day03_bsta511_code_part2.qmd) -->
-
-<!-- ### Part 3 slides: Data Wrangling -->
-
-<!-- The Day 3 Part 3 slides provide more data wrangling examples. Some of the functions covered were used in the Day 3 Part 2 slides.  -->
-
-<!-- _HW 2 makes reference to some of the functions in these slides._ -->
-
-<!-- * [pdf](https://drive.google.com/file/d/1IfubP0ei-5jTIVs33dyoEqjMIY-Q8qBe/view?usp=sharing) -->
-
-<!-- * Code file: [qmd](https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Day03_bsta511_code_part3_data_wrangling.qmd), [html](../slides_code/Day03_bsta511_code_part3_data_wrangling.qmd) -->
-
-## Homework
-
--   [HW 2](../homework/HW_2_F24_bsta511.qmd) due on Sat, 10/19
-    -   See extra [Day 3 Part 3 slides](../slides_pdf/Day03_bsta511_part3_data_wrangling.pdf) (both pdf and code) in table above with slides & recording links.
+<!-- -   [HW 3](../homework/HW_3_F24_bsta511.qmd) due on Sat, 10/26 -->
