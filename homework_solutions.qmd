@@ -10,22 +10,10 @@ editor_options:
 ---
 
 ::: callout-note
-* Below are links to homework solutions.
 * Accessing solutions will require signing into Sakai. 
-* **[Solutions will not be accessible until after their due date.]{style="color:darkorange"}** 
-* **Homework number will appear as [green]{style="color:green"} for solutions that are available on Sakai.** 
-* *If you try accessing them earlier you will get a "file not found" page from Sakai.*
+* **[Solutions will not be accessible until after their due date and after you turn in the assignment.]{style="color:darkorange"}** 
+
 :::
 
-| HW  |                                                      qmd file                                                       | html file                                                                                                             |
-|:-------------------:|:-------------------------:|:------------------------|
-|  **[1]{style="color:green"}**  |  [qmd](https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_1_F24_bsta511_Solutions.qmd)   | [html](https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_1_F24_bsta511_Solutions.html)    |
-|  2  |  [qmd](https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_2_F24_bsta511_Solutions.qmd)   | [html](https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_2_F24_bsta511_Solutions.html)    |
-|  3  |  [qmd](https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_3_F24_bsta511_Solutions.qmd)   | [html](https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_3_F24_bsta511_Solutions.html)    |
-|  4  |  [qmd](https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_4_F24_bsta511_Solutions.qmd)   | [html](https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_4_F24_bsta511_Solutions.html)    |
-|  5  |  [qmd](https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_5_F24_bsta511_Solutions.qmd)   | [html](https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_5_F24_bsta511_Solutions.html)    |
-|  6  |  [qmd](https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_6_F24_bsta511_Solutions.qmd)   | [html](https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_6_F24_bsta511_Solutions.html)    |
-|  7  |  [qmd](https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_7_F24_bsta511_Solutions.qmd)   | [html](https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_7_F24_bsta511_Solutions.html)    |
-|  8  |  [qmd](https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_8_F24_bsta511_Solutions.qmd)   | [html](https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_8_F24_bsta511_Solutions.html)    |
-|  9  |  [qmd](https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_9_F24_bsta511_Solutions.qmd)   | [html](https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/HW_solutions/HW_9_F24_bsta511_Solutions.html)    |
+[LINK](https://sakai.ohsu.edu/portal/site/BSTA-511-1-AA-F24/tool/07426483-9125-4418-b74f-996db41be3c0/ShowPage?returnView=&studentItemId=0&backPath=&bltiAppStores=false&errorMessage=&clearAttr=&messageId=&source=&title=&newTopLevel=false&sendingPage=205996&postedComment=false&addBefore=&itemId=5293690&path=push&reviewAssessment=false&topicId=&addTool=-1&recheck=&id=&forumId=) to homework solutions page on Sakai.
 
