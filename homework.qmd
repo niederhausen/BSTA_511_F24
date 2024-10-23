@@ -17,3 +17,5 @@ format:
 -   The dates in the Date column are due dates.
 -   See the `Grading rubric` tab to the left for a description of how assignments will be graded.
 :::
+
+* Check out this [spreadsheet](https://docs.google.com/spreadsheets/d/1k_NivXZftdlRgRyTT3fUZCndW4eoXCzAs-DEIml6K3Y/edit?gid=0#gid=0) for textbook typos.

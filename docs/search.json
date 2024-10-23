@@ -172,7 +172,7 @@
     "href": "homework.html",
     "title": "Assignments",
     "section": "",
-    "text": "Note\n\n\n\n\nBelow are links to homework assignments.\nThe dates in the Date column are due dates.\nSee the Grading rubric tab to the left for a description of how assignments will be graded.\n\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\n10/12/24\n\n\nHW 1: BSTA 511/611 F24\n\n\n\n\n10/19/24\n\n\nHW 2: BSTA 511/611 F24\n\n\n\n\n10/26/24\n\n\nHW 3: BSTA 511/611 F24\n\n\n\n\n\n\nNo matching items"
+    "text": "Note\n\n\n\n\nBelow are links to homework assignments.\nThe dates in the Date column are due dates.\nSee the Grading rubric tab to the left for a description of how assignments will be graded.\n\n\n\n\nCheck out this spreadsheet for textbook typos.\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\n10/12/24\n\n\nHW 1: BSTA 511/611 F24\n\n\n\n\n10/19/24\n\n\nHW 2: BSTA 511/611 F24\n\n\n\n\n10/26/24\n\n\nHW 3: BSTA 511/611 F24\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/Projects_in_R.html",
@@ -3441,6 +3441,6 @@
     "href": "weeks/week_04.html#homework",
     "title": "Week 4",
     "section": "Homework",
-    "text": "Homework\n\nHW 3 due on Sat, 10/26\nMake sure to check out the calculating probabilities in R code file: qmd, html"
+    "text": "Homework\n\nHW 3 due on Sat, 10/26\nMake sure to check out the calculating probabilities in R code file: qmd, html\nNote: the answer to exercise 3.31(b) in the textbook (not assigned) is incorrect.\n\nCheck out this spreadsheet for more typos in book."
   }
 ]

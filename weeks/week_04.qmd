@@ -81,3 +81,5 @@ During class you will be working in groups discussing the following:
 
 -   [HW 3](../homework/HW_3_F24_bsta511.qmd) due on Sat, 10/26
 -   Make sure to check out the calculating probabilities in R code file: [qmd](https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Probability_distributions_in_R_bsta511.qmd), [html](../slides_code/Probability_distributions_in_R_bsta511.qmd)
+-   Note: the answer to exercise 3.31(b) in the textbook (not assigned) is incorrect.
+    -   Check out this [spreadsheet](https://docs.google.com/spreadsheets/d/1k_NivXZftdlRgRyTT3fUZCndW4eoXCzAs-DEIml6K3Y/edit?gid=0#gid=0) for more typos in book.
