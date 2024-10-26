@@ -3469,7 +3469,7 @@
     "href": "weeks/week_05.html#slides-recordings",
     "title": "Week 5",
     "section": "Slides & Recordings",
-    "text": "Slides & Recordings\n\nPre-recorded lessons are on Echo Cloud (aka echo 360 or echo video).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDay\nTopic\nSlides: html\nSlides: pdf\nSlides: web-page\nSlides with notes\nRecording Link\nDuration\nCode: qmd\nCode: html\n\n\n\n\n8\nVariability in estimates: Section 4.1\nDay 8: slides 1-13\n\n\n\nDay 8 Part 1\n26 min\n\n\n\n\n\n4.1 con’td\nDay 8: slides 14-29\nsame\n\nsame\nDay 8 Part 2\n37 min\n\n\n\n\n\nR code demo\n\n\n\n\nDay 8 Part 3\n11 min"
+    "text": "Slides & Recordings\n\nPre-recorded lessons are on Echo Cloud (aka echo 360 or echo video).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDay\nTopic\nSlides: html\nSlides: pdf\nSlides: web-page\nSlides with notes\nRecording Link\nDuration\nCode: qmd\nCode: html\n\n\n\n\n8\nVariability in estimates: Section 4.1\nDay 8: slides 1-13\n\n\n\nDay 8 Part 1\n26 min\n\n\n\n\n\n4.1 con’td\nDay 8: slides 14-29\nsame\n\nsame\nDay 8 Part 2\n37 min\nsame\n\n\n\n\nR code demo\n\n\n\n\nDay 8 Part 3\n11 min\nsame"
   },
   {
     "objectID": "weeks/week_05.html#class-discussion",
@@ -3887,6 +3887,174 @@
   {
     "objectID": "slides_md/Day08_bsta511_md.html#footnotes",
     "href": "slides_md/Day08_bsta511_md.html#footnotes",
+    "title": "Day 8: Variability in estimates",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nYouth Risk Behavior Surveillance System https://www.cdc.gov/healthyyouth/data/yrbs/index.htm (YRBSS)↩︎"
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html",
+    "href": "slides_code/Day08_bsta511_code.html",
+    "title": "Day 8: Variability in estimates",
+    "section": "",
+    "text": "Packages need to be loaded every time you restart R or render an Qmd file\n\n\n# run these every time you open Rstudio\nlibrary(tidyverse)    \nlibrary(oibiostat)\nlibrary(ggridges)\nlibrary(janitor)\nlibrary(rstatix)\nlibrary(knitr)\nlibrary(gtsummary)\nlibrary(moderndive) # NEW!!\n\nset.seed(456)\n\n\nYou can check whether a package has been loaded or not\n\nby looking at the Packages tab and\nseeing whether it has been checked off or not"
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#load-packages",
+    "href": "slides_code/Day08_bsta511_code.html#load-packages",
+    "title": "Day 8: Variability in estimates",
+    "section": "",
+    "text": "Packages need to be loaded every time you restart R or render an Qmd file\n\n\n# run these every time you open Rstudio\nlibrary(tidyverse)    \nlibrary(oibiostat)\nlibrary(ggridges)\nlibrary(janitor)\nlibrary(rstatix)\nlibrary(knitr)\nlibrary(gtsummary)\nlibrary(moderndive) # NEW!!\n\nset.seed(456)\n\n\nYou can check whether a package has been loaded or not\n\nby looking at the Packages tab and\nseeing whether it has been checked off or not"
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#moritzs-tip-of-the-day-add-a-code-pane-in-rstudio",
+    "href": "slides_code/Day08_bsta511_code.html#moritzs-tip-of-the-day-add-a-code-pane-in-rstudio",
+    "title": "Day 8: Variability in estimates",
+    "section": "MoRitz’s tip of the day: add a code pane in RStudio",
+    "text": "MoRitz’s tip of the day: add a code pane in RStudio\nDo you want to be able to view two code files side-by-side?\nYou can do that by adding a column to the RStudio layout.\nSee https://posit.co/blog/rstudio-1-4-preview-multiple-source-columns/ for more information."
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#getting-to-know-the-dataset-glimpse",
+    "href": "slides_code/Day08_bsta511_code.html#getting-to-know-the-dataset-glimpse",
+    "title": "Day 8: Variability in estimates",
+    "section": "Getting to know the dataset: glimpse()",
+    "text": "Getting to know the dataset: glimpse()\n\nglimpse(yrbss)  # from tidyverse package (dplyr)\n\nRows: 13,583\nColumns: 13\n$ age                      &lt;int&gt; 14, 14, 15, 15, 15, 15, 15, 14, 15, 15, 15, 1…\n$ gender                   &lt;chr&gt; \"female\", \"female\", \"female\", \"female\", \"fema…\n$ grade                    &lt;chr&gt; \"9\", \"9\", \"9\", \"9\", \"9\", \"9\", \"9\", \"9\", \"9\", …\n$ hispanic                 &lt;chr&gt; \"not\", \"not\", \"hispanic\", \"not\", \"not\", \"not\"…\n$ race                     &lt;chr&gt; \"Black or African American\", \"Black or Africa…\n$ height                   &lt;dbl&gt; NA, NA, 1.73, 1.60, 1.50, 1.57, 1.65, 1.88, 1…\n$ weight                   &lt;dbl&gt; NA, NA, 84.37, 55.79, 46.72, 67.13, 131.54, 7…\n$ helmet.12m               &lt;chr&gt; \"never\", \"never\", \"never\", \"never\", \"did not …\n$ text.while.driving.30d   &lt;chr&gt; \"0\", NA, \"30\", \"0\", \"did not drive\", \"did not…\n$ physically.active.7d     &lt;int&gt; 4, 2, 7, 0, 2, 1, 4, 4, 5, 0, 0, 0, 4, 7, 7, …\n$ hours.tv.per.school.day  &lt;chr&gt; \"5+\", \"5+\", \"5+\", \"2\", \"3\", \"5+\", \"5+\", \"5+\",…\n$ strength.training.7d     &lt;int&gt; 0, 0, 0, 0, 1, 0, 2, 0, 3, 0, 3, 0, 0, 7, 7, …\n$ school.night.hours.sleep &lt;chr&gt; \"8\", \"6\", \"&lt;5\", \"6\", \"9\", \"8\", \"9\", \"6\", \"&lt;5\"…"
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#height-weight-variables",
+    "href": "slides_code/Day08_bsta511_code.html#height-weight-variables",
+    "title": "Day 8: Variability in estimates",
+    "section": "Height & weight variables",
+    "text": "Height & weight variables\n\nyrbss %&gt;% \n  select(height, weight) %&gt;% \n  summary()\n\n     height          weight      \n Min.   :1.270   Min.   : 29.94  \n 1st Qu.:1.600   1st Qu.: 56.25  \n Median :1.680   Median : 64.41  \n Mean   :1.691   Mean   : 67.91  \n 3rd Qu.:1.780   3rd Qu.: 76.20  \n Max.   :2.110   Max.   :180.99  \n NA's   :1004    NA's   :1004    \n\n\n\nggplot(data = yrbss, \n       aes(x = height)) +\n  geom_histogram() #&lt;&lt;\n\nWarning: Removed 1004 rows containing non-finite values (`stat_bin()`)."
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#transform-height-weight-from-metric-to-to-standard",
+    "href": "slides_code/Day08_bsta511_code.html#transform-height-weight-from-metric-to-to-standard",
+    "title": "Day 8: Variability in estimates",
+    "section": "Transform height & weight from metric to to standard",
+    "text": "Transform height & weight from metric to to standard\nAlso, drop missing values and add a column of id values\n\nyrbss2 &lt;- yrbss %&gt;%                 # save new dataset with new name\n  mutate(                           # add variables for \n    height.ft = 3.28084*height,     #     height in feet\n    weight.lb = 2.20462*weight      #     weight in pounds\n  ) %&gt;% \n  drop_na(height.ft, weight.lb) %&gt;% # drop rows w/ missing height/weight values\n  mutate(id = 1:nrow(.)) %&gt;%        # add id column\n  select(id, height.ft, weight.lb)  # restrict dataset to columns of interest\n\nhead(yrbss2)  \n\n  id height.ft weight.lb\n1  1  5.675853  186.0038\n2  2  5.249344  122.9957\n3  3  4.921260  102.9998\n4  4  5.150919  147.9961\n5  5  5.413386  289.9957\n6  6  6.167979  157.0130\n\ndim(yrbss2)\n\n[1] 12579     3\n\n# number of rows deleted that had missing values for height and/or weight:\nnrow(yrbss) - nrow(yrbss2) \n\n[1] 1004"
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#yrbss2-summary",
+    "href": "slides_code/Day08_bsta511_code.html#yrbss2-summary",
+    "title": "Day 8: Variability in estimates",
+    "section": "yrbss2 summary",
+    "text": "yrbss2 summary\n\nsummary(yrbss2)\n\n       id          height.ft       weight.lb     \n Min.   :    1   Min.   :4.167   Min.   : 66.01  \n 1st Qu.: 3146   1st Qu.:5.249   1st Qu.:124.01  \n Median : 6290   Median :5.512   Median :142.00  \n Mean   : 6290   Mean   :5.549   Mean   :149.71  \n 3rd Qu.: 9434   3rd Qu.:5.840   3rd Qu.:167.99  \n Max.   :12579   Max.   :6.923   Max.   :399.01  \n\n\nAnother summary:\n\nyrbss2 %&gt;% \n  get_summary_stats(type = \"mean_sd\") %&gt;% \n  kable()\n\n\n\n\nvariable\nn\nmean\nsd\n\n\n\n\nid\n12579\n6290.000\n3631.389\n\n\nheight.ft\n12579\n5.549\n0.343\n\n\nweight.lb\n12579\n149.708\n37.254"
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#random-sample-of-size-n-5-from-yrbss2",
+    "href": "slides_code/Day08_bsta511_code.html#random-sample-of-size-n-5-from-yrbss2",
+    "title": "Day 8: Variability in estimates",
+    "section": "Random sample of size n = 5 from yrbss2",
+    "text": "Random sample of size n = 5 from yrbss2\nTake a random sample of size n = 5 from yrbss2:\n\nlibrary(moderndive)\nsamp_n5_rep1 &lt;- yrbss2 %&gt;%\n  rep_sample_n(size = 5, \n               reps = 1,\n               replace = FALSE)\nsamp_n5_rep1\n\n# A tibble: 5 × 4\n# Groups:   replicate [1]\n  replicate    id height.ft weight.lb\n      &lt;int&gt; &lt;int&gt;     &lt;dbl&gt;     &lt;dbl&gt;\n1         1  5869      5.15      145.\n2         1  6694      5.41      127.\n3         1  2517      5.74      130.\n4         1  5372      6.07      180.\n5         1  5403      6.07      163.\n\n\nCalculate the mean of the random sample:\n\nmeans_hght_samp_n5_rep1 &lt;- \n  samp_n5_rep1 %&gt;% \n  summarise(mean_height = mean(height.ft))\n\nmeans_hght_samp_n5_rep1\n\n# A tibble: 1 × 2\n  replicate mean_height\n      &lt;int&gt;       &lt;dbl&gt;\n1         1        5.69\n\n\nWould we get the same mean height if we took another sample?"
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#random-samples-of-size-n-5-from-yrbss2",
+    "href": "slides_code/Day08_bsta511_code.html#random-samples-of-size-n-5-from-yrbss2",
+    "title": "Day 8: Variability in estimates",
+    "section": "100 random samples of size n = 5 from yrbss2",
+    "text": "100 random samples of size n = 5 from yrbss2\nTake 100 random samples of size n = 5 from yrbss2:\n\nsamp_n5_rep100 &lt;- yrbss2 %&gt;%\n  rep_sample_n(size = 5, \n               reps = 100,\n               replace = FALSE)\nsamp_n5_rep100\n\n# A tibble: 500 × 4\n# Groups:   replicate [100]\n   replicate    id height.ft weight.lb\n       &lt;int&gt; &lt;int&gt;     &lt;dbl&gt;     &lt;dbl&gt;\n 1         1  6483      5.51     145. \n 2         1  9899      4.92      90.0\n 3         1  6103      5.68     118. \n 4         1  2702      5.68     150. \n 5         1 11789      5.35     115. \n 6         2 10164      5.51     140. \n 7         2  5807      5.41     215. \n 8         2  9382      5.15      98.0\n 9         2  4904      6.00     196. \n10         2   229      6.07     101. \n# ℹ 490 more rows\n\n\nCalculate the mean for each of the 100 random samples:\n\nmeans_hght_samp_n5_rep100 &lt;- \n  samp_n5_rep100 %&gt;% \n  group_by(replicate) %&gt;% \n  summarise(mean_height = mean(height.ft))\n\nmeans_hght_samp_n5_rep100\n\n# A tibble: 100 × 2\n   replicate mean_height\n       &lt;int&gt;       &lt;dbl&gt;\n 1         1        5.43\n 2         2        5.63\n 3         3        5.34\n 4         4        5.70\n 5         5        5.90\n 6         6        5.37\n 7         7        5.49\n 8         8        5.60\n 9         9        5.50\n10        10        5.68\n# ℹ 90 more rows\n\n\nHow close are the mean heights for each of the 100 random samples?"
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#distribution-of-100-sample-mean-heights-n-5",
+    "href": "slides_code/Day08_bsta511_code.html#distribution-of-100-sample-mean-heights-n-5",
+    "title": "Day 8: Variability in estimates",
+    "section": "Distribution of 100 sample mean heights (n = 5)",
+    "text": "Distribution of 100 sample mean heights (n = 5)\nDescribe the distribution shape.\n\nggplot(\n  means_hght_samp_n5_rep100, \n  aes(x = mean_height)) + \n  geom_histogram()\n\n\n\n\nCalculate the mean and SD of the 100 mean heights from the 100 samples:\n\nstats_means_hght_samp_n5_rep100 &lt;- \n  means_hght_samp_n5_rep100 %&gt;% \n  summarise(\n   mean_mean_height = mean(mean_height),\n   sd_mean_height = sd(mean_height)\n   )\nstats_means_hght_samp_n5_rep100\n\n# A tibble: 1 × 2\n  mean_mean_height sd_mean_height\n             &lt;dbl&gt;          &lt;dbl&gt;\n1             5.58          0.150\n\n\nIs the mean of the means close to the “center” of the distribution?"
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#samples-of-size-n-5-from-yrbss2",
+    "href": "slides_code/Day08_bsta511_code.html#samples-of-size-n-5-from-yrbss2",
+    "title": "Day 8: Variability in estimates",
+    "section": "10,000 samples of size n = 5 from yrbss2",
+    "text": "10,000 samples of size n = 5 from yrbss2\nTake 10,000 random samples of size\nn = 5 from yrbss2:\n\nsamp_n5_rep10000 &lt;- yrbss2 %&gt;%\n  rep_sample_n(size = 5, \n               reps = 10000,\n               replace = FALSE)\nsamp_n5_rep10000\n\n# A tibble: 50,000 × 4\n# Groups:   replicate [10,000]\n   replicate    id height.ft weight.lb\n       &lt;int&gt; &lt;int&gt;     &lt;dbl&gt;     &lt;dbl&gt;\n 1         1  6383      5.35      126.\n 2         1  4019      5.41      107.\n 3         1  4856      5.25      135.\n 4         1  9988      5.58      120.\n 5         1  2245      6.17      270.\n 6         2 10580      5.68      155.\n 7         2  2254      5.84      159.\n 8         2  8081      5.09      110.\n 9         2 10194      5.35      115.\n10         2  7689      5.35      135.\n# ℹ 49,990 more rows\n\n\nCalculate the mean for each of the 10,000 random samples:\n\nmeans_hght_samp_n5_rep10000 &lt;- \n  samp_n5_rep10000 %&gt;% \n  group_by(replicate) %&gt;% \n  summarise(mean_height = \n            mean(height.ft))\n\nmeans_hght_samp_n5_rep10000\n\n# A tibble: 10,000 × 2\n   replicate mean_height\n       &lt;int&gt;       &lt;dbl&gt;\n 1         1        5.55\n 2         2        5.46\n 3         3        5.49\n 4         4        5.60\n 5         5        5.47\n 6         6        5.83\n 7         7        5.68\n 8         8        5.47\n 9         9        5.37\n10        10        5.15\n# ℹ 9,990 more rows\n\n\nHow close are the mean heights for each of the 10,000 random samples?"
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#distribution-of-10000-sample-mean-heights-n-5",
+    "href": "slides_code/Day08_bsta511_code.html#distribution-of-10000-sample-mean-heights-n-5",
+    "title": "Day 8: Variability in estimates",
+    "section": "Distribution of 10,000 sample mean heights (n = 5)",
+    "text": "Distribution of 10,000 sample mean heights (n = 5)\nDescribe the distribution shape.\n\nggplot(\n  means_hght_samp_n5_rep10000, \n  aes(x = mean_height)) + \n  geom_histogram()\n\n\n\n\nCalculate the mean and SD of the 10,000 mean heights from the 10,000 samples:\n\nstats_means_hght_samp_n5_rep10000 &lt;- \n  means_hght_samp_n5_rep10000 %&gt;% \n  summarise(\n   mean_mean_height=mean(mean_height),\n   sd_mean_height = sd(mean_height)\n   )\nstats_means_hght_samp_n5_rep10000\n\n# A tibble: 1 × 2\n  mean_mean_height sd_mean_height\n             &lt;dbl&gt;          &lt;dbl&gt;\n1             5.55          0.153\n\n\nIs the mean of the means close to the “center” of the distribution?"
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#samples-of-size-n-30-from-yrbss2",
+    "href": "slides_code/Day08_bsta511_code.html#samples-of-size-n-30-from-yrbss2",
+    "title": "Day 8: Variability in estimates",
+    "section": "10,000 samples of size n = 30 from yrbss2",
+    "text": "10,000 samples of size n = 30 from yrbss2\nTake 10,000 random samples of size\nn = 30 from yrbss2:\n\nsamp_n30_rep10000 &lt;- yrbss2 %&gt;%\n  rep_sample_n(size = 30, \n               reps = 10000,\n               replace = FALSE)\nsamp_n30_rep10000\n\n# A tibble: 300,000 × 4\n# Groups:   replicate [10,000]\n   replicate    id height.ft weight.lb\n       &lt;int&gt; &lt;int&gt;     &lt;dbl&gt;     &lt;dbl&gt;\n 1         1  3871      5.25      115.\n 2         1 12090      5.15      125.\n 3         1   241      5.58      119.\n 4         1  4570      5.58      140.\n 5         1  4131      5.35      143.\n 6         1 11513      5.35      135.\n 7         1  9663      5.25      125.\n 8         1  3789      5.25      160.\n 9         1   442      5.15      130.\n10         1 11528      5.51      200.\n# ℹ 299,990 more rows\n\n\nCalculate the mean for each of the 10,000 random samples:\n\nmeans_hght_samp_n30_rep10000 &lt;- \n  samp_n30_rep10000 %&gt;% \n  group_by(replicate) %&gt;% \n  summarise(mean_height = \n            mean(height.ft))\n\nmeans_hght_samp_n30_rep10000\n\n# A tibble: 10,000 × 2\n   replicate mean_height\n       &lt;int&gt;       &lt;dbl&gt;\n 1         1        5.48\n 2         2        5.63\n 3         3        5.46\n 4         4        5.46\n 5         5        5.51\n 6         6        5.54\n 7         7        5.56\n 8         8        5.51\n 9         9        5.51\n10        10        5.50\n# ℹ 9,990 more rows\n\n\nHow close are the mean heights for each of the 10,000 random samples?"
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#distribution-of-10000-sample-mean-heights-n-30",
+    "href": "slides_code/Day08_bsta511_code.html#distribution-of-10000-sample-mean-heights-n-30",
+    "title": "Day 8: Variability in estimates",
+    "section": "Distribution of 10,000 sample mean heights (n = 30)",
+    "text": "Distribution of 10,000 sample mean heights (n = 30)\nDescribe the distribution shape.\n\nggplot(\n  means_hght_samp_n30_rep10000, \n  aes(x = mean_height)) + \n  geom_histogram()\n\n\n\n\nCalculate the mean and SD of the 10,000 mean heights from the 10,000 samples:\n\nstats_means_hght_samp_n30_rep10000&lt;- \n  means_hght_samp_n30_rep10000 %&gt;% \n  summarise(\n   mean_mean_height=mean(mean_height),\n   sd_mean_height = sd(mean_height)\n   )\nstats_means_hght_samp_n30_rep10000\n\n# A tibble: 1 × 2\n  mean_mean_height sd_mean_height\n             &lt;dbl&gt;          &lt;dbl&gt;\n1             5.55         0.0623\n\n\nIs the mean of the means close to the “center” of the distribution?"
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#compare-distributions-of-10000-sample-mean-heights-when-n-5-left-vs.-n-30-right",
+    "href": "slides_code/Day08_bsta511_code.html#compare-distributions-of-10000-sample-mean-heights-when-n-5-left-vs.-n-30-right",
+    "title": "Day 8: Variability in estimates",
+    "section": "Compare distributions of 10,000 sample mean heights when n = 5 (left) vs. n = 30 (right)",
+    "text": "Compare distributions of 10,000 sample mean heights when n = 5 (left) vs. n = 30 (right)\nHow are the center, shape, and spread similar and/or different?\n\n\n\n\n\n# A tibble: 1 × 2\n  mean_mean_height sd_mean_height\n             &lt;dbl&gt;          &lt;dbl&gt;\n1             5.55          0.153\n\n\n\n\n\n\n\n# A tibble: 1 × 2\n  mean_mean_height sd_mean_height\n             &lt;dbl&gt;          &lt;dbl&gt;\n1             5.55         0.0623"
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#sampling-high-schoolers-weights",
+    "href": "slides_code/Day08_bsta511_code.html#sampling-high-schoolers-weights",
+    "title": "Day 8: Variability in estimates",
+    "section": "Sampling high schoolers’ weights",
+    "text": "Sampling high schoolers’ weights\nWhich figure is which?\n\nPopulation distribution of weights\nSampling distribution of mean weights when \\(n=5\\)\nSampling distribution of mean weights when \\(n=30\\).\n\nA\n\n\n\n\n\nB\n\n\n\n\n\nC"
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#the-sampling-distribution-of-the-mean",
+    "href": "slides_code/Day08_bsta511_code.html#the-sampling-distribution-of-the-mean",
+    "title": "Day 8: Variability in estimates",
+    "section": "The sampling distribution of the mean",
+    "text": "The sampling distribution of the mean\n\nThe sampling distribution of the mean is the distribution of sample means calculated from repeated random samples of the same size from the same population\nOur simulations show approximations of the sampling distribution of the mean for various sample sizes\nThe theoretical sampling distribution is based on all possible samples of a given sample size \\(n\\).\n\n\n\nWarning: Removed 2 rows containing missing values (`geom_bar()`).\n\n\n\n\n\n\n\nWarning: Removed 2 rows containing missing values (`geom_bar()`)."
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#the-central-limit-theorem-clt",
+    "href": "slides_code/Day08_bsta511_code.html#the-central-limit-theorem-clt",
+    "title": "Day 8: Variability in estimates",
+    "section": "The Central Limit Theorem (CLT)",
+    "text": "The Central Limit Theorem (CLT)\n\nFor “large” sample sizes ( \\(n\\geq 30\\) ),\n\nthe sampling distribution of the sample mean\ncan be approximated by a normal distribution,with\n\nmean equal to the population mean value \\(\\mu\\), and\nstandard deviation \\(\\frac{\\sigma}{\\sqrt{n}}\\)\n\n\nFor small sample sizes, if the population is known to be normally distributed, then\n\nthe sampling distribution of the sample mean\nis a normal distribution, with\n\nmean equal to the population mean value \\(\\mu\\), and\nstandard deviation \\(\\frac{\\sigma}{\\sqrt{n}}\\)"
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#the-cutest-statistics-video-on-youtube",
+    "href": "slides_code/Day08_bsta511_code.html#the-cutest-statistics-video-on-youtube",
+    "title": "Day 8: Variability in estimates",
+    "section": "The cutest statistics video on YouTube",
+    "text": "The cutest statistics video on YouTube\n\nBunnies, Dragons and the ‘Normal’ World: Central Limit Theorem\n\nCreature Cast from the New York Times\nhttps://www.youtube.com/watch?v=jvoxEYmQHNM&feature=youtu.be"
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#sampling-distribution-of-mean-heights-when-n-30",
+    "href": "slides_code/Day08_bsta511_code.html#sampling-distribution-of-mean-heights-when-n-30",
+    "title": "Day 8: Variability in estimates",
+    "section": "Sampling distribution of mean heights when n = 30",
+    "text": "Sampling distribution of mean heights when n = 30\n\nggplot(\n  means_hght_samp_n30_rep10000, \n  aes(x = mean_height)) + \n  geom_histogram()\n\n\n\n\nCLT tells us that we can model the sampling distribution of mean heights using a normal distribution.\n\nPlot of theoretical sampling distribution\n\nmu &lt;- 5.55\nSE &lt;- 0.34/sqrt(30)\nsig &lt;- round(SE, 2)\n\ngg_samp_dist_heights &lt;- ggplot(data.frame(x = c(mu-4*sig, mu+4*sig)), aes(x = x)) + \n  stat_function(fun = dnorm, \n                args = list(mean = mu, sd = sig)) + \n  stat_function(fun = dnorm, \n                args = list(mean = mu, sd = sig), \n                xlim = c(mu-4*sig, mu-2*sig), \n                geom = \"area\", fill = \"darkblue\") +\n  stat_function(fun = dnorm, \n                args = list(mean = mu, sd = sig), \n                xlim = c(mu+2*sig, mu+4*sig), \n                geom = \"area\", fill = \"darkblue\") +\n  stat_function(fun = dnorm, \n                args = list(mean = mu, sd = sig), \n                xlim = c(mu-2*sig, mu-1*sig), \n                geom = \"area\", fill = \"darkgreen\") +\n  stat_function(fun = dnorm, \n                args = list(mean = mu, sd = sig), \n                xlim = c(mu+1*sig, mu+2*sig), \n                geom = \"area\", fill = \"darkgreen\")+\n  stat_function(fun = dnorm, \n                args = list(mean = mu, sd = sig), \n                xlim = c(mu-1*sig, mu+1*sig), \n                geom = \"area\", fill = \"orange\") +\n  scale_x_continuous(name =\"mean height (ft)\", \n                    breaks=c(mu-2*sig,mu-1*sig,mu, mu+1*sig, mu+2*sig)) +\n  labs(title = \"Sampling distribution\", y = \"\") +\n  scale_y_continuous(labels = NULL, breaks = NULL)\n\ngg_samp_dist_heights   \n\n\n\n\n\n\nMean and SD of population\n\n(mean_height.ft&lt;-mean(yrbss2$height.ft))\n\n[1] 5.548691\n\n(sd_height.ft &lt;- sd(yrbss2$height.ft))\n\n[1] 0.3434949\n\nsd_height.ft/sqrt(30)\n\n[1] 0.06271331\n\n\n\n\nMean and SD of simulated sampling distribution\n\nstats_means_hght_samp_n30_rep10000&lt;- \n  means_hght_samp_n30_rep10000 %&gt;% \n  summarise(\n   mean_mean_height=mean(mean_height),\n   sd_mean_height = sd(mean_height)\n   )\nstats_means_hght_samp_n30_rep10000\n\n# A tibble: 1 × 2\n  mean_mean_height sd_mean_height\n             &lt;dbl&gt;          &lt;dbl&gt;\n1             5.55         0.0623"
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#why-is-the-mean-mu-the-standard-error-fracsigmasqrtn",
+    "href": "slides_code/Day08_bsta511_code.html#why-is-the-mean-mu-the-standard-error-fracsigmasqrtn",
+    "title": "Day 8: Variability in estimates",
+    "section": "Why is the mean \\(\\mu\\) & the standard error \\(\\frac{\\sigma}{\\sqrt{n}}\\) ?",
+    "text": "Why is the mean \\(\\mu\\) & the standard error \\(\\frac{\\sigma}{\\sqrt{n}}\\) ?"
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#applying-the-clt",
+    "href": "slides_code/Day08_bsta511_code.html#applying-the-clt",
+    "title": "Day 8: Variability in estimates",
+    "section": "Applying the CLT",
+    "text": "Applying the CLT\nWhat is the probability that for a random sample of 30 high schoolers, that their mean height is greater than 5.6 ft?"
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#class-discussion",
+    "href": "slides_code/Day08_bsta511_code.html#class-discussion",
+    "title": "Day 8: Variability in estimates",
+    "section": "Class Discussion",
+    "text": "Class Discussion\n\nSlide 21: match figures to distribution (Sampling high schoolers’ weights)\n\nProblems from Homework 4:\n\nR1: Youth weights (YRBSS)\nBook exercise: 4.2\nNon-book exercise: Ethan Allen"
+  },
+  {
+    "objectID": "slides_code/Day08_bsta511_code.html#footnotes",
+    "href": "slides_code/Day08_bsta511_code.html#footnotes",
     "title": "Day 8: Variability in estimates",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nYouth Risk Behavior Surveillance System https://www.cdc.gov/healthyyouth/data/yrbs/index.htm (YRBSS)↩︎"
