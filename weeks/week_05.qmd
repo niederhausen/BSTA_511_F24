@@ -35,7 +35,7 @@ editor_options:
 | Day | Topic | Slides: html | Slides: pdf | Slides: web-page | Slides with notes | Recording Link | Duration | Code: qmd | Code: html |
 |-------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 | 8 | Variability in estimates: Section 4.1 | [Day 8: slides 1-13](../slides/Day08_bsta511.qmd) | [{{< iconify bi file-earmark-pdf-fill size=20px >}}](../LaTeX_slides/Day06_bsta511.pdf) |  | [{{< iconify pepicons-pop pen-circle-filled size=20px >}}](../LaTeX_slides/Day06_bsta511_notes.pdf) | [Day 8 Part 1](https://echo360.org/lesson/d219d261-c461-4296-8fd9-f7a87653869c/classroom#sortDirection=desc) | 26 min |  |  |
-|  | 4.1 con'td | [Day 8: slides 14-29](../slides/Day08_bsta511.qmd) | same |  | same | [Day 8 Part 2](https://echo360.org/lesson/0a29af3a-a79d-4ae4-b220-1e3cfc04e2e7/classroom#sortDirection=desc) | 37 min |  |  |
+|  | 4.1 con'td | [Day 8: slides 14-29](../slides/Day08_bsta511.qmd#/random-samples-of-size-n-5-from-yrbss2) | same |  | same | [Day 8 Part 2](https://echo360.org/lesson/0a29af3a-a79d-4ae4-b220-1e3cfc04e2e7/classroom#sortDirection=desc) | 37 min |  |  |
 |  | R code demo |  |  |  |  | [Day 8 Part 3](https://echo360.org/lesson/f114d99a-44e9-4429-aa54-eb0fde6a61ca/classroom#sortDirection=desc) | 11 min |  |  |
 
 : {.striped .hover tbl-colwidths="\[3, 10, 8, 5, 5, 5, 6, 6, 5, 5\]"}
