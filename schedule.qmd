@@ -24,7 +24,7 @@ editor_options:
 |                         | W 10/23 | **7** | Normal and Poisson distributions                                                                 | 3.3-3.4                                |
 |                         | Sa 10/26|       | [HW 3 Due](homework/HW_3_F24_bsta511.qmd) (Days 6 - 7)                                                                            |                                        |
 |  [5](weeks/week_05.qmd) | M 10/28 | **8** | Variability in estimates                                                                         | 4.1                                    |
-|                         | W 10/30 |       | **Exam 1: Days 1-7**                                                                             | **Ch 1, 2, 3.1-3.4**                   |
+|                         | W 10/30 |       | **[Exam 1: Days 1-7](weeks/week_05.qmd#sec-Exam1info)**                                                                             | **Ch 1, 2, 3.1-3.4**                   |
 |  6                      | M 11/4  | **9** | Confidence Intervals                                                                             | 4.2                                    |
 |                         | W 11/6  | **10**| Hypothesis Testing: <br> Single-sample with *t*-distribution <br> & Two-sample paired data       | 4.3, 5.1, 5.2                          |
 |                         | Sa 11/9 |       | HW 4 Due (Days 8 - 10)                                                                           |                                        |

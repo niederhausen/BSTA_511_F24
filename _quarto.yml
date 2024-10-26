@@ -49,6 +49,8 @@ website:
             text: Week 3            
           - href: weeks/week_04.qmd
             text: Week 4  
+          - href: weeks/week_05.qmd
+            text: Week 5  
       # - href: weeks.qmd
       #   text: Weeks
       # - href: class_slides.qmd
