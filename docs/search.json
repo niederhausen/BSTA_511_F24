@@ -4351,7 +4351,7 @@
     "href": "weeks/week_06.html#slides-recordings",
     "title": "Week 6",
     "section": "Slides & Recordings",
-    "text": "Slides & Recordings\n\nPre-recorded lessons are on Echo Cloud (aka echo 360 or echo video).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDay\nTopic\nSlides: html\nSlides: pdf\nSlides: web-page\nSlides with notes\nRecording Link\nDuration\nCode: qmd\nCode: html\n\n\n\n\n9\nVariability in estimates: Section 4.1\nDay 9: slides 1-13\n\n\n\nDay 8 Part 1\n26 min\n\n\n\n\n\n4.1 con’td\nDay 8: slides 14-29\nsame\n\nsame\nDay 8 Part 2\n37 min\nsame\n\n\n\n\nR code demo\n\n\n\n\nDay 8 Part 3\n11 min\nsame"
+    "text": "Slides & Recordings\n\nPre-recorded lessons are on Echo Cloud (aka echo 360 or echo video).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDay\nTopic\nSlides: html\nSlides: pdf\nSlides: web-page\nSlides with notes\nRecording Link\nDuration\nCode: qmd\nCode: html\n\n\n\n\n9\nCI’s for 1 mean: 4.2, 5.1\nDay 9: slides 1-13\n\n\n\nDay 8 Part 1\n26 min\n\n\n\n\n\n4.1 con’td\nDay 8: slides 14-29\nsame\n\nsame\nDay 8 Part 2\n37 min\nsame\n\n\n\n\nR code demo\n\n\n\n\nDay 8 Part 3\n11 min\nsame"
   },
   {
     "objectID": "weeks/week_06.html#class-discussion",
@@ -4373,5 +4373,117 @@
     "title": "Week 6",
     "section": "Exam 1 information",
     "text": "Exam 1 information\n\nExam 1 will be on Wed, Oct. 30th\nSamples of past exam questions and answers (on Sakai)\nMaterial will cover Days 1-7,\n\nwhich is approximately Chapters 1, 2, 3.1-3.4 from the textbook.\n\nThe exam will be in-class and handwritten. Bring a calculator.\nYou may bring one page of notes on an 8.5” x 11” sheet of paper.\n\nYou may use both sides.\nYou may type your notes.\nYou may not use screenshots of the notes or textbook\nYou will be turning in the page of notes with the exam, so please add your name to the sheet."
+  },
+  {
+    "objectID": "slides_code/Day09_bsta511_code.html",
+    "href": "slides_code/Day09_bsta511_code.html",
+    "title": "Day 9: Confidence intervals (4.2)",
+    "section": "",
+    "text": "Packages need to be loaded every time you restart R or render an Qmd file\n\n\n# run these every time you open Rstudio\nlibrary(tidyverse)    \nlibrary(oibiostat)\nlibrary(ggridges)\nlibrary(janitor)\nlibrary(rstatix)\nlibrary(knitr)\nlibrary(gtsummary)\nlibrary(moderndive) # NEW!!\n\nset.seed(456)\n\n\nYou can check whether a package has been loaded or not\n\nby looking at the Packages tab and\nseeing whether it has been checked off or not"
+  },
+  {
+    "objectID": "slides_code/Day09_bsta511_code.html#load-packages",
+    "href": "slides_code/Day09_bsta511_code.html#load-packages",
+    "title": "Day 9: Confidence intervals (4.2)",
+    "section": "",
+    "text": "Packages need to be loaded every time you restart R or render an Qmd file\n\n\n# run these every time you open Rstudio\nlibrary(tidyverse)    \nlibrary(oibiostat)\nlibrary(ggridges)\nlibrary(janitor)\nlibrary(rstatix)\nlibrary(knitr)\nlibrary(gtsummary)\nlibrary(moderndive) # NEW!!\n\nset.seed(456)\n\n\nYou can check whether a package has been loaded or not\n\nby looking at the Packages tab and\nseeing whether it has been checked off or not"
+  },
+  {
+    "objectID": "slides_code/Day09_bsta511_code.html#day-8-section-4.1",
+    "href": "slides_code/Day09_bsta511_code.html#day-8-section-4.1",
+    "title": "Day 9: Confidence intervals (4.2)",
+    "section": "Day 8: Section 4.1",
+    "text": "Day 8: Section 4.1\n\nSampling from a population\n\npopulation parameters vs. point estimates\nsampling variation\n\n\n\n\nSampling distribution of a mean\nCentral Limit Theorem"
+  },
+  {
+    "objectID": "slides_code/Day09_bsta511_code.html#day-9-section-4.2",
+    "href": "slides_code/Day09_bsta511_code.html#day-9-section-4.2",
+    "title": "Day 9: Confidence intervals (4.2)",
+    "section": "Day 9: Section 4.2",
+    "text": "Day 9: Section 4.2\nWhat are Confidence Intervals?\n\nHow to calculate CI’s?\nHow to interpret & NOT interpret CI’s?\n\n\n\nWhat if we don’t know \\(\\sigma\\)?\nStudent’s t-distribution"
+  },
+  {
+    "objectID": "slides_code/Day09_bsta511_code.html#transform-height-weight-from-metric-to-to-standard",
+    "href": "slides_code/Day09_bsta511_code.html#transform-height-weight-from-metric-to-to-standard",
+    "title": "Day 9: Confidence intervals (4.2)",
+    "section": "Transform height & weight from metric to to standard",
+    "text": "Transform height & weight from metric to to standard\nAlso, drop missing values and add a column of id values\n\nyrbss2 &lt;- yrbss %&gt;%                 # save new dataset with new name\n  mutate(                           # add variables for \n    height.ft = 3.28084*height,     #     height in feet\n    weight.lb = 2.20462*weight      #     weight in pounds\n  ) %&gt;% \n  drop_na(height.ft, weight.lb) %&gt;% # drop rows w/ missing height/weight values\n  mutate(id = 1:nrow(.)) %&gt;%        # add id column\n  select(id, height.ft, weight.lb)  # restrict dataset to columns of interest\n\nhead(yrbss2)  \n\n  id height.ft weight.lb\n1  1  5.675853  186.0038\n2  2  5.249344  122.9957\n3  3  4.921260  102.9998\n4  4  5.150919  147.9961\n5  5  5.413386  289.9957\n6  6  6.167979  157.0130\n\ndim(yrbss2)\n\n[1] 12579     3\n\n# number of rows deleted that had missing values for height and/or weight:\nnrow(yrbss) - nrow(yrbss2) \n\n[1] 1004"
+  },
+  {
+    "objectID": "slides_code/Day09_bsta511_code.html#yrbss2-stats-for-height-in-feet",
+    "href": "slides_code/Day09_bsta511_code.html#yrbss2-stats-for-height-in-feet",
+    "title": "Day 9: Confidence intervals (4.2)",
+    "section": "yrbss2: stats for height in feet",
+    "text": "yrbss2: stats for height in feet\n\nsummary(yrbss2)\n\n       id          height.ft       weight.lb     \n Min.   :    1   Min.   :4.167   Min.   : 66.01  \n 1st Qu.: 3146   1st Qu.:5.249   1st Qu.:124.01  \n Median : 6290   Median :5.512   Median :142.00  \n Mean   : 6290   Mean   :5.549   Mean   :149.71  \n 3rd Qu.: 9434   3rd Qu.:5.840   3rd Qu.:167.99  \n Max.   :12579   Max.   :6.923   Max.   :399.01  \n\n(mean_height.ft &lt;- mean(yrbss2$height.ft))\n\n[1] 5.548691\n\n(sd_height.ft &lt;- sd(yrbss2$height.ft))\n\n[1] 0.3434949"
+  },
+  {
+    "objectID": "slides_code/Day09_bsta511_code.html#take-10000-samples-of-size-n-30-from-yrbss2",
+    "href": "slides_code/Day09_bsta511_code.html#take-10000-samples-of-size-n-30-from-yrbss2",
+    "title": "Day 9: Confidence intervals (4.2)",
+    "section": "Take 10,000 samples of size n = 30 from yrbss2",
+    "text": "Take 10,000 samples of size n = 30 from yrbss2\n\nsamp_n30_rep10000 &lt;- yrbss2 %&gt;%\n  rep_sample_n(size = 30, \n               reps = 10000,\n               replace = FALSE)\nsamp_n30_rep10000\n\n# A tibble: 300,000 × 4\n# Groups:   replicate [10,000]\n   replicate    id height.ft weight.lb\n       &lt;int&gt; &lt;int&gt;     &lt;dbl&gt;     &lt;dbl&gt;\n 1         1  5869      5.15      145.\n 2         1  6694      5.41      127.\n 3         1  2517      5.74      130.\n 4         1  5372      6.07      180.\n 5         1  5403      6.07      163.\n 6         1  2329      6.07      182.\n 7         1  8863      5.25      125.\n 8         1  8058      5.84      135.\n 9         1   335      6.17      235.\n10         1  4698      5.58      124.\n# ℹ 299,990 more rows\n\n\n\nmeans_hght_samp_n30_rep10000 &lt;- \n  samp_n30_rep10000 %&gt;% \n  group_by(replicate) %&gt;% \n  summarise(mean_height = \n            mean(height.ft))\n\nmeans_hght_samp_n30_rep10000\n\n# A tibble: 10,000 × 2\n   replicate mean_height\n       &lt;int&gt;       &lt;dbl&gt;\n 1         1        5.59\n 2         2        5.59\n 3         3        5.51\n 4         4        5.65\n 5         5        5.64\n 6         6        5.57\n 7         7        5.61\n 8         8        5.60\n 9         9        5.52\n10        10        5.64\n# ℹ 9,990 more rows"
+  },
+  {
+    "objectID": "slides_code/Day09_bsta511_code.html#simulated-sampling-distribution-for-n-30-using-10000-sample-mean-heights",
+    "href": "slides_code/Day09_bsta511_code.html#simulated-sampling-distribution-for-n-30-using-10000-sample-mean-heights",
+    "title": "Day 9: Confidence intervals (4.2)",
+    "section": "Simulated sampling distribution for n = 30 using 10,000 sample mean heights",
+    "text": "Simulated sampling distribution for n = 30 using 10,000 sample mean heights\n\nggplot(\n  means_hght_samp_n30_rep10000, \n  aes(x = mean_height)) + \n  geom_histogram()\n\n\n\n\nCLT tells us that we can model the sampling distribution of mean heights using a normal distribution.\n\nmu &lt;- 5.55\nSE &lt;- 0.34/sqrt(30)\nsig &lt;- round(SE, 2)\n\nggplot(data.frame(x = c(mu-4*sig, mu+4*sig)), aes(x = x)) + \n  stat_function(fun = dnorm, \n                args = list(mean = mu, sd = sig)) + \n  stat_function(fun = dnorm, \n                args = list(mean = mu, sd = sig), \n                xlim = c(mu-4*sig, mu-2*sig), \n                geom = \"area\", fill = \"darkblue\") +\n  stat_function(fun = dnorm, \n                args = list(mean = mu, sd = sig), \n                xlim = c(mu+2*sig, mu+4*sig), \n                geom = \"area\", fill = \"darkblue\") +\n  stat_function(fun = dnorm, \n                args = list(mean = mu, sd = sig), \n                xlim = c(mu-2*sig, mu-1*sig), \n                geom = \"area\", fill = \"darkgreen\") +\n  stat_function(fun = dnorm, \n                args = list(mean = mu, sd = sig), \n                xlim = c(mu+1*sig, mu+2*sig), \n                geom = \"area\", fill = \"darkgreen\")+\n  stat_function(fun = dnorm, \n                args = list(mean = mu, sd = sig), \n                xlim = c(mu-1*sig, mu+1*sig), \n                geom = \"area\", fill = \"orange\") +\n  scale_x_continuous(name =\"mean height (ft)\", \n                    breaks=c(mu-2*sig,mu-1*sig,mu, mu+1*sig, mu+2*sig))  +\n  labs(title = \"Sampling distribution\", y = \"\") +\n  scale_y_continuous(labels = NULL, breaks = NULL)"
+  },
+  {
+    "objectID": "slides_code/Day09_bsta511_code.html#example-ci-for-mean-height",
+    "href": "slides_code/Day09_bsta511_code.html#example-ci-for-mean-height",
+    "title": "Day 9: Confidence intervals (4.2)",
+    "section": "Example: CI for mean height",
+    "text": "Example: CI for mean height\n\nA random sample of 30 high schoolers has mean height 5.6 ft.\nFind the 95% confidence interval for the population mean, assuming that the population standard deviation is 0.34 ft."
+  },
+  {
+    "objectID": "slides_code/Day09_bsta511_code.html#how-to-interpret-a-ci",
+    "href": "slides_code/Day09_bsta511_code.html#how-to-interpret-a-ci",
+    "title": "Day 9: Confidence intervals (4.2)",
+    "section": "How to interpret a CI?",
+    "text": "How to interpret a CI?\nSimulating Confidence Intervals: http://www.rossmanchance.com/applets/ConfSim.html\nActual interpretation:\n\nIf we were to\n\nrepeatedly take random samples from a population and\ncalculate a 95% CI for each random sample,\n\nthen we would expect 95% of our CI’s to contain the true population parameter \\(\\mu\\).\n\nWhat we typically write as “shorthand”:\n\nWe are 95% confident that (the 95% confidence interval) captures the value of the population parameter.\n\nWRONG interpretation:\n\nThere is a 95% chance that (the 95% confidence interval) captures the value of the population parameter.\n\nFor one CI on its own, it either does or doesn’t contain the population parameter with probability 0 or 1. We just don’t know which!"
+  },
+  {
+    "objectID": "slides_code/Day09_bsta511_code.html#interpretation-of-our-heights-ci",
+    "href": "slides_code/Day09_bsta511_code.html#interpretation-of-our-heights-ci",
+    "title": "Day 9: Confidence intervals (4.2)",
+    "section": "Interpretation of our heights CI",
+    "text": "Interpretation of our heights CI\nCorrect interpretation:\n\nWe are 95% confident that the mean height for high schoolers is between 5.43 and 5.67 feet.\n\nWRONG:\n\nThere is a 95% chance that the mean height for high schoolers is between 5.43 and 5.67 feet."
+  },
+  {
+    "objectID": "slides_code/Day09_bsta511_code.html#students-t-distribution",
+    "href": "slides_code/Day09_bsta511_code.html#students-t-distribution",
+    "title": "Day 9: Confidence intervals (4.2)",
+    "section": "Student’s t-distribution",
+    "text": "Student’s t-distribution\nThe Student’s t-distribution:\n\nIs bell shaped and symmetric with mean = 0.\nIts tails are a thicker than that of a normal distribution\n\nThe “thickness” depends on its degrees of freedom: \\(df = n–1\\) , where n = sample size.\n\nAs the degrees of freedom (sample size) increase,\n\nthe tails are less thick, and\nthe t-distribution is more like a normal distribution\nin theory, with an infinite sample size the t-distribution is a normal distribution."
+  },
+  {
+    "objectID": "slides_code/Day09_bsta511_code.html#calculating-the-ci-for-the-population-mean-using-s",
+    "href": "slides_code/Day09_bsta511_code.html#calculating-the-ci-for-the-population-mean-using-s",
+    "title": "Day 9: Confidence intervals (4.2)",
+    "section": "Calculating the CI for the population mean using \\(s\\)",
+    "text": "Calculating the CI for the population mean using \\(s\\)\nCI for \\(\\mu\\):\n\\[\\bar{x} \\pm t^*\\cdot\\frac{s}{\\sqrt{n}}\\]\nwhere \\(t^*\\) is determined by the t-distribution and dependent on the\ndf = \\(n-1\\) and the confidence level\n\nqt gives the quartiles for a t-distribution. Need to specify\n\nthe percent under the curve to the left of the quartile\nthe degrees of freedom = n-1\n\nNote in the R output to the right that \\(t^*\\) gets closer to 1.96 as the sample size increases.\n\n\nqt(.975, df=9)  # df = n-1\n\n[1] 2.262157\n\nqt(.975, df=49)\n\n[1] 2.009575\n\nqt(.975, df=99)\n\n[1] 1.984217\n\nqt(.975, df=999)\n\n[1] 1.962341"
+  },
+  {
+    "objectID": "slides_code/Day09_bsta511_code.html#example-ci-for-mean-height-revisited",
+    "href": "slides_code/Day09_bsta511_code.html#example-ci-for-mean-height-revisited",
+    "title": "Day 9: Confidence intervals (4.2)",
+    "section": "Example: CI for mean height (revisited)",
+    "text": "Example: CI for mean height (revisited)\n\nA random sample of 30 high schoolers has mean height 5.6 ft and standard deviation 0.34 ft.\nFind the 95% confidence interval for the population mean."
+  },
+  {
+    "objectID": "slides_code/Day09_bsta511_code.html#textbooks-rule-of-thumb",
+    "href": "slides_code/Day09_bsta511_code.html#textbooks-rule-of-thumb",
+    "title": "Day 9: Confidence intervals (4.2)",
+    "section": "Textbook’s rule of thumb",
+    "text": "Textbook’s rule of thumb\n\n(Ch 4) If \\(n \\geq 30\\) and population distribution not strongly skewed:\n\nUse normal distribution\nNo matter if using \\(\\sigma\\) or \\(s\\) for the \\(SE\\)\nIf there is skew or some large outliers, then need \\(n \\geq 50\\)\n\n(Ch 5) If \\(n &lt; 30\\) and data approximately symmetric with no large outliers:\n\nUse Student’s t-distribution"
+  },
+  {
+    "objectID": "slides_code/Day09_bsta511_code.html#bsta-511-rule-of-thumb",
+    "href": "slides_code/Day09_bsta511_code.html#bsta-511-rule-of-thumb",
+    "title": "Day 9: Confidence intervals (4.2)",
+    "section": "BSTA 511 rule of thumb",
+    "text": "BSTA 511 rule of thumb\n\nUse normal distribution ONLY if know \\(\\sigma\\)\n\nIf using \\(s\\) for the \\(SE\\), then use the Student’s t-distribution\n\n\nFor either case, can apply if either\n\n\\(n \\geq 30\\) and population distribution not strongly skewed\n\nIf there is skew or some large outliers, then \\(n \\geq 50\\) gives better estimates\n\n\\(n &lt; 30\\) and data approximately symmetric with no large outliers\n\nIf do not know population distribution, then check the distribution of the data."
   }
 ]
