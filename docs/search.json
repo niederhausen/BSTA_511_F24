@@ -4337,28 +4337,28 @@
     "href": "weeks/week_06.html",
     "title": "Week 6",
     "section": "",
-    "text": "Confidence intervals for one mean (single-sample):\n\nSections 4.2 and 5.1.1, 5.1.2 (pgs. 238-242)\n\nStudent’s t-distribution\n\n\n\n\n\nHypothesis testing for one mean (single-sample): Section 4.3, 5.1\nCIs vs. hypothesis tests\nInference for two-sample paired data: Section 5.2\nR projects, here::here(), and loading data into R from a file\nRunning a t.test in R"
+    "text": "Confidence intervals for one mean (single-sample):\n\nSections 4.2 and 5.1.1, 5.1.2 (pgs. 238-242)\n\nStudent’s t-distribution\n\n\n\n\n\nHypothesis testing for one mean (single-sample): Section 4.3, 5.1\nCIs vs. hypothesis tests\nInference for two-sample paired data: Section 5.2\nR projects, here::here(), and loading data into R from a file\n\nSee Projects in RStudio file for more information\n\nRunning a t.test in R"
   },
   {
     "objectID": "weeks/week_06.html#overview-of-week-6",
     "href": "weeks/week_06.html#overview-of-week-6",
     "title": "Week 6",
     "section": "",
-    "text": "Confidence intervals for one mean (single-sample):\n\nSections 4.2 and 5.1.1, 5.1.2 (pgs. 238-242)\n\nStudent’s t-distribution\n\n\n\n\n\nHypothesis testing for one mean (single-sample): Section 4.3, 5.1\nCIs vs. hypothesis tests\nInference for two-sample paired data: Section 5.2\nR projects, here::here(), and loading data into R from a file\nRunning a t.test in R"
+    "text": "Confidence intervals for one mean (single-sample):\n\nSections 4.2 and 5.1.1, 5.1.2 (pgs. 238-242)\n\nStudent’s t-distribution\n\n\n\n\n\nHypothesis testing for one mean (single-sample): Section 4.3, 5.1\nCIs vs. hypothesis tests\nInference for two-sample paired data: Section 5.2\nR projects, here::here(), and loading data into R from a file\n\nSee Projects in RStudio file for more information\n\nRunning a t.test in R"
   },
   {
     "objectID": "weeks/week_06.html#slides-recordings",
     "href": "weeks/week_06.html#slides-recordings",
     "title": "Week 6",
     "section": "Slides & Recordings",
-    "text": "Slides & Recordings\n\nPre-recorded lessons are on Echo Cloud (aka echo 360 or echo video).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDay\nTopic\nSlides: html\nSlides: pdf\nSlides: web-page\nSlides with notes\nRecording Link\nDuration\nCode: qmd\nCode: html\n\n\n\n\n9\nCI’s for 1 mean: 4.2\nDay 9: slides 1-12\n\n\n\nDay 9 Part 1\n17 min\n\n\n\n\n\n4.2 con’td\nDay 9: slides 13-19\nsame\n\nsame\nDay 9 Part 2\n17 min\nsame\nsame\n\n\n\n4.2 con’td, 5.1.1, 5.1.2 (pgs. 238-242)\nDay 9: slides 20-23\nsame\n\nsame\nDay 9 Part 3\n14 min\nsame\nsame\n\n\n10 part 1\nHyp test 1 mean intro\nDay 10: slides 1-13\n\n\n\nDay 9 Part 1\n17 min\n\n\n\n\n\nHyp test steps: 4.3, 5.1\nDay 10: slides 14-25\nsame\n\nsame\nDay 9 Part 2\n17 min\nsame\n\n\n\n\nR demo\nDay 10: slides 26-34\nsame\n\nsame\nDay 9 Part 3\n14 min\nsame"
+    "text": "Slides & Recordings\n\nPre-recorded lessons are on Echo Cloud (aka echo 360 or echo video).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDay\nTopic\nSlides: html\nSlides: pdf\nSlides: web-page\nSlides with notes\nRecording Link\nDuration\nCode: qmd\nCode: html\n\n\n\n\n9\nCI’s for 1 mean: 4.2\nDay 9: slides 1-12\n\n\n\nDay 9 Part 1\n17 min\n\n\n\n\n\n4.2 con’td\nDay 9: slides 13-19\nsame\n\nsame\nDay 9 Part 2\n17 min\nsame\nsame\n\n\n\n4.2 con’td, 5.1.1, 5.1.2 (pgs. 238-242)\nDay 9: slides 20-23\nsame\n\nsame\nDay 9 Part 3\n14 min\nsame\nsame\n\n\n10 part 1\nHyp test 1 mean intro\nDay 10 Part 1: slides 1-13\n\n\n\nDay 10 Part 1\n26 min\n\n\n\n\n\nHyp test steps: 4.3, 5.1\nDay 10 Part 1: slides 14-25\nsame\n\nsame\nDay 10 Part 2\n36 min\nsame\n\n\n\n\nR demo\nDay 10 Part 1: slides 26-34\nsame\n\nsame\nDay 10 Part 3\n25 min\nsame\n\n\n\n10 part 2\n\nDay 10 Part 2\n\n\n\nNo recording"
   },
   {
     "objectID": "weeks/week_06.html#class-discussion",
     "href": "weeks/week_06.html#class-discussion",
     "title": "Week 6",
     "section": "Class discussion",
-    "text": "Class discussion\nDuring class you will be working in groups discussing the following:\n\nDay 9\n\nProblems from Homework 4:\n\nBook exercises:\n\nwarm-up: 4.4, 4.6, 5.10\n5.6\n\nR2: Youth weights Part 2 (YRBSS)\n\n\n\n\nDay 10\n\nProblems from Homework 4:\n\nBook exercises:\n\n5.16 (warm-up)\n5.12\n\nR3: Swim times"
+    "text": "Class discussion\nDuring class you will be working in groups discussing the following:\n\nDay 9\n\nProblems from Homework 4:\n\nBook exercises:\n\nwarm-up: 4.4, 4.6, 5.10\n5.6\n\nR2: Youth weights Part 2 (YRBSS)\n\n\n\n\nDay 10\n\nWork through Day 10 Part 2 slides\n\nThere are specific questions in orange on (most) slides.\n\nProblems from Homework 4:\n\nBook exercises:\n\n5.16 (warm-up)\n5.12\n\nR3: Swim times"
   },
   {
     "objectID": "weeks/week_06.html#homework",
@@ -6025,5 +6025,12 @@
     "title": "Day 10 Part 1: Hypothesis testing for mean from one-sample (Sections 4.3, 5.1)",
     "section": "What’s next?",
     "text": "What’s next?\nCI’s and hypothesis testing for different scenarios:\n\n\n\n\n\n\n\n\n\n\n\nDay\nSection\nPopulation parameter\nSymbol\nPoint estimate\nSymbol\n\n\n\n\n10\n5.1\nPop mean\n\\(\\mu\\)\nSample mean\n\\(\\bar{x}\\)\n\n\n10\n5.2\nPop mean of paired diff\n\\(\\mu_d\\) or \\(\\delta\\)\nSample mean of paired diff\n\\(\\bar{x}_{d}\\)\n\n\n11\n5.3\nDiff in pop means\n\\(\\mu_1-\\mu_2\\)\nDiff in sample means\n\\(\\bar{x}_1 - \\bar{x}_2\\)\n\n\n12\n8.1\nPop proportion\n\\(p\\)\nSample prop\n\\(\\widehat{p}\\)\n\n\n12\n8.2\nDiff in pop prop’s\n\\(p_1-p_2\\)\nDiff in sample prop’s\n\\(\\widehat{p}_1-\\widehat{p}_2\\)"
+  },
+  {
+    "objectID": "weeks/week_06.html#datasets",
+    "href": "weeks/week_06.html#datasets",
+    "title": "Week 6",
+    "section": "Datasets",
+    "text": "Datasets\nAll datasets can be found on GitHub\n\nBodyTemperatures.csv\nchol213.csv"
   }
 ]
