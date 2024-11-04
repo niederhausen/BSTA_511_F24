@@ -66,6 +66,8 @@ During class you will be working in groups discussing the following:
 
 ### Day 9
 
+-   Slide 15: What percent CI was being simulated in this figure?
+-   Slide 22: Calculate CI
 -   Problems from Homework 4:
     -   Book exercises:
         -   warm-up: 4.4, 4.6, 5.10
