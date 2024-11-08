@@ -172,7 +172,7 @@
     "href": "homework.html",
     "title": "Assignments",
     "section": "",
-    "text": "Note\n\n\n\n\nBelow are links to homework assignments.\nThe dates in the Date column are due dates.\nSee the Grading rubric tab to the left for a description of how assignments will be graded.\n\n\n\n\nCheck out this spreadsheet for textbook typos.\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\n10/12/24\n\n\nHW 1: BSTA 511/611 F24\n\n\n\n\n10/19/24\n\n\nHW 2: BSTA 511/611 F24\n\n\n\n\n10/26/24\n\n\nHW 3: BSTA 511/611 F24\n\n\n\n\n11/9/24\n\n\nHW 4: BSTA 511/611 F24\n\n\n\n\n\n\nNo matching items"
+    "text": "Note\n\n\n\n\nBelow are links to homework assignments.\nThe dates in the Date column are due dates.\nSee the Grading rubric tab to the left for a description of how assignments will be graded.\n\n\n\n\nCheck out this spreadsheet for textbook typos.\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\n10/12/24\n\n\nHW 1: BSTA 511/611 F24\n\n\n\n\n10/19/24\n\n\nHW 2: BSTA 511/611 F24\n\n\n\n\n10/26/24\n\n\nHW 3: BSTA 511/611 F24\n\n\n\n\n11/9/24\n\n\nHW 4: BSTA 511/611 F24\n\n\n\n\n11/16/24\n\n\nHW 5: BSTA 511/611 F24\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/Projects_in_R.html",
@@ -6066,7 +6066,7 @@
     "href": "weeks/week_07.html#class-discussion",
     "title": "Week 7",
     "section": "Class discussion",
-    "text": "Class discussion\nDuring class you will be working in groups discussing the following:\n\nDay 11\n\nBook 5.26 a-b (HW includes part (c) as well)\nR1: DDS expenditures by ethnicity\nPSS1: Book 4.22 - Power & sample size T/F questions\nPSS2: Power & sample size calculations\n\n\n\nDay 12\n\nBook 8.2, 8.14, 8.24 (plus extra (d))\nPSS1: Legalize Marijuana, Part III"
+    "text": "Class discussion\nDuring class you will be working in groups discussing the following:\n\nDay 11\n\nBook 5.26 a-b\nR1: DDS expenditures by ethnicity (parts a-l)\nPSS1: Book 4.22 - Power & sample size T/F questions\nPSS2: Power & sample size calculations\n\n\n\nDay 12\n\nBook\n\n8.2 (warm-up),\n8.8 (see instructions in HW),\n8.24 (see instructions in HW)"
   },
   {
     "objectID": "weeks/week_07.html#homework",
@@ -10323,5 +10323,117 @@
     "title": "Day 16: Simple Linear Regression Part 2 (Sections 6.3-6.4)",
     "section": "Where are we?",
     "text": "Where are we?"
+  },
+  {
+    "objectID": "homework/HW_5_F24_bsta511.html",
+    "href": "homework/HW_5_F24_bsta511.html",
+    "title": "HW 5: BSTA 511/611 F24",
+    "section": "",
+    "text": "Due 11/16/24\nDownload the .qmd file for this assignment from https://github.com/niederhausen/BSTA_511_F24/blob/main/homework/HW_5_F24_bsta511.qmd"
+  },
+  {
+    "objectID": "homework/HW_5_F24_bsta511.html#graded-exercises",
+    "href": "homework/HW_5_F24_bsta511.html#graded-exercises",
+    "title": "HW 5: BSTA 511/611 F24",
+    "section": "Graded exercises",
+    "text": "Graded exercises\nThe exercises listed below will be graded for this assignment. You are strongly encouraged to complete the entire assignment. You will receive feedback on exercises you turn in that are not being graded.\n\nBook exercises\n\n5.26 (parts a-b), 8.8, 8.24\n\nPSS\n\nPSS2\n\nR exercises\n\nR1: DDS expenditures by ethnicity (parts a-l)"
+  },
+  {
+    "objectID": "homework/HW_5_F24_bsta511.html#directions",
+    "href": "homework/HW_5_F24_bsta511.html#directions",
+    "title": "HW 5: BSTA 511/611 F24",
+    "section": "Directions",
+    "text": "Directions\n\n\n\n\n\n\nImportant\n\n\n\n\nComplete all exercises in this assignment using Quarto.\nI highly recommend using LaTeX to format equations.\n\nSee the .qmd files from class notes for LaTeX code to make it easier to show your work in computations.\nFor instructions on creating equations in the Visual editor, check out https://quarto.org/docs/get-started/authoring/rstudio.html#equations. html\nAlso check out examples of LaTeX formatting for statistics created by recent biostats alum Ariel Weingarten.\nIf you have difficulty rendering the LaTeX equations, I recommend installing and running the R package tinytex. See this website for instructions.\n\n\n\n\n\nPlease upload your homework to Sakai. Upload both your .qmd code file and the rendered .html file.\n\nUse the assignment .qmd file linked to above as a template for your own assignment.\n\nPlease always use the following naming convention for submitting your files:\n\nLastname_Firstname_HWx.qmd, such as Niederhausen_Meike_HW2.qmd\nLastname_Firstname_HWx.html, such as Niederhausen_Meike_HW2.html\n\nFor each question, make sure to show all of your work.\n\nThis includes all code and resulting output in the html file to support your answers for exercises requiring work done in R (including any arithmetic calculations).\nFor non-calculation questions, this includes an explanation of your answer (why did you choose your answer?).\n\nFor each question, include a sentence summarizing the answer for that question in the context of the research question.\n\n\n\n\n\n\n\nTip\n\n\n\nIt is a good idea to try rendering your document from time to time as you go along! Note that rendering automatically saves your Qmd file and rendering frequently helps you catch your errors more quickly.\n\n\n\nHypothesis test & CI instructions\n\n\n\n\n\n\nImportant\n\n\n\n\nFor book exercises, make sure to include all steps in a hypothesis test (where applicable) as outlined in the class notes.\nDo not forget to include a discussion on whether you think the test (or CI) assumptions have been satisfied. Are there assumptions you need to make in order for them to be satisfied? Whether you believe they are satisfied or not, continue to run the hypothesis test (or CI) as instructed."
+  },
+  {
+    "objectID": "homework/HW_5_F24_bsta511.html#egg-volume",
+    "href": "homework/HW_5_F24_bsta511.html#egg-volume",
+    "title": "HW 5: BSTA 511/611 F24",
+    "section": "5.26 Egg volume",
+    "text": "5.26 Egg volume"
+  },
+  {
+    "objectID": "homework/HW_5_F24_bsta511.html#placebos-without-deception",
+    "href": "homework/HW_5_F24_bsta511.html#placebos-without-deception",
+    "title": "HW 5: BSTA 511/611 F24",
+    "section": "5.34 Placebos without deception",
+    "text": "5.34 Placebos without deception"
+  },
+  {
+    "objectID": "homework/HW_5_F24_bsta511.html#young-americans-part-i",
+    "href": "homework/HW_5_F24_bsta511.html#young-americans-part-i",
+    "title": "HW 5: BSTA 511/611 F24",
+    "section": "8.2 Young Americans, Part I",
+    "text": "8.2 Young Americans, Part I"
+  },
+  {
+    "objectID": "homework/HW_5_F24_bsta511.html#legalization-of-marijuana-part-i",
+    "href": "homework/HW_5_F24_bsta511.html#legalization-of-marijuana-part-i",
+    "title": "HW 5: BSTA 511/611 F24",
+    "section": "8.8 Legalization of marijuana, Part I",
+    "text": "8.8 Legalization of marijuana, Part I\nAdditional instructions:\n\n(b): Calculate the CI both using the formula and using the appropriate R statistical test.\nAdd parts (e) & (f) as instructed below.\n\n\n(a)\n\n\n(b)\n\n\n(c)\n\n\n(d)\n\n\n(e)\nTest whether the proportion of US residents who think marijuana should be made legal is different than 0.586. Do the test using both the formulas and running it in R (without a continuity correction).\n\n\n(f)\nAre the results from CI and hypothesis test consistent? Why or why not?"
+  },
+  {
+    "objectID": "homework/HW_5_F24_bsta511.html#legalize-marijuana-part-ii",
+    "href": "homework/HW_5_F24_bsta511.html#legalize-marijuana-part-ii",
+    "title": "HW 5: BSTA 511/611 F24",
+    "section": "8.10 Legalize Marijuana, Part II",
+    "text": "8.10 Legalize Marijuana, Part II"
+  },
+  {
+    "objectID": "homework/HW_5_F24_bsta511.html#healthcare-law",
+    "href": "homework/HW_5_F24_bsta511.html#healthcare-law",
+    "title": "HW 5: BSTA 511/611 F24",
+    "section": "8.14 2010 Healthcare Law",
+    "text": "8.14 2010 Healthcare Law"
+  },
+  {
+    "objectID": "homework/HW_5_F24_bsta511.html#prenatal-vitamins-and-autism",
+    "href": "homework/HW_5_F24_bsta511.html#prenatal-vitamins-and-autism",
+    "title": "HW 5: BSTA 511/611 F24",
+    "section": "8.24 Prenatal vitamins and Autism",
+    "text": "8.24 Prenatal vitamins and Autism\nAdditional instructions:\n\n(b): Do the hypothesis test both using the formula and using the appropriate R statistical test.\nAdd part (d) as instructed below.\n\n\n(a)\n\n\n(b)\n\n\n(c)\n\n\n(d)\nCalculate and interpret the 95% confidence interval for the difference in proportions using the formula. Is it consistent with CI from the R output of the hypothesis test?"
+  },
+  {
+    "objectID": "homework/HW_5_F24_bsta511.html#an-apple-a-day-keeps-the-doctor-away",
+    "href": "homework/HW_5_F24_bsta511.html#an-apple-a-day-keeps-the-doctor-away",
+    "title": "HW 5: BSTA 511/611 F24",
+    "section": "8.26 An apple a day keeps the doctor away",
+    "text": "8.26 An apple a day keeps the doctor away"
+  },
+  {
+    "objectID": "homework/HW_5_F24_bsta511.html#pss1-4.22-testing-for-food-safety.",
+    "href": "homework/HW_5_F24_bsta511.html#pss1-4.22-testing-for-food-safety.",
+    "title": "HW 5: BSTA 511/611 F24",
+    "section": "PSS1: 4.22 Testing for food safety.",
+    "text": "PSS1: 4.22 Testing for food safety.\nDo exercise 4.22 from textbook."
+  },
+  {
+    "objectID": "homework/HW_5_F24_bsta511.html#pss2-auto-exhaust-and-lead-exposure-revisited.",
+    "href": "homework/HW_5_F24_bsta511.html#pss2-auto-exhaust-and-lead-exposure-revisited.",
+    "title": "HW 5: BSTA 511/611 F24",
+    "section": "PSS2: Auto exhaust and lead exposure revisited.",
+    "text": "PSS2: Auto exhaust and lead exposure revisited.\n\n(a) Power\nIn exercise 5.12, we tested whether police officers appear to have been exposed to a higher concentration of lead than 35. Calculate the power for the hypothesis test and include an interpretation of the power in the context of the research question. Was it sufficiently powered?\n\n\n(b) Sample size\nFor the same test, what sample size would be needed for 80% power? How about 90% power? Would it be reasonable to conduct the study with these sample sizes? Why or why not?\n\n\n(c) Effect size\nSuppose the study has resources to include 30 people. What minimum effect size would they be able to detect with 85% power assuming the same sample mean and standard deviation. Use \\(\\alpha\\) = 0.05.\n\n\n(d) 2-sided vs. 1-sided\nContinuing with the previous question, what happens to the effect size they can detect if the test is two sided instead of one-sided?"
+  },
+  {
+    "objectID": "homework/HW_5_F24_bsta511.html#pss3-legalize-marijuana-part-iii.",
+    "href": "homework/HW_5_F24_bsta511.html#pss3-legalize-marijuana-part-iii.",
+    "title": "HW 5: BSTA 511/611 F24",
+    "section": "PSS3: Legalize Marijuana, Part III.",
+    "text": "PSS3: Legalize Marijuana, Part III.\n\n(a) Power\nIn exercise 8.8 (e), we tested whether the proportion of US residents who think marijuana should be made legal is different than 0.586. Calculate the power for the hypothesis test and include an interpretation of the power in the context of the research question. Was it sufficiently powered?\n\n\n(b) Sample size\nFor the same test, what sample size would be needed for 80% power? How about 90% power?\n\n\n(c) Effect size\nIf we increase the sample size, and keep the power and significance level the same, does the effect size increase or decrease? Why?"
+  },
+  {
+    "objectID": "homework/HW_5_F24_bsta511.html#load-packages",
+    "href": "homework/HW_5_F24_bsta511.html#load-packages",
+    "title": "HW 5: BSTA 511/611 F24",
+    "section": "Load packages",
+    "text": "Load packages\nLoad all the packages you need in the first code chunk of the file that starts with #| label: \"setup\"."
+  },
+  {
+    "objectID": "homework/HW_5_F24_bsta511.html#r1-dds-expenditures-by-ethnicity",
+    "href": "homework/HW_5_F24_bsta511.html#r1-dds-expenditures-by-ethnicity",
+    "title": "HW 5: BSTA 511/611 F24",
+    "section": "R1: DDS expenditures by ethnicity",
+    "text": "R1: DDS expenditures by ethnicity\n\nIn these exercises you will use R to work through the discrimination in developmental disability support example from Section 5.3.4 (pg. 253) in the textbook.\nThe data are in the oibiostats package and called dds.discr.\n\n\n(a) New dataset\nCreate a new dataset that only includes the White (non Hispanic) and Hispanic ethnicities. Use this new dataset for the following questions.\n\n\n(b) Data viz\nCreate density plots and box plots of the expenditures stratified by ethnicity. Comment on the distribution shapes. Are there any outliers?\n\n\n(c) t-test conditions\nAre the conditions for a t-test comparing the mean expenditures of the two ethnicities satisfied?\n\n\n(d) Log-transformation\nThe book recommends log-transforming the expenditure values before testing. Create a new column in the dataset with the transformed values. The R command for the natural logarithm is log(). \n\n\n(e) Data viz: log-transformed expenditures\nCreate density plots and box plots of the log-transformed expenditures stratified by ethnicity. Comment on the distribution shapes. Are there any outliers?\n\n\n(f) t-test conditions: log-transformed expenditures\nAre the conditions for a t-test comparing the mean log-transformed expenditures of the two ethnicities satisfied?\n\n\n(g) Summary stats: log-transformed expenditures\nCalculate the means, standard deviations, and sample sizes for the log-transformed expenditures stratified by ethnicity, and compare them to the ones in the book. Which group had a larger mean?\n\n\n(h) Test\nRun the appropriate statistical test in R to verify the test statistic in the text and get the actual p-value. In which order was the difference in means calculated, and is this same as in the book? Use inline R code to pull these values from the test output when writing up your comparison of these values to the book’s values.\n\n\n(i) df\nHow do the degrees of freedom (df) from the hypothesis test compare to the df used by the book? Why are they different? Which degrees df (book vs. test output) leads to a bigger p-value?\n\n\n(j) CI\nWhat is the 95% CI? Write an interpretation of the CI in the context of the research question. \n\n\n(k) Test original expenditure values\nRun the appropriate statistical test in R using the original expenditure values. What are the test statistic and p-value? Does the conclusion of the test change?\n\n\n(l) CI using original expenditure values\nWhat is the 95% CI? Write an interpretation of the CI in the context of the research question. Which of the CI’s (log-transformed vs not) is easier to interpret?\n\n\n(m) Age groups\nThe book’s example goes on to analyze the data stratified by age groups, since age is a confounder in expenditure amounts. Create two new datasets restricted to the age groups 13-17 and 22-50, respectively.\n\n\n(n) Data viz by age groups\nCreate density plots and box plots of the expenditures stratified by ethnicity for each of the age groups separately. Comment on the distribution shapes. Are there any outliers?\n\n\n(o) t-test conditions: age groups\nAre the assumptions for a t-test comparing the mean expenditures of the two ethnicities satisfied for either or both of the age groups?\n\n\n(p) Summary stats: age groups\nCalculate the means, standard deviations, and sample sizes for the expenditures stratified by ethnicity and the age groups, and compare them to the ones in the book. Which group had a larger mean?\n\n\n(q) t-test: age groups\nRun the appropriate statistical tests for both age groups in R to verify the test statistics, df’s, and p-values in the text. In which order were the differences in means calculated, and are they the same as in the book? Use inline R code to pull these values from the test output when writing up your comparison of these values to the book’s values.\n\n\n(r) CI: age groups\nWhat are the 95% CI’s for each of the age groups? Write interpretations of the CI’s in the context of the research question. Does they suggest there are differences in expenditures between the two ethnicities? Why or why not?\n\n\n(s) Discrimination in DDS expenditures?\nEven though the p-values for the age-stratified tests were not significant, is it possible that there was discrimination in DDS expenditures?"
   }
 ]
