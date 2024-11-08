@@ -3,7 +3,7 @@ title: "Day 13: Chi-squared tests (Sections 8.3-8.4)"
 subtitle: "BSTA 511/611"
 author: "Meike Niederhausen, PhD"
 institute: "OHSU-PSU School of Public Health"
-date: "11/13/2023"
+date: "11/18/2024"
 categories: ["Week 8"]
 format: 
   # revealjs:
