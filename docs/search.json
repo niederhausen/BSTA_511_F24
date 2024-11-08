@@ -1236,7 +1236,7 @@
     "href": "weeks.html",
     "title": "Weekly Pages",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n9/30/24\n\n\nWeek 1\n\n\nIntro to R & RStudio\n\n\n\n\n10/7/24\n\n\nWeek 2\n\n\nData collection & Probability\n\n\n\n\n10/14/24\n\n\nWeek 3\n\n\nBayes’ Rule & EDA\n\n\n\n\n10/21/24\n\n\nWeek 4\n\n\nBayes’ Rule & EDA\n\n\n\n\n10/28/24\n\n\nWeek 5\n\n\nVariability in estimates and Exam 1\n\n\n\n\n11/4/24\n\n\nWeek 6\n\n\nConfidence Intervals and Hypothesis Testing\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n9/30/24\n\n\nWeek 1\n\n\nIntro to R & RStudio\n\n\n\n\n10/7/24\n\n\nWeek 2\n\n\nData collection & Probability\n\n\n\n\n10/14/24\n\n\nWeek 3\n\n\nBayes’ Rule & EDA\n\n\n\n\n10/21/24\n\n\nWeek 4\n\n\nBayes’ Rule & EDA\n\n\n\n\n10/28/24\n\n\nWeek 5\n\n\nVariability in estimates and Exam 1\n\n\n\n\n11/4/24\n\n\nWeek 6\n\n\nConfidence Intervals and Hypothesis Testing\n\n\n\n\n11/11/24\n\n\nWeek 7\n\n\nInference for difference in means, one proportion, and difference in proportions, and power\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "homework/HW_2_F24_bsta511.html",
@@ -6032,5 +6032,47 @@
     "title": "Week 6",
     "section": "Datasets",
     "text": "Datasets\nAll datasets can be found on GitHub\n\nBodyTemperatures.csv\nchol213.csv"
+  },
+  {
+    "objectID": "weeks/week_07.html",
+    "href": "weeks/week_07.html",
+    "title": "Week 7",
+    "section": "",
+    "text": "Inference for difference in means from two independent sample (2-sample t-test)\nPower and sample size calculations\n\n\n\n\n\nInference for proportions\n\nCIs vs. hypothesis tests\nOne proportion from one sample\nDifference in proportions from two independent samples"
+  },
+  {
+    "objectID": "weeks/week_07.html#overview-of-week-7",
+    "href": "weeks/week_07.html#overview-of-week-7",
+    "title": "Week 7",
+    "section": "",
+    "text": "Inference for difference in means from two independent sample (2-sample t-test)\nPower and sample size calculations\n\n\n\n\n\nInference for proportions\n\nCIs vs. hypothesis tests\nOne proportion from one sample\nDifference in proportions from two independent samples"
+  },
+  {
+    "objectID": "weeks/week_07.html#slides-recordings",
+    "href": "weeks/week_07.html#slides-recordings",
+    "title": "Week 7",
+    "section": "Slides & Recordings",
+    "text": "Slides & Recordings\n\nPre-recorded lessons are on Echo Cloud (aka echo 360 or echo video).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDay\nTopic\nSlides: html\nSlides: pdf\nSlides: web-page\nSlides with notes\nRecording Link\nDuration\nCode: qmd\nCode: html\n\n\n\n\n11\nCI’s for 1 mean: 4.2\nDay 9: slides 1-12\n\n\n\nDay 9 Part 1\n17 min\n\n\n\n\n\n4.2 con’td\nDay 9: slides 13-19\nsame\n\nsame\nDay 9 Part 2\n17 min\nsame\nsame\n\n\n\n4.2 con’td, 5.1.1, 5.1.2 (pgs. 238-242)\nDay 9: slides 20-23\nsame\n\nsame\nDay 9 Part 3\n14 min\nsame\nsame\n\n\n12\nHyp test 1 mean intro\nDay 10 Part 1: slides 1-13\n\n\n\nDay 10 Part 1\n26 min\n\n\n\n\n\nHyp test steps: 4.3, 5.1\nDay 10 Part 1: slides 14-25\nsame\n\nsame\nDay 10 Part 2\n36 min\nsame\n\n\n\n\nR demo\nDay 10 Part 1: slides 26-34\nsame\n\nsame\nDay 10 Part 3\n25 min\nsame\n\n\n\n\n\nDay 10 Part 2\n\n\n\nNo recording"
+  },
+  {
+    "objectID": "weeks/week_07.html#datasets",
+    "href": "weeks/week_07.html#datasets",
+    "title": "Week 7",
+    "section": "Datasets",
+    "text": "Datasets\nAll datasets can be found on GitHub\n\nDay 11: CaffeineTaps.csv"
+  },
+  {
+    "objectID": "weeks/week_07.html#class-discussion",
+    "href": "weeks/week_07.html#class-discussion",
+    "title": "Week 7",
+    "section": "Class discussion",
+    "text": "Class discussion\nDuring class you will be working in groups discussing the following:\n\nDay 11\n\nBook 5.26 a-b (HW includes part (c) as well)\nR1: DDS expenditures by ethnicity\nPSS1: Book 4.22 - Power & sample size T/F questions\nPSS2: Power & sample size calculations\n\n\n\nDay 12\n\nBook 8.2, 8.14, 8.24 (plus extra (d))\nPSS1: Legalize Marijuana, Part III"
+  },
+  {
+    "objectID": "weeks/week_07.html#homework",
+    "href": "weeks/week_07.html#homework",
+    "title": "Week 7",
+    "section": "Homework",
+    "text": "Homework\n\nHW 5 covers Days 11 -12 and is due on Sat, 11/16\nCheck out this spreadsheet for typos in book."
   }
 ]
