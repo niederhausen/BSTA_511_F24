@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-10-28">
-<meta name="description" content="Variability in estimates and Exam 1">
+<meta name="dcterms.date" content="2024-11-11">
+<meta name="description" content="Chi-squared tests and ANOVA">
 
-<title>BSTA 511/611 Fall 2024 - Week 5</title>
+<title>BSTA 511/611 Fall 2024 - Week 8</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -106,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks/week_01.html">Weekly pages</a></li><li class="breadcrumb-item"><a href="../weeks/week_05.html">Week 5</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 8</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -173,7 +173,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week_05.html" class="sidebar-item-text sidebar-link active">
+  <a href="../weeks/week_05.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 5</span></a>
   </div>
 </li>
@@ -230,14 +230,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview-of-week-5" id="toc-overview-of-week-5" class="nav-link active" data-scroll-target="#overview-of-week-5">Overview of Week 5</a></li>
+  <li><a href="#overview-of-week-8" id="toc-overview-of-week-8" class="nav-link active" data-scroll-target="#overview-of-week-8">Overview of Week 8</a></li>
   <li><a href="#slides-recordings" id="toc-slides-recordings" class="nav-link" data-scroll-target="#slides-recordings">Slides &amp; Recordings</a></li>
+  <li><a href="#datasets" id="toc-datasets" class="nav-link" data-scroll-target="#datasets">Datasets</a></li>
   <li><a href="#class-discussion" id="toc-class-discussion" class="nav-link" data-scroll-target="#class-discussion">Class discussion</a>
   <ul class="collapse">
-  <li><a href="#day-8" id="toc-day-8" class="nav-link" data-scroll-target="#day-8">Day 8</a></li>
+  <li><a href="#day-13" id="toc-day-13" class="nav-link" data-scroll-target="#day-13">Day 13</a></li>
+  <li><a href="#day-14" id="toc-day-14" class="nav-link" data-scroll-target="#day-14">Day 14</a></li>
   </ul></li>
   <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework">Homework</a></li>
-  <li><a href="#sec-Exam1info" id="toc-sec-Exam1info" class="nav-link" data-scroll-target="#sec-Exam1info">Exam 1 information</a></li>
   </ul>
 </nav>
     </div>
@@ -246,12 +247,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Week 5</h1>
+<h1 class="title">Week 8</h1>
 </div>
 
 <div>
   <div class="description">
-    Variability in estimates and Exam 1
+    Chi-squared tests and ANOVA
   </div>
 </div>
 
@@ -262,7 +263,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 28, 2024</p>
+      <p class="date">November 11, 2024</p>
     </div>
   </div>
   
@@ -278,19 +279,23 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="overview-of-week-5" class="level2">
-<h2 class="anchored" data-anchor-id="overview-of-week-5">Overview of Week 5</h2>
+<section id="overview-of-week-8" class="level2">
+<h2 class="anchored" data-anchor-id="overview-of-week-8">Overview of Week 8</h2>
 <div class="grid">
-<section id="mon-day-8" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="mon-day-8">Mon: Day 8</h3>
+<section id="mon-day-13" class="level3 g-col-6">
+<h3 class="anchored" data-anchor-id="mon-day-13">Mon: Day 13</h3>
 <ul>
-<li>Variability in estimates: Section 4.1</li>
+<li>Chi-squared tests of association and homogeneity</li>
+<li>Fisher’s exact test</li>
+<li>Sections 8.3-8.4</li>
 </ul>
 </section>
-<section id="wed-exam-1" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="wed-exam-1">Wed: Exam 1</h3>
+<section id="wed-day-14" class="level3 g-col-6">
+<h3 class="anchored" data-anchor-id="wed-day-14">Wed: Day 14</h3>
 <ul>
-<li>See the <a href="#sec-Exam1info">Exam 1 information</a> section below for more information</li>
+<li>ANOVA = Analysis of Variance</li>
+<li>Comparing more than 2 means</li>
+<li>Section 5.5</li>
 </ul>
 </section>
 </div>
@@ -330,56 +335,104 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>8</td>
-<td>Variability in estimates: Section 4.1</td>
-<td><a href="../slides/Day08_bsta511.html">Day 8: slides 1-13</a></td>
-<td><a href="../slides_pdf/Day08_bsta511.pdf"><iconify-icon role="img" inline="" icon="bi:file-earmark-pdf-fill" style="font-size: 20px;" aria-label="Icon file-earmark-pdf-fill from bi Iconify.design set." title="Icon file-earmark-pdf-fill from bi Iconify.design set."></iconify-icon></a></td>
-<td><a href="../slides_md/Day08_bsta511_md.html"><iconify-icon role="img" inline="" icon="streamline:web" style="font-size: 20px;" aria-label="Icon web from streamline Iconify.design set." title="Icon web from streamline Iconify.design set."></iconify-icon></a></td>
-<td><a href="../slides_notes/Day08_bsta511_notes.pdf"><iconify-icon role="img" inline="" icon="pepicons-pop:pen-circle-filled" style="font-size: 20px;" aria-label="Icon pen-circle-filled from pepicons-pop Iconify.design set." title="Icon pen-circle-filled from pepicons-pop Iconify.design set."></iconify-icon></a></td>
-<td><a href="https://echo360.org/lesson/d219d261-c461-4296-8fd9-f7a87653869c/classroom#sortDirection=desc">Day 8 Part 1</a></td>
-<td>26 min</td>
-<td><a href="https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Day08_bsta511_code.qmd"><iconify-icon role="img" inline="" icon="simple-icons:quarto" aria-label="Icon quarto from simple-icons Iconify.design set." title="Icon quarto from simple-icons Iconify.design set."></iconify-icon></a></td>
-<td><a href="../slides_code/Day08_bsta511_code.html"><iconify-icon role="img" inline="" icon="ph:file-html-light" style="font-size: 25px;" aria-label="Icon file-html-light from ph Iconify.design set." title="Icon file-html-light from ph Iconify.design set."></iconify-icon></a></td>
+<td>13</td>
+<td>Chi-sqr intro</td>
+<td><a href="../slides/Day13_bsta511.html">Day 13: slides 1-10</a></td>
+<td><a href="../slides_pdf/Day13_bsta511.pdf"><iconify-icon role="img" inline="" icon="bi:file-earmark-pdf-fill" style="font-size: 20px;" aria-label="Icon file-earmark-pdf-fill from bi Iconify.design set." title="Icon file-earmark-pdf-fill from bi Iconify.design set."></iconify-icon></a></td>
+<td><a href="../slides_md/Day13_bsta511_md.html"><iconify-icon role="img" inline="" icon="streamline:web" style="font-size: 20px;" aria-label="Icon web from streamline Iconify.design set." title="Icon web from streamline Iconify.design set."></iconify-icon></a></td>
+<td><a href="../slides_notes/Day13_bsta511_notes.pdf"><iconify-icon role="img" inline="" icon="pepicons-pop:pen-circle-filled" style="font-size: 20px;" aria-label="Icon pen-circle-filled from pepicons-pop Iconify.design set." title="Icon pen-circle-filled from pepicons-pop Iconify.design set."></iconify-icon></a></td>
+<td><a href="https://echo360.org/lesson/1e9ef7fd-7150-4651-8d22-d156f73b70f0/classroom#sortDirection=desc">Day 13 Part 1</a></td>
+<td>18 min</td>
+<td><a href="https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Day13_bsta511_code.qmd"><iconify-icon role="img" inline="" icon="simple-icons:quarto" aria-label="Icon quarto from simple-icons Iconify.design set." title="Icon quarto from simple-icons Iconify.design set."></iconify-icon></a></td>
+<td><a href="../slides_code/Day13_bsta511_code.html"><iconify-icon role="img" inline="" icon="ph:file-html-light" style="font-size: 25px;" aria-label="Icon file-html-light from ph Iconify.design set." title="Icon file-html-light from ph Iconify.design set."></iconify-icon></a></td>
 </tr>
 <tr class="even">
 <td></td>
-<td>4.1 con’td</td>
-<td><a href="../slides/Day08_bsta511.html#/random-samples-of-size-n-5-from-yrbss2">Day 8: slides 14-29</a></td>
+<td>Chi-sqr test: 8.3.1 - 8.3.4</td>
+<td><a href="../slides/Day13_bsta511.html#/expected-counts-if-variables-are-independent">Day 13: slides 11-17</a></td>
 <td>same</td>
-<td><a href="../slides_md/Day08_bsta511_md.html#random-samples-of-size-n-5-from-yrbss2"><iconify-icon role="img" inline="" icon="streamline:web" style="font-size: 20px;" aria-label="Icon web from streamline Iconify.design set." title="Icon web from streamline Iconify.design set."></iconify-icon></a></td>
+<td><a href="../slides_md/Day13_bsta511_md.html#expected-counts-if-variables-are-independent"><iconify-icon role="img" inline="" icon="streamline:web" style="font-size: 20px;" aria-label="Icon web from streamline Iconify.design set." title="Icon web from streamline Iconify.design set."></iconify-icon></a></td>
 <td>same</td>
-<td><a href="https://echo360.org/lesson/0a29af3a-a79d-4ae4-b220-1e3cfc04e2e7/classroom#sortDirection=desc">Day 8 Part 2</a></td>
-<td>37 min</td>
+<td><a href="https://echo360.org/lesson/4f847964-7d54-4575-8631-7aa657293b07/classroom#sortDirection=desc">Day 13 Part 2</a></td>
+<td>23 min</td>
 <td>same</td>
-<td><a href="../slides_code/Day08_bsta511_code.html#random-samples-of-size-n-5-from-yrbss2"><iconify-icon role="img" inline="" icon="ph:file-html-light" style="font-size: 25px;" aria-label="Icon file-html-light from ph Iconify.design set." title="Icon file-html-light from ph Iconify.design set."></iconify-icon></a></td>
+<td><a href="../slides_code/Day13_bsta511_code.html#expected-counts-if-variables-are-independent"><iconify-icon role="img" inline="" icon="ph:file-html-light" style="font-size: 25px;" aria-label="Icon file-html-light from ph Iconify.design set." title="Icon file-html-light from ph Iconify.design set."></iconify-icon></a></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>R code demo</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><a href="https://echo360.org/lesson/f114d99a-44e9-4429-aa54-eb0fde6a61ca/classroom#sortDirection=desc">Day 8 Part 3</a></td>
-<td>11 min</td>
+<td>Chi-sqr in R, Fisher’s Exact Test, Chi-sqr vs.&nbsp;prop’s</td>
+<td><a href="../slides/Day13_bsta511.html#/depression-vs.-physical-activity-dataset">Day 13: R tip, slides 18-33</a></td>
 <td>same</td>
-<td><a href="../slides_code/Day08_bsta511_code.html"><iconify-icon role="img" inline="" icon="ph:file-html-light" style="font-size: 25px;" aria-label="Icon file-html-light from ph Iconify.design set." title="Icon file-html-light from ph Iconify.design set."></iconify-icon></a></td>
+<td><a href="../slides_md/Day13_bsta511_md.html#depression-vs.-physical-activity-dataset"><iconify-icon role="img" inline="" icon="streamline:web" style="font-size: 20px;" aria-label="Icon web from streamline Iconify.design set." title="Icon web from streamline Iconify.design set."></iconify-icon></a></td>
+<td>same</td>
+<td><a href="https://echo360.org/lesson/0d8fbd2c-e88e-410d-ba61-175d4c7cc29b/classroom#sortDirection=desc">Day 13 Part 3</a></td>
+<td>57 min</td>
+<td>same</td>
+<td><a href="../slides_code/Day13_bsta511_code.html#depression-vs.-physical-activity-dataset"><iconify-icon role="img" inline="" icon="ph:file-html-light" style="font-size: 25px;" aria-label="Icon file-html-light from ph Iconify.design set." title="Icon file-html-light from ph Iconify.design set."></iconify-icon></a></td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>ANOVA intro</td>
+<td><a href="../slides/Day14_bsta511.html">Day 14: slides 1-15</a></td>
+<td><a href="../slides_pdf/Day14_bsta511.pdf"><iconify-icon role="img" inline="" icon="bi:file-earmark-pdf-fill" style="font-size: 20px;" aria-label="Icon file-earmark-pdf-fill from bi Iconify.design set." title="Icon file-earmark-pdf-fill from bi Iconify.design set."></iconify-icon></a></td>
+<td><a href="../slides_md/Day14_bsta511_md.html"><iconify-icon role="img" inline="" icon="streamline:web" style="font-size: 20px;" aria-label="Icon web from streamline Iconify.design set." title="Icon web from streamline Iconify.design set."></iconify-icon></a></td>
+<td><a href="../slides_notes/Day14_bsta511_notes.pdf"><iconify-icon role="img" inline="" icon="pepicons-pop:pen-circle-filled" style="font-size: 20px;" aria-label="Icon pen-circle-filled from pepicons-pop Iconify.design set." title="Icon pen-circle-filled from pepicons-pop Iconify.design set."></iconify-icon></a></td>
+<td><a href="https://echo360.org/lesson/7cddf89e-c0ea-49cf-a302-aafcf72db065/classroom#sortDirection=desc">Day 14 Part 1</a></td>
+<td>29 min</td>
+<td><a href="https://github.com/niederhausen/BSTA_511_F24/blob/main/slides_code/Day14_bsta511_code.qmd"><iconify-icon role="img" inline="" icon="simple-icons:quarto" aria-label="Icon quarto from simple-icons Iconify.design set." title="Icon quarto from simple-icons Iconify.design set."></iconify-icon></a></td>
+<td><a href="../slides_code/Day14_bsta511_code.html"><iconify-icon role="img" inline="" icon="ph:file-html-light" style="font-size: 25px;" aria-label="Icon file-html-light from ph Iconify.design set." title="Icon file-html-light from ph Iconify.design set."></iconify-icon></a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>ANOVA table</td>
+<td><a href="../slides/Day14_bsta511.html#/anova-analysis-of-variance">Day 14: slides 16-28</a></td>
+<td>same</td>
+<td><a href="../slides_md/Day14_bsta511_md.html#anova-analysis-of-variance"><iconify-icon role="img" inline="" icon="streamline:web" style="font-size: 20px;" aria-label="Icon web from streamline Iconify.design set." title="Icon web from streamline Iconify.design set."></iconify-icon></a></td>
+<td>same</td>
+<td><a href="https://echo360.org/lesson/56dbcb9a-b61e-4b75-9071-c1ed45be37f4/classroom#sortDirection=desc">Day 14 Part 2</a></td>
+<td>27 min</td>
+<td>same</td>
+<td><a href="../slides_code/Day14_bsta511_code.html#anova-analysis-of-variance"><iconify-icon role="img" inline="" icon="ph:file-html-light" style="font-size: 25px;" aria-label="Icon file-html-light from ph Iconify.design set." title="Icon file-html-light from ph Iconify.design set."></iconify-icon></a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>ANOVA in R, conditions, post-hoc testing</td>
+<td><a href="../slides/Day14_bsta511.html#/thinking-about-the-f-statistic">Day 14: slides 29-47</a></td>
+<td>same</td>
+<td><a href="../slides_md/Day14_bsta511_md.html#thinking-about-the-f-statistic"><iconify-icon role="img" inline="" icon="streamline:web" style="font-size: 20px;" aria-label="Icon web from streamline Iconify.design set." title="Icon web from streamline Iconify.design set."></iconify-icon></a></td>
+<td>same</td>
+<td><a href="https://echo360.org/lesson/8682334b-aacc-4684-861f-4981f7314fe4/classroom#sortDirection=desc">Day 14 Part 3</a></td>
+<td>39 min</td>
+<td>same</td>
+<td><a href="../slides_code/Day14_bsta511_code.html#thinking-about-the-f-statistic"><iconify-icon role="img" inline="" icon="ph:file-html-light" style="font-size: 25px;" aria-label="Icon file-html-light from ph Iconify.design set." title="Icon file-html-light from ph Iconify.design set."></iconify-icon></a></td>
 </tr>
 </tbody>
 </table>
 </section>
+<section id="datasets" class="level2">
+<h2 class="anchored" data-anchor-id="datasets">Datasets</h2>
+<p>All datasets can be found on <a href="https://github.com/niederhausen/BSTA_511_F24/tree/main/data">GitHub</a></p>
+<ul>
+<li>Day 14: <a href="../data/DisabilityEmployment.txt">DisabilityEmployment.txt</a></li>
+</ul>
+</section>
 <section id="class-discussion" class="level2">
 <h2 class="anchored" data-anchor-id="class-discussion">Class discussion</h2>
 <p>During class you will be working in groups discussing the following:</p>
-<section id="day-8" class="level3">
-<h3 class="anchored" data-anchor-id="day-8">Day 8</h3>
+<section id="day-13" class="level3">
+<h3 class="anchored" data-anchor-id="day-13">Day 13</h3>
 <ul>
-<li>Slide 21: match figures to distribution (Sampling high schoolers’ weights)</li>
-<li>Problems from Homework 4:
+<li>Book #8.28, 8.34, 8.38 (modified; see assignment), 8.32</li>
+</ul>
+</section>
+<section id="day-14" class="level3">
+<h3 class="anchored" data-anchor-id="day-14">Day 14</h3>
 <ul>
-<li>Book exercise: 4.2 (warm-up)</li>
-<li>R1: Youth weights (YRBSS)</li>
-<li>Non-book exercise: Ethan Allen</li>
+<li>Slide 12: “Hypothetical examples” question</li>
+<li>Slide 29 questions</li>
+<li>Questions from HW 6
+<ul>
+<li>Book # 5.46, 5.48, R1, 5.44</li>
 </ul></li>
 </ul>
 </section>
@@ -387,27 +440,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="homework" class="level2">
 <h2 class="anchored" data-anchor-id="homework">Homework</h2>
 <ul>
-<li><a href="../homework/HW_4_F24_bsta511.html">HW 4</a> covers Days 8 -10 and is due on Sat, 11/9</li>
+<li><a href="../homework/HW_6_F24_bsta511.qmd">HW 6</a> covers Days 13 -14 and is due on Sat, 11/23</li>
 <li>Check out this <a href="https://docs.google.com/spreadsheets/d/1k_NivXZftdlRgRyTT3fUZCndW4eoXCzAs-DEIml6K3Y/edit?gid=0#gid=0">spreadsheet</a> for typos in book.</li>
-</ul>
-</section>
-<section id="sec-Exam1info" class="level2">
-<h2 class="anchored" data-anchor-id="sec-Exam1info">Exam 1 information</h2>
-<ul>
-<li>Exam 1 will be on Wed, Oct.&nbsp;30th</li>
-<li>Samples of <a href="https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/Exam_samples/Exam_1_samples_Ch1-Ch3.4.pdf">past exam questions</a> and <a href="https://sakai.ohsu.edu/access/content/group/BSTA-511-1-AA-F24/Exam_samples/Exam_1_samples_Ch1-Ch3.4%20answers.pdf">answers</a> (on Sakai)</li>
-<li>Material will cover <strong>Days 1-7</strong>,
-<ul>
-<li>which is approximately <strong>Chapters 1, 2, 3.1-3.4</strong> from the textbook.</li>
-</ul></li>
-<li>The exam will be in-class and handwritten. <em>Bring a calculator.</em></li>
-<li>You may bring one page of notes on an 8.5” x 11” sheet of paper.
-<ul>
-<li>You may use both sides.</li>
-<li>You may type your notes.</li>
-<li>You may <strong>not</strong> use screenshots of the notes or textbook</li>
-<li>You will be turning in the page of notes with the exam, so please add your name to the sheet.</li>
-</ul></li>
 </ul>
 
 

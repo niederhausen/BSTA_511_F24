@@ -1236,7 +1236,7 @@
     "href": "weeks.html",
     "title": "Weekly Pages",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n9/30/24\n\n\nWeek 1\n\n\nIntro to R & RStudio\n\n\n\n\n10/7/24\n\n\nWeek 2\n\n\nData collection & Probability\n\n\n\n\n10/14/24\n\n\nWeek 3\n\n\nBayes’ Rule & EDA\n\n\n\n\n10/21/24\n\n\nWeek 4\n\n\nBayes’ Rule & EDA\n\n\n\n\n10/28/24\n\n\nWeek 5\n\n\nVariability in estimates and Exam 1\n\n\n\n\n11/4/24\n\n\nWeek 6\n\n\nConfidence Intervals and Hypothesis Testing\n\n\n\n\n11/11/24\n\n\nWeek 7\n\n\nInference for difference in means, one proportion, and difference in proportions, and power\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n9/30/24\n\n\nWeek 1\n\n\nIntro to R & RStudio\n\n\n\n\n10/7/24\n\n\nWeek 2\n\n\nData collection & Probability\n\n\n\n\n10/14/24\n\n\nWeek 3\n\n\nBayes’ Rule & EDA\n\n\n\n\n10/21/24\n\n\nWeek 4\n\n\nBayes’ Rule & EDA\n\n\n\n\n10/28/24\n\n\nWeek 5\n\n\nVariability in estimates and Exam 1\n\n\n\n\n11/4/24\n\n\nWeek 6\n\n\nConfidence Intervals and Hypothesis Testing\n\n\n\n\n11/11/24\n\n\nWeek 7\n\n\nInference for difference in means, one proportion, and difference in proportions, and power\n\n\n\n\n11/11/24\n\n\nWeek 8\n\n\nChi-squared tests and ANOVA\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "homework/HW_2_F24_bsta511.html",
@@ -10435,5 +10435,47 @@
     "title": "HW 5: BSTA 511/611 F24",
     "section": "R1: DDS expenditures by ethnicity",
     "text": "R1: DDS expenditures by ethnicity\n\nIn these exercises you will use R to work through the discrimination in developmental disability support example from Section 5.3.4 (pg. 253) in the textbook.\nThe data are in the oibiostats package and called dds.discr.\n\n\n(a) New dataset\nCreate a new dataset that only includes the White (non Hispanic) and Hispanic ethnicities. Use this new dataset for the following questions.\n\n\n(b) Data viz\nCreate density plots and box plots of the expenditures stratified by ethnicity. Comment on the distribution shapes. Are there any outliers?\n\n\n(c) t-test conditions\nAre the conditions for a t-test comparing the mean expenditures of the two ethnicities satisfied?\n\n\n(d) Log-transformation\nThe book recommends log-transforming the expenditure values before testing. Create a new column in the dataset with the transformed values. The R command for the natural logarithm is log(). \n\n\n(e) Data viz: log-transformed expenditures\nCreate density plots and box plots of the log-transformed expenditures stratified by ethnicity. Comment on the distribution shapes. Are there any outliers?\n\n\n(f) t-test conditions: log-transformed expenditures\nAre the conditions for a t-test comparing the mean log-transformed expenditures of the two ethnicities satisfied?\n\n\n(g) Summary stats: log-transformed expenditures\nCalculate the means, standard deviations, and sample sizes for the log-transformed expenditures stratified by ethnicity, and compare them to the ones in the book. Which group had a larger mean?\n\n\n(h) Test\nRun the appropriate statistical test in R to verify the test statistic in the text and get the actual p-value. In which order was the difference in means calculated, and is this same as in the book? Use inline R code to pull these values from the test output when writing up your comparison of these values to the book’s values.\n\n\n(i) df\nHow do the degrees of freedom (df) from the hypothesis test compare to the df used by the book? Why are they different? Which degrees df (book vs. test output) leads to a bigger p-value?\n\n\n(j) CI\nWhat is the 95% CI? Write an interpretation of the CI in the context of the research question. \n\n\n(k) Test original expenditure values\nRun the appropriate statistical test in R using the original expenditure values. What are the test statistic and p-value? Does the conclusion of the test change?\n\n\n(l) CI using original expenditure values\nWhat is the 95% CI? Write an interpretation of the CI in the context of the research question. Which of the CI’s (log-transformed vs not) is easier to interpret?\n\n\n(m) Age groups\nThe book’s example goes on to analyze the data stratified by age groups, since age is a confounder in expenditure amounts. Create two new datasets restricted to the age groups 13-17 and 22-50, respectively.\n\n\n(n) Data viz by age groups\nCreate density plots and box plots of the expenditures stratified by ethnicity for each of the age groups separately. Comment on the distribution shapes. Are there any outliers?\n\n\n(o) t-test conditions: age groups\nAre the assumptions for a t-test comparing the mean expenditures of the two ethnicities satisfied for either or both of the age groups?\n\n\n(p) Summary stats: age groups\nCalculate the means, standard deviations, and sample sizes for the expenditures stratified by ethnicity and the age groups, and compare them to the ones in the book. Which group had a larger mean?\n\n\n(q) t-test: age groups\nRun the appropriate statistical tests for both age groups in R to verify the test statistics, df’s, and p-values in the text. In which order were the differences in means calculated, and are they the same as in the book? Use inline R code to pull these values from the test output when writing up your comparison of these values to the book’s values.\n\n\n(r) CI: age groups\nWhat are the 95% CI’s for each of the age groups? Write interpretations of the CI’s in the context of the research question. Does they suggest there are differences in expenditures between the two ethnicities? Why or why not?\n\n\n(s) Discrimination in DDS expenditures?\nEven though the p-values for the age-stratified tests were not significant, is it possible that there was discrimination in DDS expenditures?"
+  },
+  {
+    "objectID": "weeks/week_08.html",
+    "href": "weeks/week_08.html",
+    "title": "Week 8",
+    "section": "",
+    "text": "Chi-squared tests of association and homogeneity\nFisher’s exact test\nSections 8.3-8.4\n\n\n\n\n\nANOVA = Analysis of Variance\nComparing more than 2 means\nSection 5.5"
+  },
+  {
+    "objectID": "weeks/week_08.html#overview-of-week-8",
+    "href": "weeks/week_08.html#overview-of-week-8",
+    "title": "Week 8",
+    "section": "",
+    "text": "Chi-squared tests of association and homogeneity\nFisher’s exact test\nSections 8.3-8.4\n\n\n\n\n\nANOVA = Analysis of Variance\nComparing more than 2 means\nSection 5.5"
+  },
+  {
+    "objectID": "weeks/week_08.html#slides-recordings",
+    "href": "weeks/week_08.html#slides-recordings",
+    "title": "Week 8",
+    "section": "Slides & Recordings",
+    "text": "Slides & Recordings\n\nPre-recorded lessons are on Echo Cloud (aka echo 360 or echo video).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDay\nTopic\nSlides: html\nSlides: pdf\nSlides: web-page\nSlides with notes\nRecording Link\nDuration\nCode: qmd\nCode: html\n\n\n\n\n13\nChi-sqr intro\nDay 13: slides 1-10\n\n\n\nDay 13 Part 1\n18 min\n\n\n\n\n\nChi-sqr test: 8.3.1 - 8.3.4\nDay 13: slides 11-17\nsame\n\nsame\nDay 13 Part 2\n23 min\nsame\n\n\n\n\nChi-sqr in R, Fisher’s Exact Test, Chi-sqr vs. prop’s\nDay 13: R tip, slides 18-33\nsame\n\nsame\nDay 13 Part 3\n57 min\nsame\n\n\n\n14\nANOVA intro\nDay 14: slides 1-15\n\n\n\nDay 14 Part 1\n29 min\n\n\n\n\n\nANOVA table\nDay 14: slides 16-28\nsame\n\nsame\nDay 14 Part 2\n27 min\nsame\n\n\n\n\nANOVA in R, conditions, post-hoc testing\nDay 14: slides 29-47\nsame\n\nsame\nDay 14 Part 3\n39 min\nsame"
+  },
+  {
+    "objectID": "weeks/week_08.html#datasets",
+    "href": "weeks/week_08.html#datasets",
+    "title": "Week 8",
+    "section": "Datasets",
+    "text": "Datasets\nAll datasets can be found on GitHub\n\nDay 14: DisabilityEmployment.txt"
+  },
+  {
+    "objectID": "weeks/week_08.html#class-discussion",
+    "href": "weeks/week_08.html#class-discussion",
+    "title": "Week 8",
+    "section": "Class discussion",
+    "text": "Class discussion\nDuring class you will be working in groups discussing the following:\n\nDay 13\n\nBook #8.28, 8.34, 8.38 (modified; see assignment), 8.32\n\n\n\nDay 14\n\nSlide 12: “Hypothetical examples” question\nSlide 29 questions\nQuestions from HW 6\n\nBook # 5.46, 5.48, R1, 5.44"
+  },
+  {
+    "objectID": "weeks/week_08.html#homework",
+    "href": "weeks/week_08.html#homework",
+    "title": "Week 8",
+    "section": "Homework",
+    "text": "Homework\n\nHW 6 covers Days 13 -14 and is due on Sat, 11/23\nCheck out this spreadsheet for typos in book."
   }
 ]
