@@ -1,0 +1,196 @@
+---
+title: "HW 6: BSTA 511/611 F24"
+author: "Your name here - update this!!!!"
+date: "Due 11/23/24"
+format: 
+  html:
+    link-external-newwindow: true
+    toc: true
+    toc_float:
+      collapsed: false
+    number-sections: false
+    number-depth: 4
+    theme: lumen
+    self-contained: true
+    html-math-method: mathjax
+---
+
+```{r}
+#| label: "setup"
+#| include: false
+knitr::opts_chunk$set(echo = TRUE, fig.height = 2, fig.width = 4)
+```
+
+**Due 11/23/24**
+
+Download the .qmd file for this assignment from <https://github.com/niederhausen/BSTA_511_F24/blob/main/homework/HW_6_F24_bsta511.qmd>
+
+## Graded exercises
+
+The exercises listed below will be graded for this assignment. You are **strongly** encouraged to complete the entire assignment. You will receive feedback on exercises you turn in that are not being graded.
+
+-   **Book exercises**
+    -   8.32, 8.34, 8.38, 5.44
+-   **R exercises**
+    -   R1: Palmer Penguins ANOVA
+
+## Directions
+
+::: callout-important
+-   Complete all exercises in this assignment using Quarto.
+-   I highly recommend using LaTeX to format equations.
+    -   See the .qmd files from class notes for LaTeX code to make it easier to show your work in computations.
+    -   For instructions on creating equations in the Visual editor, check out <https://quarto.org/docs/get-started/authoring/rstudio.html#equations>. [html](../slides_code/Probability_distributions_in_R_bsta511.qmd)
+    -   Also check out examples of [LaTeX formatting for statistics](https://nwakim.github.io/S2024_BSTA_513/extra_resources/Latex_qmd_formatting.html) created by recent biostats alum Ariel Weingarten.
+    -   If you have difficulty rendering the LaTeX equations, I recommend installing and running the R package `tinytex`. See this [website](https://evalsp20.classes.andrewheiss.com/reference/install/#install-tinytex-1) for instructions.
+:::
+
+-   Please upload your homework to [Sakai](https://sakai.ohsu.edu/portal/site/BSTA-511-1-AA-F24/tool/8cee686f-e5e0-401c-a7c1-b097fc8eb9a9). **Upload both your .qmd code file and the rendered .html file**.
+    -   Use the assignment .qmd file linked to above as a template for your own assignment.
+-   Please always use the following naming convention for submitting your files:
+    -   **Lastname_Firstname_HWx.qmd**, such as Niederhausen_Meike_HW2.qmd
+    -   **Lastname_Firstname_HWx.html**, such as Niederhausen_Meike_HW2.html
+-   For each question, make sure to **show all of your work**.
+    -   This includes all code and resulting output in the html file to support your answers for exercises requiring work done in R (including any arithmetic calculations).
+    -   For non-calculation questions, this includes an explanation of your answer (*why did you choose your answer?*).
+-   For each question, include a **sentence summarizing the answer** for that question in the context of the research question.
+
+::: callout-tip
+It is a good idea to try rendering your document from time to time as you go along! Note that rendering automatically saves your Qmd file and rendering frequently helps you catch your errors more quickly.
+:::
+
+### Hypothesis test instructions
+
+::: callout-important
+-   For book exercises, make sure to include all steps in a hypothesis test (where applicable) as outlined in the class notes.
+
+-   Do not forget to include a discussion on whether you think the test (or CI) assumptions have been satisfied. Are there assumptions you need to make in order for them to be satisfied? Whether you believe they are satisfied or not, continue to run the hypothesis test (or CI) as instructed.
+:::
+
+# Book exercises
+
+## 8.28 True or false, Part II
+
+## 8.32 Diabetes and unemployment
+
+### (a)
+
+### (b)
+
+### (c)
+
+[**In addition to answering the question in (c), run the 2 proportions test in R and calculated the "z" test statistic and p-value using the normal distribution based on the** $\chi^2$ **output in R's test.**]{style="color:green"}
+
+### (d) extra part
+
+[**Run the test as a** $\chi^2$ as well, and compare your results to those in (c).]{style="color:green"}
+
+## 8.34 Coffee and Depression
+
+-   [**Do not create a dataset and run the test in R. Use just the information given in the problem.**]{style="color:green"}
+-   [**For (e), calculate the p-value "directly" (not using** $\chi^2$ test command in R). Also comment on whether you think the sample size condition would be met without computing the expected cell counts.]{style="color:green"}
+
+## 8.38 (a) & (extra) Salt intake and CVD
+
+Do not do parts (b)-(c) in the book
+
+### (a)
+
+-   [**You can use the expected cell counts from R's chi-squared test (you do not need to compute them using the formula).**]{style="color:green"}
+-   [**Comment on whether the sample size condition is met or not for these data.**]{style="color:green"}
+
+### (extra)
+
+[**Run a Fisher's Exact test. Include the hypotheses and a conclusion in the context of the problem.**]{style="color:green"}
+
+## 5.44 Work hours and education
+
+## 5.46 Child care hours
+
+## 5.48 True/False: ANOVA, Part II
+
+# R exercises
+
+## Load packages
+
+Load all the packages you need in the first code chunk of the file that starts with `#| label: "setup"`.
+
+## R1: Palmer Penguins ANOVA
+
+-   Use the `penguins` data from the `palmerpenguins` package.
+    -   Don't forget to first **install** the `palmerpenguins` package
+-   You can learn more about the Palmer penguins data at <https://allisonhorst.github.io/palmerpenguins/>
+-   We will test whether there are differences in penguins' mean bill depths when comparing different species.
+
+```{r}
+library(palmerpenguins)
+data(penguins)
+```
+
+### (a) Dotplots
+
+**Make a dotplot of the penguins' bill depths stratified by species type. Include points for the mean of each species type as well as a horizontal dashed line for the overall mean.** *See example from class for the plot I'm describing.*
+
+### (b) Which groups significantly different?
+
+**Based on the figure, which pairs of species look like they have significantly different mean bill depths?**
+
+### (c) Hypotheses in words
+
+**Write out in words the null and alternative hypotheses.**
+
+### (d) Hypotheses in symbols
+
+**Write out in symbols the null and alternative hypotheses.**
+
+### (e) Run ANOVA in R
+
+**Using R, run the hypothesis test and display the output.**
+
+### (f) SST
+
+**Using the values from the ANOVA table, calculate the value of the SST (total sum of squares).**
+
+### (g) MSG & MSE
+
+**Using the values from the ANOVA table, verify (calculate) the values of the MSG (mean square groups) and MSE (mean square error).**
+
+### (h) F statistic
+
+**Using the values from the ANOVA table, verify (calculate) the value of the F statistic.**
+
+### (i) p-value
+
+**Using the values from the ANOVA table, verify (calculate) the p-value.**
+
+### (j) Decision?
+
+**Based on the p-value, will we reject or fail to reject the null hypothesis? Why?**
+
+### (k) Conclusion
+
+**Write a conclusion to the hypothesis test in the context of the problem.**
+
+### (l) Technical conditions
+
+**Investigate whether the technical conditions for using an ANOVA been satisfied.**
+
+### (m) Post-hoc pairwise t-tests: no correction
+
+**Run post-hoc pairwise t-tests using NO p-value correction. Which pairs of species have significantly different bill depths?**
+
+### (n) Post-hoc pairwise t-tests: Bonferroni correction
+
+**Run post-hoc pairwise t-tests using a Bonferroni correction. Which pairs of species have significantly different bill depths?**
+
+### (o) Hypothetical Bonferroni correction
+
+**If *hypothetically* the p-value comparing the mean bill depths of the Adelie and Chinstrap species were 0.03 without any p-value adjustment, what would the p-value be after running the post-hoc pairwise t-tests using a Bonferroni correction?**
+
+### (p) Post-hoc pairwise t-tests: Tukey's Honest Significance Test correction
+
+**Run post-hoc pairwise t-tests using Tukey's Honest Significance Test correction. Which pairs of species have significantly different bill depths?**
+
+### (q) Tukey confidence intervals
+
+**Make a plot showing the 95% family-wise Tukey confidence intervals. How does this plot visually confirm the which pairs of species have significantly different bill depths?**
