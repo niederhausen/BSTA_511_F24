@@ -30,7 +30,7 @@ Download the .qmd file for this assignment from <https://github.com/niederhausen
 The exercises listed below will be graded for this assignment. You are **strongly** encouraged to complete the entire assignment. You will receive feedback on exercises you turn in that are not being graded.
 
 -   **Book exercises**
-    -   8.32, 8.34, 8.38, 5.44
+    -   8.32, 8.34, 8.38 (modified; see below), 5.44
 -   **R exercises**
     -   R1: Palmer Penguins ANOVA
 
