@@ -1002,7 +1002,7 @@ From the applet at <https://rpsychologist.com/d3/NHST/>
 
     * Thus as $\beta$ = P(Type II error) decreases, the power increases
 
-    * P(Type II error) decreases as the mean of the alternative population shits further away from the mean of the null population (effect size gets bigger).
+    * P(Type II error) decreases as the mean of the alternative population shifts further away from the mean of the null population (effect size gets bigger).
 
     * Typically want at least 80% power; 90% power is good
 :::

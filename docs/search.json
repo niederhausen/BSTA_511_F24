@@ -6290,7 +6290,7 @@
     "href": "slides/Day11_bsta511.html#relationship-between-type-ii-errors-and-power",
     "title": "Day 11: Inference for difference in means from two independent samples and Power (Sections 5.3, 5.4)",
     "section": "Relationship between Type II errors and power",
-    "text": "Relationship between Type II errors and power\n\nPower = P(correctly rejecting the null hypothesis)\n\n\n\n\n\nPower is also called the\n\ntrue positive rate,\nprobability of detection, or\nthe sensitivity of a test\n\n\n\n\n\n\n\n\n\n\n\nPower vs. Type II error\n\nPower = 1 - P(Type II error) = 1 - \\(\\beta\\)\nThus as \\(\\beta\\) = P(Type II error) decreases, the power increases\nP(Type II error) decreases as the mean of the alternative population shits further away from the mean of the null population (effect size gets bigger).\nTypically want at least 80% power; 90% power is good"
+    "text": "Relationship between Type II errors and power\n\nPower = P(correctly rejecting the null hypothesis)\n\n\n\n\n\nPower is also called the\n\ntrue positive rate,\nprobability of detection, or\nthe sensitivity of a test\n\n\n\n\n\n\n\n\n\n\n\nPower vs. Type II error\n\nPower = 1 - P(Type II error) = 1 - \\(\\beta\\)\nThus as \\(\\beta\\) = P(Type II error) decreases, the power increases\nP(Type II error) decreases as the mean of the alternative population shifts further away from the mean of the null population (effect size gets bigger).\nTypically want at least 80% power; 90% power is good"
   },
   {
     "objectID": "slides/Day11_bsta511.html#example-calculating-power",
@@ -7053,7 +7053,7 @@
     "href": "slides_md/Day11_bsta511_md.html#relationship-between-type-ii-errors-and-power",
     "title": "Day 11: Inference for difference in means from two independent samples and Power (Sections 5.3, 5.4)",
     "section": "Relationship between Type II errors and power",
-    "text": "Relationship between Type II errors and power\n\nPower = P(correctly rejecting the null hypothesis)\n\n\n\n\n\nPower is also called the\n\ntrue positive rate,\nprobability of detection, or\nthe sensitivity of a test\n\n\n\n\n\n\n\n\n\n\n\nPower vs. Type II error\n\nPower = 1 - P(Type II error) = 1 - \\(\\beta\\)\nThus as \\(\\beta\\) = P(Type II error) decreases, the power increases\nP(Type II error) decreases as the mean of the alternative population shits further away from the mean of the null population (effect size gets bigger).\nTypically want at least 80% power; 90% power is good"
+    "text": "Relationship between Type II errors and power\n\nPower = P(correctly rejecting the null hypothesis)\n\n\n\n\n\nPower is also called the\n\ntrue positive rate,\nprobability of detection, or\nthe sensitivity of a test\n\n\n\n\n\n\n\n\n\n\n\nPower vs. Type II error\n\nPower = 1 - P(Type II error) = 1 - \\(\\beta\\)\nThus as \\(\\beta\\) = P(Type II error) decreases, the power increases\nP(Type II error) decreases as the mean of the alternative population shifts further away from the mean of the null population (effect size gets bigger).\nTypically want at least 80% power; 90% power is good"
   },
   {
     "objectID": "slides_md/Day11_bsta511_md.html#example-calculating-power",
