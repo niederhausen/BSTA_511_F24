@@ -1,7 +1,7 @@
 ---
 title: "Week 8"
 description: "Chi-squared tests and ANOVA"
-date: "11/11/2024"
+date: "11/18/2024"
 date-modified: "today"
 categories: [""]
 format: 

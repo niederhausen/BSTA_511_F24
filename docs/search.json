@@ -172,7 +172,7 @@
     "href": "homework.html",
     "title": "Assignments",
     "section": "",
-    "text": "Note\n\n\n\n\nBelow are links to homework assignments.\nThe dates in the Date column are due dates.\nSee the Grading rubric tab to the left for a description of how assignments will be graded.\n\n\n\n\nCheck out this spreadsheet for textbook typos.\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\n10/12/24\n\n\nHW 1: BSTA 511/611 F24\n\n\n\n\n10/19/24\n\n\nHW 2: BSTA 511/611 F24\n\n\n\n\n10/26/24\n\n\nHW 3: BSTA 511/611 F24\n\n\n\n\n11/9/24\n\n\nHW 4: BSTA 511/611 F24\n\n\n\n\n11/16/24\n\n\nHW 5: BSTA 511/611 F24\n\n\n\n\n11/23/24\n\n\nHW 6: BSTA 511/611 F24\n\n\n\n\n\n\nNo matching items"
+    "text": "Note\n\n\n\n\nBelow are links to homework assignments.\nThe dates in the Date column are due dates.\nSee the Grading rubric tab to the left for a description of how assignments will be graded.\n\n\n\n\nCheck out this spreadsheet for textbook typos.\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\n10/12/24\n\n\nHW 1: BSTA 511/611 F24\n\n\n\n\n10/19/24\n\n\nHW 2: BSTA 511/611 F24\n\n\n\n\n10/26/24\n\n\nHW 3: BSTA 511/611 F24\n\n\n\n\n11/9/24\n\n\nHW 4: BSTA 511/611 F24\n\n\n\n\n11/16/24\n\n\nHW 5: BSTA 511/611 F24\n\n\n\n\n11/23/24\n\n\nHW 6: BSTA 511/611 F24\n\n\n\n\n12/7/24\n\n\nHW 7: BSTA 511/611 F24\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/Projects_in_R.html",
@@ -1236,7 +1236,7 @@
     "href": "weeks.html",
     "title": "Weekly Pages",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n9/30/24\n\n\nWeek 1\n\n\nIntro to R & RStudio\n\n\n\n\n10/7/24\n\n\nWeek 2\n\n\nData collection & Probability\n\n\n\n\n10/14/24\n\n\nWeek 3\n\n\nBayes’ Rule & EDA\n\n\n\n\n10/21/24\n\n\nWeek 4\n\n\nBayes’ Rule & EDA\n\n\n\n\n10/28/24\n\n\nWeek 5\n\n\nVariability in estimates and Exam 1\n\n\n\n\n11/4/24\n\n\nWeek 6\n\n\nConfidence Intervals and Hypothesis Testing\n\n\n\n\n11/11/24\n\n\nWeek 7\n\n\nInference for difference in means, one proportion, and difference in proportions, and power\n\n\n\n\n11/11/24\n\n\nWeek 8\n\n\nChi-squared tests and ANOVA\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n9/30/24\n\n\nWeek 1\n\n\nIntro to R & RStudio\n\n\n\n\n10/7/24\n\n\nWeek 2\n\n\nData collection & Probability\n\n\n\n\n10/14/24\n\n\nWeek 3\n\n\nBayes’ Rule & EDA\n\n\n\n\n10/21/24\n\n\nWeek 4\n\n\nBayes’ Rule & EDA\n\n\n\n\n10/28/24\n\n\nWeek 5\n\n\nVariability in estimates and Exam 1\n\n\n\n\n11/4/24\n\n\nWeek 6\n\n\nConfidence Intervals and Hypothesis Testing\n\n\n\n\n11/11/24\n\n\nWeek 7\n\n\nInference for difference in means, one proportion, and difference in proportions, and power\n\n\n\n\n11/18/24\n\n\nWeek 8\n\n\nChi-squared tests and ANOVA\n\n\n\n\n11/25/24\n\n\nWeek 9\n\n\nChi-squared tests and ANOVA\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "homework/HW_2_F24_bsta511.html",
@@ -10575,5 +10575,180 @@
     "title": "Week 8",
     "section": "Exam 2 information",
     "text": "Exam 2 information\n\nExam 2 will be on Mon, Oct. 30th\nSamples of past exam questions and answers (on Sakai)\nMaterial will cover Days 8-13,\n\nwhich is approximately Ch 4, 5.1-5.4, 8.1-8.4 from the textbook, and supplementary material.\n\nThe exam will be in-class and handwritten. Bring a calculator.\nYou may bring one page of notes on an 8.5” x 11” sheet of paper.\n\nYou may use both sides.\nYou may type your notes.\nYou may not use screenshots of the notes or textbook\nYou will be turning in the page of notes with the exam, so please add your name to the sheet."
+  },
+  {
+    "objectID": "weeks/week_09.html",
+    "href": "weeks/week_09.html",
+    "title": "Week 9",
+    "section": "",
+    "text": "See the Exam 2 information section below for more information\n\n\n\n\n\nSimple Linear Regression (part 1)\nSections 6.1, 6.2"
+  },
+  {
+    "objectID": "weeks/week_09.html#overview-of-week-8",
+    "href": "weeks/week_09.html#overview-of-week-8",
+    "title": "Week 8",
+    "section": "",
+    "text": "Chi-squared tests of association and homogeneity\nFisher’s exact test\nSections 8.3-8.4\n\n\n\n\n\nANOVA = Analysis of Variance\nComparing more than 2 means\nSection 5.5"
+  },
+  {
+    "objectID": "weeks/week_09.html#slides-recordings",
+    "href": "weeks/week_09.html#slides-recordings",
+    "title": "Week 9",
+    "section": "Slides & Recordings",
+    "text": "Slides & Recordings\n\nPre-recorded lessons are on Echo Cloud (aka echo 360 or echo video).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDay\nTopic\nSlides: html\nSlides: pdf\nSlides: web-page\nSlides with notes\nRecording Link\nDuration\nCode: qmd\nCode: html\n\n\n\n\n15\nSimple linear regression: 6.1-6.2\n\n\n\n\nDay 15\n46 min"
+  },
+  {
+    "objectID": "weeks/week_09.html#datasets",
+    "href": "weeks/week_09.html#datasets",
+    "title": "Week 9",
+    "section": "Datasets",
+    "text": "Datasets\nAll datasets can be found on GitHub\n\nDay 15: lifeexp_femlit_water_2011.csv"
+  },
+  {
+    "objectID": "weeks/week_09.html#class-discussion",
+    "href": "weeks/week_09.html#class-discussion",
+    "title": "Week 9",
+    "section": "Class discussion",
+    "text": "Class discussion\nDuring class you will be working in groups discussing the following:\n\nDay 15"
+  },
+  {
+    "objectID": "weeks/week_09.html#homework",
+    "href": "weeks/week_09.html#homework",
+    "title": "Week 9",
+    "section": "Homework",
+    "text": "Homework\n\nHW 7 covers Days 15 -17 and is due on Sat, 12/7\nCheck out this spreadsheet for typos in book."
+  },
+  {
+    "objectID": "weeks/week_09.html#sec-Exam2info",
+    "href": "weeks/week_09.html#sec-Exam2info",
+    "title": "Week 9",
+    "section": "Exam 2 information",
+    "text": "Exam 2 information\n\nExam 2 will be on Mon, Nov. 25th\nSamples of past exam questions and answers (on Sakai)\nMaterial will cover Days 8-13,\n\nwhich is approximately Ch 4, 5.1-5.4, 8.1-8.4 from the textbook, and supplementary material.\n\nThe exam will be in-class and handwritten. Bring a calculator.\nYou may bring one page of notes on an 8.5” x 11” sheet of paper.\n\nYou may use both sides.\nYou may type your notes.\nYou may not use screenshots of the notes or textbook\nYou will be turning in the page of notes with the exam, so please add your name to the sheet."
+  },
+  {
+    "objectID": "weeks/week_09.html#overview-of-week-9",
+    "href": "weeks/week_09.html#overview-of-week-9",
+    "title": "Week 9",
+    "section": "",
+    "text": "See the Exam 2 information section below for more information\n\n\n\n\n\nSimple Linear Regression (part 1)\nSections 6.1, 6.2"
+  },
+  {
+    "objectID": "homework/HW_7_F24_bsta511.html",
+    "href": "homework/HW_7_F24_bsta511.html",
+    "title": "HW 7: BSTA 511/611 F24",
+    "section": "",
+    "text": "Due 12/7/24\nDownload the .qmd file for this assignment from https://github.com/niederhausen/BSTA_511_F24/blob/main/homework/HW_7_F24_bsta511.qmd"
+  },
+  {
+    "objectID": "homework/HW_7_F24_bsta511.html#graded-exercises",
+    "href": "homework/HW_7_F24_bsta511.html#graded-exercises",
+    "title": "HW 7: BSTA 511/611 F24",
+    "section": "Graded exercises",
+    "text": "Graded exercises\nThe exercises listed below will be graded for this assignment. You are strongly encouraged to complete the entire assignment. You will receive feedback on exercises you turn in that are not being graded.\n\nBook exercises\n\n6.10, 6.28, 6.32\n\nR exercises\n\nR1: Palmer Penguins SLR\nR2: Life expectancy vs. CO2 emissions parts (a)-(j)\n\nNonparametric exercises\n\nNPT 1, NPT 2, NPT 3"
+  },
+  {
+    "objectID": "homework/HW_7_F24_bsta511.html#directions",
+    "href": "homework/HW_7_F24_bsta511.html#directions",
+    "title": "HW 7: BSTA 511/611 F24",
+    "section": "Directions",
+    "text": "Directions\n\n\n\n\n\n\nImportant\n\n\n\n\nComplete all exercises in this assignment using Quarto.\nI highly recommend using LaTeX to format equations.\n\nSee the .qmd files from class notes for LaTeX code to make it easier to show your work in computations.\nFor instructions on creating equations in the Visual editor, check out https://quarto.org/docs/get-started/authoring/rstudio.html#equations. html\nAlso check out examples of LaTeX formatting for statistics created by recent biostats alum Ariel Weingarten.\nIf you have difficulty rendering the LaTeX equations, I recommend installing and running the R package tinytex. See this website for instructions.\n\n\n\n\n\nPlease upload your homework to Sakai. Upload both your .qmd code file and the rendered .html file.\n\nUse the assignment .qmd file linked to above as a template for your own assignment.\n\nPlease always use the following naming convention for submitting your files:\n\nLastname_Firstname_HWx.qmd, such as Niederhausen_Meike_HW2.qmd\nLastname_Firstname_HWx.html, such as Niederhausen_Meike_HW2.html\n\nFor each question, make sure to show all of your work.\n\nThis includes all code and resulting output in the html file to support your answers for exercises requiring work done in R (including any arithmetic calculations).\nFor non-calculation questions, this includes an explanation of your answer (why did you choose your answer?).\n\nFor each question, include a sentence summarizing the answer for that question in the context of the research question.\n\n\n\n\n\n\n\nTip\n\n\n\nIt is a good idea to try rendering your document from time to time as you go along! Note that rendering automatically saves your Qmd file and rendering frequently helps you catch your errors more quickly."
+  },
+  {
+    "objectID": "homework/HW_7_F24_bsta511.html#identify-relationships-part-ii",
+    "href": "homework/HW_7_F24_bsta511.html#identify-relationships-part-ii",
+    "title": "HW 7: BSTA 511/611 F24",
+    "section": "6.2 Identify relationships, Part II",
+    "text": "6.2 Identify relationships, Part II"
+  },
+  {
+    "objectID": "homework/HW_7_F24_bsta511.html#over-under-part-ii",
+    "href": "homework/HW_7_F24_bsta511.html#over-under-part-ii",
+    "title": "HW 7: BSTA 511/611 F24",
+    "section": "6.6 Over-under, Part II",
+    "text": "6.6 Over-under, Part II"
+  },
+  {
+    "objectID": "homework/HW_7_F24_bsta511.html#guppies-part-i",
+    "href": "homework/HW_7_F24_bsta511.html#guppies-part-i",
+    "title": "HW 7: BSTA 511/611 F24",
+    "section": "6.10 Guppies, Part I",
+    "text": "6.10 Guppies, Part I"
+  },
+  {
+    "objectID": "homework/HW_7_F24_bsta511.html#trends-in-the-residuals",
+    "href": "homework/HW_7_F24_bsta511.html#trends-in-the-residuals",
+    "title": "HW 7: BSTA 511/611 F24",
+    "section": "6.12 Trends in the residuals",
+    "text": "6.12 Trends in the residuals"
+  },
+  {
+    "objectID": "homework/HW_7_F24_bsta511.html#guppies-part-iv",
+    "href": "homework/HW_7_F24_bsta511.html#guppies-part-iv",
+    "title": "HW 7: BSTA 511/611 F24",
+    "section": "6.20 Guppies, Part IV",
+    "text": "6.20 Guppies, Part IV"
+  },
+  {
+    "objectID": "homework/HW_7_F24_bsta511.html#a-e-helmets-and-lunches",
+    "href": "homework/HW_7_F24_bsta511.html#a-e-helmets-and-lunches",
+    "title": "HW 7: BSTA 511/611 F24",
+    "section": "6.26 (a, e) Helmets and lunches",
+    "text": "6.26 (a, e) Helmets and lunches\nSkip parts (b)-(d). To complete (e), use that the slope from part (b) is −0.537, and the intercept is 55.34.\nNote: if you have time, it would be good practice to calculate the regression line as well. This was covered on the previous assignment."
+  },
+  {
+    "objectID": "homework/HW_7_F24_bsta511.html#guppies-part-v",
+    "href": "homework/HW_7_F24_bsta511.html#guppies-part-v",
+    "title": "HW 7: BSTA 511/611 F24",
+    "section": "6.28 Guppies, Part V",
+    "text": "6.28 Guppies, Part V"
+  },
+  {
+    "objectID": "homework/HW_7_F24_bsta511.html#a-b-guppies-part-vi",
+    "href": "homework/HW_7_F24_bsta511.html#a-b-guppies-part-vi",
+    "title": "HW 7: BSTA 511/611 F24",
+    "section": "6.32 (a, b) Guppies, Part VI",
+    "text": "6.32 (a, b) Guppies, Part VI\nSkip part (c)."
+  },
+  {
+    "objectID": "homework/HW_7_F24_bsta511.html#load-packages",
+    "href": "homework/HW_7_F24_bsta511.html#load-packages",
+    "title": "HW 7: BSTA 511/611 F24",
+    "section": "Load packages",
+    "text": "Load packages\nLoad all the packages you need in the first code chunk of the file that starts with #| label: \"setup\"."
+  },
+  {
+    "objectID": "homework/HW_7_F24_bsta511.html#r1-palmer-penguins-slr",
+    "href": "homework/HW_7_F24_bsta511.html#r1-palmer-penguins-slr",
+    "title": "HW 7: BSTA 511/611 F24",
+    "section": "R1: Palmer Penguins SLR",
+    "text": "R1: Palmer Penguins SLR\n\n\n\n\n\n\nImportant\n\n\n\nBelow I frequently use the terminology variable1 vs. variable2. When we write this, the first variable is \\(y\\) (vertical axis) and the second is \\(x\\) (horizontal axis). Thus it’s always \\(y\\) vs. \\(x\\) (NOT \\(x\\) vs. \\(y\\)).\n\n\n\n(a) Scatterplots\n\nFor each of the following pairs of variables, make a scatterplot showing the best fit line and describe the relationship between the variables.\nIn particular address\n\nwhether the association is linear,\nhow strong it is (based purely on the plot), and\nwhat direction (positive, negative, or neither).\n\n\n\nbody mass vs. flipper length\nbill depth vs. flipper length\nbill depth vs. bill length\n\n\n\n(b) Correlations\n\nFor each of the following pairs of variables, find the correlation coefficient \\(r\\).\n\n\nbody mass vs. flipper length\nbill depth vs. flipper length\nbill depth vs. bill length\n\n\n\n(c) Compare associations\nWhich pair of variables has the strongest association? Which has the weakest? Explain how you determined this.\n\n\n(d) Body mass vs. flipper length SLR\nRun the simple linear regression model for body mass vs. flipper length, and display the regression table output.\n\n\n(e) Regression equation\nWrite out the regression equation for this model, using the variable names instead of the generic \\(x\\) and \\(y\\), and inserting the regression coefficient values.\n\n\n(f) \\(b_1\\) calculation\nVery that the formula \\(b_1 = r \\cdot \\frac{s_y}{s_x}\\) holds for this example using the values of the statistics.\n\n\n(g) Interpret intercept\nWrite a sentence interpreting the intercept for this example. Is it meaningful in this example?\n\n\n(h) Interpret slope\nWrite a sentence interpreting the slope for this example.\n\n\n(i) Prediction\nWhat is the expected body mass of a penguin with flipper length 210 mm based on the model?"
+  },
+  {
+    "objectID": "homework/HW_7_F24_bsta511.html#r2-life-expectancy-vs.-co2-emissions",
+    "href": "homework/HW_7_F24_bsta511.html#r2-life-expectancy-vs.-co2-emissions",
+    "title": "HW 7: BSTA 511/611 F24",
+    "section": "R2: Life expectancy vs. CO2 emissions",
+    "text": "R2: Life expectancy vs. CO2 emissions\nUse the dataset Gapminder_2011_LifeExp_CO2.csv\nData were downloaded from https://www.gapminder.org/data/.\n\nLife expectancy = the average number of years a newborn child would live if current mortality patterns were to stay the same. Source: https://www.gminder.org/data/documentation/gd004/\nCO2 emissions (tons per person) = Carbon dioxide emissions from the burning of fossil fuels (metric tons of CO2 per person). Source: https://cdiac.ess-dive.lbl.gov/\n2011 is the most recent year with the most complete data\n\n\n(a) Load data\nLoad the dataset Gapminder_2011_LifeExp_CO2.csv and do a quick inspection of it. What are the dimensions? Variable names?\n\n\n(b) Linear association?\nMake a scatterplot of life expectancy vs. CO2 emissions per person showing the best fit line and describe the relationship between the variables. In addition comment on whether the relationship looks linear or not.\n\n\n(c) SLR\nRun the simple linear regression of life expectancy vs.CO2 emissions per person, and write out the corresponding regression equation. \n\n\n(d) Prediction\nUsing the regression equation, what is the expected life expectancy for a country with \\(CO_2\\) emissions 20 metric tons per person?\n\n\n(e) Independent data points?\nExplain whether you think the data point are independent of each other or not.\n\n\n(f) Normality of residuals?\nMake a histogram, density plot, and boxplot of the model’s residuals. What is the distribution shape of the residuals? What shape do we want them to have?\n\n\n(g) QQ plot\nMake a QQ plot of the model’s residuals.Explain whether or not the distribution of the residuals deviates from normality and how you made that conclusion based on the QQ plot.\n\n\n(h) Random Normal QQ plots\nMake 5 QQ plots with points randomly generated from a normal distribution, where the number of points matches the sample size used in the linear model.\n\n\n(i) QQ plot comparison\nCompare the QQ plot of the model’s residuals to the randomly generated QQ plots. Is the QQ plot of the residuals similar to the randomly generated plots or different? Based on the these QQ plots, do you think it’s possible that the residuals could be normally distributed?\n\n\n(j) Equality of variance of the residuals?\nMake a residual plot. Describe what the plot looks like and whether there are any patterns in the residuals, and whether the equality of variance assumption the residuals seems to be satisfied or not.\n\n\n(k) Transformation: log(x)\nAdd a new variable to the dataset for the natural logarithm (log()) of the CO2 emissions per person values.\n\n\n(l) Linear association (with transformation)?\nMake a scatterplot of life expectancy vs. log of CO2 emissions per person showing the best fit line and describe the relationship between the variables. In addition comment on whether the relationship looks linear or not.\n\n\n(m) SLR (with transformation)\nRun the simple linear regression of life expectancy vs.CO2 emissions per person, and write out the corresponding regression equation.\n\n\n(n) Prediction (with transformation)\nUsing the regression equation, what is the expected life expectancy for a country with \\(CO_2\\) emissions 20 metric tons per person?\n\n\n(o) Compare predictions from without and with transformation\nCompare the predicted values from the models with and without the transformation. Which is bigger and why? Explain in terms of visually comparing the respective regression lines on the scatterplots.\n\n\n(p) Normality of residuals (with transformation)?\nMake a histogram, density plot, and boxplot of the model’s residuals. What is the distribution shape of the residuals? What shape do we want them to have?\n\n\n(q) QQ plot (with transformation)\nMake a QQ plot of the model’s residuals.Explain whether or not the distribution of the residuals deviates from normality and how you made that conclusion based on the QQ plot.\n\n\n(r) Random Normal QQ plots (with transformation)\nCompare the QQ plot of the model’s residuals to the randomly generated QQ plots (use the ones you generated above). Is the QQ plot of the residuals similar to the randomly generated plots or different? Based on the these QQ plots, do you think it’s possible that the residuals could be normally distributed?\n\n\n(s) Equality of variance of the residuals (with transformation)?\nMake a residual plot. Describe what the plot looks like and whether there are any patterns in the residuals, and whether the equality of variance assumption the residuals seems to be satisfied or not.\n\n\n(t) Comparison of models without and with transformation\nWhich of the models do you think has a better fit? Make sure your explanation comments on each of the LINE assumptions, and also compare the \\(R^2\\) values from the models."
+  },
+  {
+    "objectID": "homework/HW_7_F24_bsta511.html#npt-1-sign-test",
+    "href": "homework/HW_7_F24_bsta511.html#npt-1-sign-test",
+    "title": "HW 7: BSTA 511/611 F24",
+    "section": "NPT 1: Sign test",
+    "text": "NPT 1: Sign test\nVegetarian diet and cholesterol levels\nWhen covering paired t-tests on Day 10 Part 2, the class notes used the example of testing whether a vegetarian diet changed cholesterol levels. The data are in the file chol213.csv at https://niederhausen.github.io/BSTA_511_F23/data/chol213.csv. In this exercise we will use non-parametric tests to test for a change and compare the results to the paired t-test.\n\n(a) Hypotheses\nWhat are the hypotheses for the (Wilcoxon) Signed-rank test (2-sided) in the context of the problem?\n\n\n(b) \\(D^+\\) and \\(D^-\\)\nCalculate \\(D^+\\) and \\(D^-\\), the number of positive and negative differences when the differences are calculated as After - Before.\n\n\n(c) Probability distribution\nWhat probability distribution can be used to model the number of positive differences? Make sure to specify its parameters.\n\n\n(d) Exact probability\nFind the exact probability that there were at most 3 positive differences.\n\n\n(e) Sign test in R\nRun the sign test in R. What is the sign test p-value and how does it compare to the p-value of the paired t-test (check the class notes for this)? \n\n\n(f) S\nThe sign test output includes the value for S. What is S and what does it measure?\n\n\n(g) p-value\nDoes the probability that there were at most 3 positive differences match the p-value from the R output? Why or why not?\n\n\n(h) Normal approximation\nWould it be appropriate to use a normal approximation to calculate the p-value for this test? Why or why not?"
+  },
+  {
+    "objectID": "homework/HW_7_F24_bsta511.html#npt-2-wilcoxon-signed-rank-test",
+    "href": "homework/HW_7_F24_bsta511.html#npt-2-wilcoxon-signed-rank-test",
+    "title": "HW 7: BSTA 511/611 F24",
+    "section": "NPT 2: (Wilcoxon) Signed-rank test",
+    "text": "NPT 2: (Wilcoxon) Signed-rank test\nVegetarian diet and cholesterol levels\nWhen covering paired t-tests on Day 10 Part 2, the class notes used the example of testing whether a vegetarian diet changed cholesterol levels. The data are in the file chol213.csv at https://niederhausen.github.io/BSTA_511_F23/data/chol213.csv. In this exercise we will use non-parametric tests to test for a change and compare the results to the paired t-test.\n\n(a) Hypotheses\nWhat are the hypotheses for the sign test (2-sided) in the context of the problem?\n\n\n(b) Signed ranks\nFind the signed ranks. Make sure to account for ties when doing so.\n\n\n(c) \\(T^+\\)\nCalculate the sum of the positive ranks ( \\(T^+\\) ) \n\n\n(d) Exact p-value\nCan an exact p-value for the (Wilcoxon) Signed-rank test be calculated? Why or why not?\n\n\n(e) ormal approximation\nIs it appropriate to use the normal approximation method in this case?\n\n\n(f) Test in R\nRun the (Wilcoxon) Signed-rank test in R. What is the p-value and how does it compare to the p-value of the sign test and the paired t-test (check the class notes for this)?\n\n\n(g) Condition\nThere’s one more condition that should be satisfied to use the (Wilcoxon) Signed-rank test that has not been asked about yet in these questions. What is it and do you think it’s satisfied?"
+  },
+  {
+    "objectID": "homework/HW_7_F24_bsta511.html#npt-3-wilcoxon-rank-sum-test",
+    "href": "homework/HW_7_F24_bsta511.html#npt-3-wilcoxon-rank-sum-test",
+    "title": "HW 7: BSTA 511/611 F24",
+    "section": "NPT 3: Wilcoxon rank-sum test",
+    "text": "NPT 3: Wilcoxon rank-sum test\nDoes caffeine increase finger taps/min?\nWhen covering 2-sample t-tests on Day 11, the class notes used the example of testing whether caffeine increases finger taps/min. The data are in the file CaffeineTaps.csv at https://niederhausen.github.io/BSTA_511_F23/data/CaffeineTaps.csv. In this exercise we will use a non-parametric test and compare the results to the paired t-test.\n\n(a) Condition\nWhat condition needs to be satisfied to apply the Wilcoxon rank-sum test and is it satisfied for these data?\nAnswer the following questions using the Wilcoxon rank-sum test whether you think the condition has been satisfied or not.\n\n\n(b) Why Wilcoxon rank-sum test?\nHow would we know to use the Wilcoxon rank-sum test instead of the sign test or (Wilcoxon) Signed-rank test?\n\n\n(c) Hypotheses\nWhat are the hypotheses for the Wilcoxon rank-sum test (1-sided) in the context of the problem? \n\n\n(d) Exact test in R\nRun the exact Wilcoxon rank-sum test in R. What warning(s) does it give you?\n\n\n(e) Normal approximation test in R\nRun the Wilcoxon rank-sum test in R with the normal approximation. Comment on whether it is appropriate to use the normal approximation or not in this case.\n\n\n(f) p-value\nWhat is the p-value and how does it compare to the p-value of the 2-sample t-test (check the class notes for this)?\n\n\n(g) Conclusion\nWrite a conclusion to the test in the context of the problem."
   }
 ]
