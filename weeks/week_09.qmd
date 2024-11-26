@@ -51,6 +51,13 @@ During class you will be working in groups discussing the following:
 
 ### Day 15
 
+-   Book exercises
+    -   Warm-up: 6.2, 6.6
+    -   6.10
+-   R1: Palmer Penguins SLR 
+
+
+
 ## Homework
 
 -   [HW 7](../homework/HW_7_F24_bsta511.qmd) covers Days 15 -17 and is due on Sat, 12/7

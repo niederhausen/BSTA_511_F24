@@ -34,10 +34,10 @@ editor_options:
 |  [8](weeks/week_08.qmd) | M 11/18 | **13**| Chi-squared tests, <br> Fishers exact test                                                       | 8.3-8.4                                |
 |                         | W 11/20 | **14**| Comparing Means with ANOVA.                                                                      | 5.5, extra                             |
 |                         | Sa 11/23|       | [HW 6 Due](homework/HW_6_F24_bsta511.qmd) (Days 13 - 14)                                         |                                        |
-|  9                      | M 11/25 |       | **[Exam 2: Days 8-13](weeks/week_08.qmd#sec-Exam2info)**                                         | **Ch 4, 5.1-5.4; <br> extra, 8.1-8.4** |
+|  [9](weeks/week_09.qmd) | M 11/25 |       | **[Exam 2: Days 8-13](weeks/week_08.qmd#sec-Exam2info)**                                         | **Ch 4, 5.1-5.4; <br> extra, 8.1-8.4** |
 |                         | W 11/27 | **15**| Simple Linear Regression                                                                         | 6.1-6.2                                |
 |  10                     | M 12/2  | **16**| Simple Linear Regression                                                                         | 6.3-6.4                                |
 |                         | W 12/4  | **17**| Non-parametric tests <br> (sign, signed-rank, rank-sum, <br> Kruskal-Wallis)                     | Extra                                  |
-|                         | Sa 12/7 |       | HW 7 Due (Days 15 - 17)                                                                          |                                        |
+|                         | Sa 12/7 |       | [HW 7 Due](homework/HW_7_F24_bsta511.qmd) (Days 15 - 17)                                         |                                        |
 |  11                     | M 12/9  |       | Review - catch up                                                                                |                                        |
 |                         | W 12/11 |       | **Exam 3 due (take home): <br> Cumulative with a focus on Days 14-17**                           | **Ch 5.5, 6, <br> non-parametric**     |
