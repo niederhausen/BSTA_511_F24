@@ -534,9 +534,7 @@ $$p-value = 2 * P(\min(T^+,T^−) \leq t)$$
 
 Example when $n=3$ : (from https://online.stat.psu.edu/stat415/lesson/20/20.2)
 
-<center><img src="img/ExactW_n3.gif" width="50%">
-<img src="img/ExactW_n3_prob.png" width="40%">
-</center>    
+[See slides for images with example]
 
 See https://online.stat.psu.edu/stat415/lesson/20/20.2 for more details.
 
