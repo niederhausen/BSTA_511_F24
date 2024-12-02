@@ -758,7 +758,7 @@ $$\text{SE}_{b_1} = \frac{s_{\textrm{residuals}}}{s_x\sqrt{n-1}}$$
 
 $\text{SE}_{b_1}$ is the __variability__ of the statistic $b_1$
 
-+ $s_{\textrm{residuals}}^2$ is the sd of the residuals
++ $s_{\textrm{residuals}}$ is the sd of the residuals
 + $s_x$ is the sample sd of the explanatory variable $x$
 + $n$ is the sample size, or the number of (complete) pairs of points
 

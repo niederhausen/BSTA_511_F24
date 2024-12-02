@@ -1009,7 +1009,7 @@ $\text{SE}_{b_1}$ is the __variability__ of the statistic $b_1$
 ::: {style="font-size: 90%;"}
 ::: columns
 ::: {.column width="32%"}
-+ $s_{\textrm{residuals}}^2$ is the sd of the residuals
++ $s_{\textrm{residuals}}$ is the sd of the residuals
 :::
 ::: {.column width="1%"}
 :::
