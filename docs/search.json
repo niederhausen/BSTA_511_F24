@@ -1236,7 +1236,7 @@
     "href": "weeks.html",
     "title": "Weekly Pages",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n9/30/24\n\n\nWeek 1\n\n\nIntro to R & RStudio\n\n\n\n\n10/7/24\n\n\nWeek 2\n\n\nData collection & Probability\n\n\n\n\n10/14/24\n\n\nWeek 3\n\n\nBayes’ Rule & EDA\n\n\n\n\n10/21/24\n\n\nWeek 4\n\n\nBayes’ Rule & EDA\n\n\n\n\n10/28/24\n\n\nWeek 5\n\n\nVariability in estimates and Exam 1\n\n\n\n\n11/4/24\n\n\nWeek 6\n\n\nConfidence Intervals and Hypothesis Testing\n\n\n\n\n11/11/24\n\n\nWeek 7\n\n\nInference for difference in means, one proportion, and difference in proportions, and power\n\n\n\n\n11/18/24\n\n\nWeek 8\n\n\nChi-squared tests and ANOVA\n\n\n\n\n11/25/24\n\n\nWeek 9\n\n\nChi-squared tests and ANOVA\n\n\n\n\n12/2/24\n\n\nWeek 10\n\n\nSimple Linear Regression (cont’d) and Nonparametric Tests\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n9/30/24\n\n\nWeek 1\n\n\nIntro to R & RStudio\n\n\n\n\n10/7/24\n\n\nWeek 2\n\n\nData collection & Probability\n\n\n\n\n10/14/24\n\n\nWeek 3\n\n\nBayes’ Rule & EDA\n\n\n\n\n10/21/24\n\n\nWeek 4\n\n\nBayes’ Rule & EDA\n\n\n\n\n10/28/24\n\n\nWeek 5\n\n\nVariability in estimates and Exam 1\n\n\n\n\n11/4/24\n\n\nWeek 6\n\n\nConfidence Intervals and Hypothesis Testing\n\n\n\n\n11/11/24\n\n\nWeek 7\n\n\nInference for difference in means, one proportion, and difference in proportions, and power\n\n\n\n\n11/18/24\n\n\nWeek 8\n\n\nChi-squared tests and ANOVA\n\n\n\n\n11/25/24\n\n\nWeek 9\n\n\nChi-squared tests and ANOVA\n\n\n\n\n12/2/24\n\n\nWeek 10\n\n\nSimple Linear Regression (cont’d) and Nonparametric Tests\n\n\n\n\n12/9/24\n\n\nWeek 11\n\n\nFinals week\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "homework/HW_2_F24_bsta511.html",
@@ -10792,5 +10792,33 @@
     "title": "Week 10",
     "section": "Homework",
     "text": "Homework\n\nHW 7 covers Days 15 -17 and is due on Sat, 12/7\nCheck out this spreadsheet for typos in book."
+  },
+  {
+    "objectID": "weeks/week_11.html",
+    "href": "weeks/week_11.html",
+    "title": "Week 11",
+    "section": "",
+    "text": "Open office hours during class\n\nIn-person: VPT 627 Note different room!\nOnline: Webex (see link below)\n\n\n\n\n\n\n\nOpen office hours during class\n\nOnline: Webex (see link below)"
+  },
+  {
+    "objectID": "weeks/week_11.html#overview-of-week-11",
+    "href": "weeks/week_11.html#overview-of-week-11",
+    "title": "Week 11",
+    "section": "",
+    "text": "Open office hours during class\n\nIn-person: VPT 627 Note different room!\nOnline: Webex (see link below)\n\n\n\n\n\n\n\nOpen office hours during class\n\nOnline: Webex (see link below)"
+  },
+  {
+    "objectID": "weeks/week_11.html#webex-link-for-week-11",
+    "href": "weeks/week_11.html#webex-link-for-week-11",
+    "title": "Week 11",
+    "section": "Webex link for Week 11",
+    "text": "Webex link for Week 11\nWhen it’s time, join your Webex meeting here.\nJoin Meeting: https://ohsu.webex.com/ohsu/j.php?MTID=m38226d405dacf95ecc49b56b04f38e20\nMeeting password: WCkwHmUy564\nPhone (audio only):\n1-503-388-9555 Portland, OR\n1-206-207-1700 Seattle, WA\nMeeting number (access code): 2865 488 1852\nAdditional call-in numbers:\nhttps://ohsu.webex.com/ohsu/globalcallin.php\nMobile phone (one-touch):\n206-207-1700,,28654881852##"
+  },
+  {
+    "objectID": "weeks/week_11.html#exam-3---coming-soon",
+    "href": "weeks/week_11.html#exam-3---coming-soon",
+    "title": "Week 11",
+    "section": "Exam 3 - coming soon!",
+    "text": "Exam 3 - coming soon!\nI will notify you on Slack and via email when Exam 3 information is posted."
   }
 ]

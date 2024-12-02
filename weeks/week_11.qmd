@@ -1,0 +1,53 @@
+---
+title: "Week 11"
+description: "Finals week"
+date: "12/9/2024"
+date-modified: "today"
+categories: [""]
+format: 
+  html:
+    link-external-newwindow: true
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+## Overview of Week 11
+
+::::: grid
+::: g-col-6
+### Mon: Office hours
+
+-   Open office hours during class
+    -   In-person: **VPT 627** *Note different room!*
+    -   Online: Webex (see [link](#sec-webex-link-for-week-11) below)  
+:::
+
+::: g-col-6
+### Wed: Office hours & Exam 3 due
+
+-   Open office hours during class
+    -   Online: Webex (see [link](#sec-webex-link-for-week-11) below)  
+:::
+:::::
+
+
+## Exam 3 - coming soon!
+
+*I will notify you on Slack and via email when Exam 3 information is posted.*
+
+## Webex link for Week 11
+
+When it's time, join your Webex meeting here.  
+Join Meeting: [https://ohsu.webex.com/ohsu/j.php?MTID=m38226d405dacf95ecc49b56b04f38e20](https://ohsu.webex.com/ohsu/j.php?MTID=m38226d405dacf95ecc49b56b04f38e20)  
+Meeting password: WCkwHmUy564
+
+Phone (audio only):  
+1-503-388-9555 Portland, OR  
+1-206-207-1700 Seattle, WA  
+Meeting number (access code): 2865 488 1852  
+Additional call-in numbers:  
+[https://ohsu.webex.com/ohsu/globalcallin.php](https://ohsu.webex.com/ohsu/globalcallin.php)
+
+Mobile phone (one-touch):  
+206-207-1700,,28654881852##
