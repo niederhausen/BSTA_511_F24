@@ -430,7 +430,7 @@ __What are the hypotheses for the (Wilcoxon) Signed-rank test (2-sided) in the c
 
 __Find the signed ranks. Make sure to account for ties when doing so.__ 
 
-
+*Hint: See the extra code from the code file to help with this: <https://niederhausen.github.io/BSTA_511_F24/slides_code/Day17_bsta511_code.html#new-calculate-rankss-using-rank>.*
 
 
 ### (c) $T^+$
