@@ -358,7 +358,7 @@ When covering paired t-tests on Day 10 Part 2, the class notes used the example 
 
 ### (a) Hypotheses
 
-__What are the hypotheses for the (Wilcoxon) Signed-rank test (2-sided) in the context of the problem?__ 
+__What are the hypotheses for the sign test (2-sided) in the context of the problem?__ 
 
 
 
@@ -419,7 +419,9 @@ When covering paired t-tests on Day 10 Part 2, the class notes used the example 
 
 ### (a) Hypotheses
 
-__What are the hypotheses for the sign test (2-sided) in the context of the problem?__ 
+__What are the hypotheses for the (Wilcoxon) Signed-rank test (2-sided) in the context of the problem?__ 
+
+
 
 
 
