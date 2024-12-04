@@ -353,7 +353,7 @@ __Which of the models do you think has a better fit? Make sure your explanation 
 
 __Vegetarian diet and cholesterol levels__
 
-When covering paired t-tests on Day 10 Part 2, the class notes used the example of testing whether a vegetarian diet changed cholesterol levels. The data are in the file `chol213.csv` at <https://niederhausen.github.io/BSTA_511_F23/data/chol213.csv>. In this exercise we will use non-parametric tests to test for a change and compare the results to the paired t-test.
+When covering paired t-tests on Day 10 Part 2, the class notes used the example of testing whether a vegetarian diet changed cholesterol levels. The data are in the file `chol213.csv` at <https://niederhausen.github.io/BSTA_511_F24/data/chol213.csv>. In this exercise we will use non-parametric tests to test for a change and compare the results to the paired t-test.
 
 
 ### (a) Hypotheses
@@ -414,7 +414,7 @@ __Would it be appropriate to use a normal approximation to calculate the p-value
 
 __Vegetarian diet and cholesterol levels__
 
-When covering paired t-tests on Day 10 Part 2, the class notes used the example of testing whether a vegetarian diet changed cholesterol levels. The data are in the file `chol213.csv` at <https://niederhausen.github.io/BSTA_511_F23/data/chol213.csv>. In this exercise we will use non-parametric tests to test for a change and compare the results to the paired t-test.
+When covering paired t-tests on Day 10 Part 2, the class notes used the example of testing whether a vegetarian diet changed cholesterol levels. The data are in the file `chol213.csv` at <https://niederhausen.github.io/BSTA_511_F24/data/chol213.csv>. In this exercise we will use non-parametric tests to test for a change and compare the results to the paired t-test.
 
 
 ### (a) Hypotheses
@@ -474,7 +474,7 @@ __There's one more condition that should be satisfied  to use the (Wilcoxon) Sig
 
 __Does caffeine increase finger taps/min?__
 
-When covering 2-sample t-tests on Day 11, the class notes used the example of testing whether caffeine increases finger taps/min. The data are in the file `CaffeineTaps.csv` at <https://niederhausen.github.io/BSTA_511_F23/data/CaffeineTaps.csv>. In this exercise we will use a non-parametric test and compare the results to the paired t-test.
+When covering 2-sample t-tests on Day 11, the class notes used the example of testing whether caffeine increases finger taps/min. The data are in the file `CaffeineTaps.csv` at <https://niederhausen.github.io/BSTA_511_F24/data/CaffeineTaps.csv>. In this exercise we will use a non-parametric test and compare the results to the paired t-test.
 
 
 ### (a) Condition
