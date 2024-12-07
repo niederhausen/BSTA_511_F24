@@ -34,7 +34,12 @@ editor_options:
 
 ## Exam 3 - coming soon!
 
-*I will notify you on Slack and via email when Exam 3 information is posted.*
+
+* Exam 3 is due on **12/13/24 at 5 pm**
+* Version 1 of the exam (includes only the first of the two questions) is posted in the [Assignments](https://sakai.ohsu.edu/portal/site/BSTA-511-1-AA-F24/tool/8cee686f-e5e0-401c-a7c1-b097fc8eb9a9) section of Sakai.
+    * **Version 2 will be posted on Saturday evening.**
+    * Note that the attachments of the assignment include both the qmd and html files for the exam, as well as the datasets.
+
 
 ## Webex link for Week 11
 
