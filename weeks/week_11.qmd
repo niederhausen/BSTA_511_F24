@@ -32,7 +32,7 @@ editor_options:
 :::::
 
 
-## Exam 3 - coming soon!
+## Exam 3 - part 1 posted
 
 
 * Exam 3 is due on **12/13/24 at 5 pm**
