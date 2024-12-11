@@ -38,6 +38,8 @@ editor_options:
 * Exam 3 is due on **12/13/24 at 5 pm**
 * Final version of the exam is now posted (Exam3_BSTA511_F24_v2.qmd/.html) in the [Assignments](https://sakai.ohsu.edu/portal/site/BSTA-511-1-AA-F24/tool/8cee686f-e5e0-401c-a7c1-b097fc8eb9a9) section of Sakai.
     * Note that the attachments of the assignment include both the qmd and html files for the exam, as well as two datasets.
+* [Watch an 11 minute [recording](https://ohsu.webex.com/recordingservice/sites/ohsu/recording/playback/ec3b1d589586400fad0f1837f2f5d803) of me explaining the different parts of the exam.]{style="color:darkorange"}
+    * Check your OHSU email or Slack for the password.
 
 
 ## Webex link for Week 11
